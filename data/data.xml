@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<chartdata>
+<col0>
+<source>Database</source>
+<host>localhost</host>
+<user>root</user>
+<password/>
+<db>data\Northwind.db</db>
+<sql>SELECT strftime('%Y-%m',o.orderdate) as xaxis, sum(d.quantity) as yaxis from `order details` d, orders o  where o.orderid = d.orderid group by strftime('%Y-%m',o.orderdate) limit 50</sql>
+    <type>line</type>
+    <xaxis></xaxis>
+    <yaxis></yaxis>
+<bubblesize/>
+<bubbletext/>
+<title>Area Chart</title><orientation>v</orientation><name>line</name><xaxistitle>Sales</xaxistitle><yxaxistitle/><yaxistitle>Products</yaxistitle><height>50</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename>Year 2015</tracename><tracename/>
+<xaxis/><yaxis/><rdbms>sqlite</rdbms></col0>
+<col1>
+<source>Database</source>
+<host>localhost</host>
+<user>root</user>
+<password/>
+<db>data\Northwind.db</db>
+<sql>select c.categoryname as xaxis, sum(a.quantity) as yaxis from products b, `order details` a, categories c  where a.productid = b.productid and c.categoryid = b.categoryid  group by c.categoryid   order by c.categoryid</sql>
+<type>bar</type>
+    <xaxis/>
+    <yaxis/>
+<bubblesize/>
+<bubbletext/>
+<title>Sample 2</title><orientation>v</orientation><name>stack</name><xaxistitle>Category</xaxistitle><yxaxistitle/><yaxistitle>Sale</yaxistitle><height>50</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename>Q1</tracename><tracename/>
+<xaxis/><yaxis/><rdbms>sqlite</rdbms></col1>
+<col2>
+<source>Database</source>
+<host/>
+<user/>
+<password/>
+<db>data\Northwind.db</db>
+<sql>select c.categoryname as xaxis, sum(a.UnitPrice * a.Quantity) as yaxis                 from products b, `order details` a, categories c                 where a.productid = b.productid and c.categoryid = b.categoryid                     group by c.categoryid                     order by c.categoryid</sql>
+    <type>line</type>
+    <xaxis>10,15,23,55,45,20,30</xaxis>
+    <yaxis>12,33,54,40,30,40,50</yaxis>
+<bubblesize>80,20,60,20,22,33,15</bubblesize>
+<bubbletext>'Pizza 30%', 'Mango 12%','Burger 25%', 'Banana 12%', 'Brade 8%', 'Butter 34%', 'Oil 20%'</bubbletext>
+<title>Sample 3</title><orientation>v</orientation><name>bubble</name><xaxistitle>Calories</xaxistitle><yxaxistitle/><yaxistitle>Weight</yaxistitle><height>50</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename>Sample A</tracename><tracename>Sample B</tracename>
+<xaxis>30,11,22,25,45,33,45</xaxis><yaxis>33,55,44,66,45,11,10</yaxis><bubblesize>20,45,45,31,44,12,23</bubblesize><bubbletext>'Pizza 30%', 'Mango 12%','Burger 25%', 'Banana 12%', 'Brade 8%', 'Butter 34%', 'Oil 20%'</bubbletext><rdbms>sqlite</rdbms></col2>
+<col3>
+<source>Database</source>
+<host/>
+<user/>
+<password/>
+<db>data\Northwind.db</db>
+<sql>select   p.reorderlevel as Demand, p.unitprice as xaxis, sum(o.quantity) as yaxis, p.productname as 'Product'from products p, 'Order Details' o    where o.productid = p.productid   group by product having p.unitprice &lt; 100 and demand &gt; 5 limit 5</sql>
+<type>bar</type>
+    <xaxis>22,30,22,15</xaxis>
+    <yaxis> Sample-A, Sample-B, Sample-C, Sample-D</yaxis>
+<bubblesize>100,200,300,200</bubblesize>
+<bubbletext>'Pizza 30%', 'Mango 12%','Burger 25%', 'Banana 12%'</bubbletext>
+<title>Sample 4</title><orientation>v</orientation><name>donut</name><xaxistitle/><yxaxistitle/><yaxistitle/><height>50</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename>Sample A</tracename><tracename>Sample B</tracename>
+<tracename>Sample C</tracename><rdbms>sqlite</rdbms></col3>
+</chartdata>

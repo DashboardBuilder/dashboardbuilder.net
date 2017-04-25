@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<chartdata>
+<col0>
+<source>Database</source>
+<host>sdf</host>
+<user>sdfs</user>
+<password/>
+<db>data\country.db</db>
+<sql>SELECT country as COUNTRY, GDP as DATA, CODE from GDP</sql>
+    <type>map</type>
+    <xaxis></xaxis>
+    <yaxis></yaxis>
+<bubblesize/>
+<bubbletext/>
+<title>Choropleth Map</title><orientation>v</orientation><name>map</name><xaxistitle></xaxistitle><yxaxistitle/><yaxistitle></yaxistitle><height>100</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename></tracename><tracename/>
+<rdbms>sqlite</rdbms>
+</col0>
+<col1>
+<source>Database</source>
+<host/>
+<user/>
+<password/>
+<db>data\Northwind.db</db>
+<sql>SELECT strftime('%Y-%m',o.orderdate) as xaxis, sum(d.quantity) as yaxis from `order details` d, orders o  where o.orderid = d.orderid group by strftime('%Y-%m',o.orderdate) limit 50</sql>
+<type>area</type>
+    <xaxis/>
+    <yaxis/>
+<bubblesize/>
+<bubbletext/>
+<title/><orientation>v</orientation><name>GDP</name><xaxistitle/><yxaxistitle/><yaxistitle/><height>100</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename/><tracename/>
+<rdbms>sqlite</rdbms>
+</col1>
+<col2>
+<source>Database</source>
+<host/>
+<user/>
+<password/>
+<db>data\Northwind.db</db>
+<sql>SELECT strftime('%Y-%m',o.orderdate) as xaxis, sum(d.quantity) as yaxis from `order details` d, orders o  where o.orderid = d.orderid group by strftime('%Y-%m',o.orderdate) limit 50</sql>
+    <type>stack</type>
+    <xaxis/>
+    <yaxis/>
+<bubblesize/>
+<bubbletext/>
+<title/><orientation>v</orientation><name>Pie1</name><xaxistitle/><yxaxistitle/><yaxistitle/><height>100</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename/><tracename/>
+<rdbms>sqlite</rdbms>
+</col2>
+<col3>
+<source>Database</source>
+<host/>
+<user/>
+<password/>
+<db>data\Northwind.db</db>
+<sql>SELECT strftime('%Y-%m',o.orderdate) as xaxis, sum(d.quantity) as yaxis from `order details` d, orders o  where o.orderid = d.orderid group by strftime('%Y-%m',o.orderdate) limit 50</sql>
+<type>line</type>
+    <xaxis/>
+    <yaxis/>
+<bubblesize/>
+<bubbletext/>
+<title/><orientation>v</orientation><name>bubble</name><xaxistitle/><yxaxistitle/><yaxistitle/><height>100</height><width>100</width><showgrid>true</showgrid><showline>true</showline><tracename>$xaxis</tracename><tracename/>
+<rdbms>sqlite</rdbms>
+</col3>
+</chartdata>
