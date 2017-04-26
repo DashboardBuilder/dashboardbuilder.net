@@ -23,7 +23,7 @@ INTEGRATION
 	Include(“inc/dashboard_dist.php");
 Refer 'Getting Started' section on http://www.dashboardbuilder.net/documentation for more details.
 
-Refer 'Support' on http://www. dashboardbuilder.net/support for queries and support.
+Refer 'Support' on http://www.dashboardbuilder.net/support for queries and support.
 
 LICENSE
 -------
