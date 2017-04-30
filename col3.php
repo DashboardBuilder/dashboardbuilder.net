@@ -1,20 +1,3 @@
-<style>
-#<?php echo $name[0];?>{
-<?php
-$margintop = $height[0] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-#<?php echo $name[1];?>{
-<?php
-$margintop = ($height[1] - 95);?>
-margin-top:<?php echo $margintop;?>%;
-}
-#<?php echo $name[2];?>{
-<?php
-$margintop = ($height[2] - 95)/2.5;?>
-margin-top:<?php echo $margintop;?>%;
-}
-</style>
 
 <ol class="breadcrumb">
 	<li>

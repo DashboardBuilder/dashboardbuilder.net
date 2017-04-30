@@ -1,25 +1,3 @@
-<style>
-#<?php echo $name[0];?>{
-<?php
-$margintop = $height[0] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-#<?php echo $name[1];?>{
-<?php
-$margintop = $height[1] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-#<?php echo $name[2];?>{
-<?php
-$margintop = $height[2] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-#<?php echo $name[3];?>{
-<?php
-$margintop = $height[3] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-</style>
 
 <ol class="breadcrumb">
 	<li>
@@ -32,7 +10,7 @@ margin-top:<?php echo $margintop;?>%;
 		Four Column 
 	</li>
 </ol>
-<div class="row">
+<div class="row" onload="javascript:SomeFunction()">
 <div class="col-lg-6">
 <div class="panel panel-default">
 	<div class="panel-heading">

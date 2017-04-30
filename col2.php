@@ -1,15 +1,4 @@
-<style>
-#<?php echo $name[0];?>{
-<?php
-$margintop = $height[0] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-#<?php echo $name[1];?>{
-<?php
-$margintop = $height[1] - 95;?>
-margin-top:<?php echo $margintop;?>%;
-}
-</style>
+
 <ol class="breadcrumb">
 	<li>
 		<i class="fa fa-home"></i>  <a href="index.php"> Home</a>
