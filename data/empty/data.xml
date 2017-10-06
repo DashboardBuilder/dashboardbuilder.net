@@ -2,62 +2,62 @@
 <chartdata>
 <col0>
 <source></source>
-<host></host>
-<user></user>
-<password></password>
-<db></db>
-<sql></sql>
-    <type></type>
-    <xaxis></xaxis>
-    <yaxis></yaxis>
-<bubblesize></bubblesize>
-<bubbletext></bubbletext>
-<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yxaxistitle/><yaxistitle></yaxistitle><height></height><width></width><showgrid></showgrid><showline></showline><tracename/><tracename/>
+<ssl></ssl>
+<servername></servername>
+<username></username>
+<password/>
+<dbname></dbname>
+<dbconnected></dbconnected>
+<sql></sql><type></type>
+<xaxis></xaxis><yaxis></yaxis>
+<size></size><text></text>
+<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yaxistitle></yaxistitle><height/><width/><showgrid></showgrid><showline></showline><tracename></tracename>
 <rdbms></rdbms>
+<file></file>
 </col0>
 <col1>
 <source></source>
-<host></host>
-<user></user>
-<password></password>
-<db></db>
-<sql></sql>
-<type></type>
-    <xaxis></xaxis>
-    <yaxis></yaxis>
-<bubblesize></bubblesize>
-<bubbletext></bubbletext>
-<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yxaxistitle/><yaxistitle></yaxistitle><height></height><width></width><showgrid></showgrid><showline></showline><tracename/><tracename/>
+<ssl></ssl>
+<servername></servername>
+<username></username>
+<password/>
+<dbname></dbname>
+<dbconnected></dbconnected>
+<sql></sql><type></type>
+<xaxis></xaxis><yaxis></yaxis>
+<size></size><text></text>
+<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yaxistitle></yaxistitle><height/><width/><showgrid></showgrid><showline></showline><tracename></tracename>
 <rdbms></rdbms>
+<file></file>
 </col1>
 <col2>
 <source></source>
-<host></host>
-<user></user>
-<password></password>
-<db></db>
-<sql></sql>
-    <type></type>
-    <xaxis></xaxis>
-    <yaxis></yaxis>
-<bubblesize></bubblesize>
-<bubbletext></bubbletext>
-<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yxaxistitle/><yaxistitle></yaxistitle><height></height><width></width><showgrid></showgrid><showline></showline><tracename/><tracename/>
+<ssl></ssl>
+<servername></servername>
+<username></username>
+<password/>
+<dbname></dbname>
+<dbconnected></dbconnected>
+<sql></sql><type></type>
+<xaxis></xaxis><yaxis></yaxis>
+<size></size><text></text>
+<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yaxistitle></yaxistitle><height/><width/><showgrid></showgrid><showline></showline><tracename></tracename>
 <rdbms></rdbms>
+<file></file>
 </col2>
 <col3>
 <source></source>
-<host></host>
-<user></user>
-<password></password>
-<db></db>
-<sql></sql>
-<type></type>
-    <xaxis></xaxis>
-    <yaxis></yaxis>
-<bubblesize></bubblesize>
-<bubbletext></bubbletext>
-<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yxaxistitle/><yaxistitle></yaxistitle><height></height><width></width><showgrid></showgrid><showline></showline><tracename/><tracename/>
+<ssl></ssl>
+<servername></servername>
+<username></username>
+<password/>
+<dbname></dbname>
+<dbconnected></dbconnected>
+<sql></sql><type></type>
+<xaxis></xaxis><yaxis></yaxis>
+<size></size><text></text>
+<title></title><orientation></orientation><name></name><xaxistitle></xaxistitle><yaxistitle></yaxistitle><height/><width/><showgrid></showgrid><showline></showline><tracename></tracename>
 <rdbms></rdbms>
+<file></file>
 </col3>
 </chartdata>

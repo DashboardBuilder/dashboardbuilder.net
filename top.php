@@ -12,9 +12,53 @@
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style_v1.css">
 
+  <link rel="stylesheet" href="css/layoutsetting.css"> 
+<style>
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(assets/img/preloader_1.gif) center no-repeat rgba(255, 255, 255, 1);
+	 background-size: 150px 150px;
+}
+
+.se-pre-modal {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(assets/img/preloader_1.gif) center no-repeat rgba(255, 255, 255, 1);
+	 background-size: 150px 150px;
+	 display:none;
+}
+</style>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
+
 </head>
 
 <body>
+<div class="se-pre-con"></div>
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->

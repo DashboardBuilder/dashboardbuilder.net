@@ -26,7 +26,7 @@
 	<br/>
 	<label class="col-sm-3 control-label">File Name:</label> 
 		<div class="col-sm-offset-3">
-	   <input type="text" id="filename" name="filename" value="" placeholder="salesq1"size="50"/>    
+	   <input type="text" id="filename" name="filename" value="" placeholder="salesq1"size="50" required oninvalid="this.setCustomValidity('Please enter a file name')" oninput="setCustomValidity('')" />    
 	</div><br/>
 	
 	<div class="col-sm-6">
@@ -46,7 +46,7 @@
 	</div><br/><br/><br/><br/><br/>
 
 	<div class="modal-footer">
-		<button type="button" class="btn btn-default" data-dismiss="modal" onclick="javascript:window.location.reload()">Close</button>
+		<button type="button" class="btn btn-default" data-dismiss="modal" onclick="javascript:window.location.reload()">Cancel</button>
 		<button type="submit" class="btn btn-primary">Save</button>
 	</div>
 </form>

@@ -1,197 +1,200 @@
-<?php
-/*
-Obfuscation provided by FOPO - Free Online PHP Obfuscator: http://www.fopo.com.ar/
-This code was created on Sunday, April 30th, 2017 at 9:16 UTC from IP 45.116.232.32
-Checksum: f690d347b3967e195737d49c4ec6a881106d0445
-*/
-$y1881d43="\x62\141\x73\145\66\64\137\144\145\143\157\144\x65";@eval($y1881d43(
-"Ly9OSk5XYS9Nc3hVWW0rbVJEQVVyV2tCcVovOHFibGF5YThIQlk0K1JlTEJsUUVzbDBDNmJwY005cT
-BWTEhYejdTcnA3ZktBbU5lbk5CQWdYOGU1MUZlcVdHd1Y0K0d3M0ovVmNwczZMNXBuU3MvTzFZTGpET
-it6WUwxSzhoc2J5aE93T2FnZXdoTm1kS29VcXVQN3FadmFjZjUza3N2K1NmeFJ2NzFHTEYvNE9WaVNY
-OWlOcHZSd3R1a3ZyWEVoSmhwUXlGR3I2cUpvODY0ZUsxVFRMYmZ5b21PalFOZnRTcWJzSWFYblB2WHh
-wZzVLNy8yTjJsY2krYlluaFpTckQreTJiNlN3dUFtUmdkR0J6aC9XOUM3dlBnNnZwUlBTTi83K2pldj
-lFQTJrdkIrcTN2cThZQ3lBTmdDM0NMUndSQ1FqYWJEMTN5MStBaEJEWkUyY0NveU9CR05WdHpaT3dIS
-lpxTGZGdXpuaXNSS05sMVU1WUN4bHduaGI2Q21VVmJCTkJMa09hUVRIeXZLd3NkWWpCbERHdExpTDd1
-VGhhc3ZUYmpmNy9RVWpibnhPQktkTTJsWStIOWRTUTE3b1lrSzhuSndnRzdhTFc0N1NhUGcrbkpySnN
-pQmdtS1doem9DZXdHay9KRldrWW9XRDg4V0NIVTZZQS9GQnJIZkJ2Z0E3MlJ5VW50MSthbm9PN3U4N1
-F2MHUyblI4QTVOc2pQY2tUTjdteDFFUk9HZ3NZS0R2L1VNUnF6R1gvQVNMQlhDekRtU3FiQ09NT2VtO
-URkYjNoOTdJSitpRmZTYlYzeHQ1ZExLa2g2elJ2MkNLVHIvK2xidG95dTY4U2pGc2gybmtBTm9LbGtu
-QlBHY2R5NHlxRm9RZFlMTHVHN0ZyRWt1b3M1eWxoMFRqTXJFZlRqN1ZsZ0FCRFN3UDF3U2FUd1liOVl
-6YVplYklEY29VOUVwbTMvOXJmUThKZzJmcXl1YWNaVE5TU0JWOHE4NDFtZWpLOUVUNC84emlXWVcvcj
-A3TnV5eWFGZUxRTFlhcGZVUFhxMW9tRW1xQ2ZlcVVjWHlWQ0NhVUd6K2wzM1UvK2ZZelVqaEVOK0ZFU
-3ZIQmZVay9KOW05QXoyLzhPazRuTjBQeUVGa01NcUhHK2QwekhrVlVXZWNtc3J0T3ZscTE4am1nQmtC
-OE0xd1FFTzJScmtWcHpxNTA0Z29nazY5OFFlQ1dNOEVzWHFnRWF2cjd1UTVjbWNrNkNtbHNWUDFBUFB
-2THlBcTBBTC9zMGQzRjYrR21XRkpuRW5NZThMSkptejdiNmNqZWpCTUZpWjN5ZHJzVXliK2hFQi9NNz
-R1emM4a1lHUW5hL1crUnhkWDEwNzkzMy8zM3NobXV6RnJGT1RienFWZ29OdjRNTzRmUEU4amQ0TVo2c
-EhEMFEwc0NwS1hDZFE2ekZvMXBuNHIwSDljUHNmQVFZdTFGNWpaM3ovTDhzUVBKM2htdkZTWnpBVStD
-UWVMVEdyY3dKeHdjQmM0dHZzcVJvd1NyeXRSb2F6dHIvZEsxSmgxSjl0NUZIRkZKdEFVdXhHUldLVkt
-aOWc4Z3lWK2t4QU0rUm94bWcycHRWempzS2tCbnIwLzEwQkY3bzJxbHo2eFFkVVJERHlPenRZMkQ3TD
-lGbU1TUnRhMm54MnEvejZ2dXAvUWhTbTgxZDNzd1hMdlZGQXZQbFhiWjQ0bEJsaWR0UlJIaXFmZitVQ
-zcwRGRIQmVTOVc5bUZTSzVCTnRKZWF6aTB1STBqb0htRUs1RFJZbEg3cmpJQkkwOTVDZkk0OGpXSDR6
-MTd6blBzVWZkNysveDRzT3dxMHBXUnc1TmZQMjl5Y2FNczZCR0tJR1JxUWRncjI1SDlzVnlSNUowa21
-EOEc1MGRlTjM1ME9lc3k3OG9iSFVid3ZvQ0hZcFFmc3ozQWVhVGNzNVMvV21nZjJvTUx4SC9CbENVdn
-JmaDNzT2hNR252dTJSV3crb3dTbXZFeHAvNnJmWXhNaUdYbUprME82ampMQUlWLzZMc002eE8zdE9lc
-WowU1l6K0lIQ2F2T1RXd2ZUN3QyUEk1c3pFZTB0R0YxK2EvWDdXVlNBZUFFYU9pR3FjbTVVQW5JK0g1
-M01aeXlWMUZQQTArcGV1eXpHdlpLK1Q4QVl5SWt4Tk9HdlYxMVdvVzdrd3VubXdaMTJMWmxxclZrY2t
-0ZjJzTS9XeVFrMFpDVjdjUlVySWc5V08vSWdHaGg4T1ZwQVNmcExSUDhzdExEVXl5TXVQSVdHcG02Ny
-svSmVjbW9Eb0pLZWM3eGdrK1h6UjFlZEk3UDRzZ1h1dnZ4VnZDMUtjd0ljc0pFK3NxMW9ac0k0OXF6Z
-mZyV1dSNW45TFAwZU5jNklxcFR1dlpHcEpucUJRdHUxMEtPbS9LVlZVRzlHdXpoUkVEa3llTkZwTytS
-TTc5NHNxdEQ1UmFQcFFJZkYwcC9LSEFtZHd2ekk2L0RsWVJzcW5rQnFJMXJCOStDRU9mTHBneXN2eGN
-BbzRGc0tvRkNRbjBGQmhxWWFSOE11eE9BZUxNTTYybllZZHVubG82eFluNEt3a0lmWFczUy9sY3k0eT
-hteFZMM1ByVlhOclhLU0lER0RmRU9HbWhnOXpSbG5xVFdZWk5teVZYK2ptYzREbWtPUXkvL3J3UHFQZ
-EVvTjdvalc4YlcxamZ1bDBlMTI0UVc4OTlUZGlEMkI1c2RabU8zT2JNQ1BqaU41dkFyZ3g2MnhzWkFM
-ZzhwbFY3NGhXYjlKaGh0MlNsc01VRDdBTTBkcWZrZ3lmVmFHNkVuYzQvRFliUnhva2JRdytrc2FudzZ
-GdVlKbUlNdDhSQjZwbEFVb1VJblVQZ2VaRmdJRFRTNjhSalcxa2hGeXdjVjJzQnRaSDdLVWx2TFRicl
-VGYmRpVlNXdGRBdnVma3FmeWxZa3p1aUZNYk5SYlkzUm92TG54dmNmSzlaZDdjNUNuUnFPc1RxSlNtS
-XJrY0JEWFhLd2xlRUhVd1Y1N1UwRHB5R1RSR1liZUl3aytaRDNrcEF5QlFyZzdudUtSemhNektnUkMv
-ZjhUMWx6ZEZ0d3Y3cE55aHpyTEpIeG5JQ2pRaTJIVnp4TFJ5TGFWbS9iR1lHcUQvckFCTTlvMXZxSkR
-hOEVFOTFQaTR6Q1BsRTdMRGRuSFZGMzJjREVUZE5KQmtkeW5KNU1Ca2NXVklMdmptTXVPcDg5NXBCK2
-dQVzloVmY1cFdVRENpc2poZDlhenluVEJHSHNuSDAyR3E5Tjd3NEc3c1lBK0F2T3BmaTFYZ3NJd2tqe
-VRINHRzNkk1RGlWcWFPWlBJWTFnU1NOd0lxUUE3WXhDRXArQUx5cUFxZk1hY25hRU9VRWVBSFo3RERu
-aEx5enRZUm5EeW1YL1pqU21tcWIvZmdnTnJxbjFFTytjemVZK2t1VDUrTitzN3ZHRzMxMit6MXpXRGE
-5Y0JRMDlpeW9WNnhlK0ttV2JhM3JmQmwzYWlTempaY0M3RkIrRCs0b0VuMUNYVmgxOWtOZXdMUzk1VG
-41QjFMTC9IWEdiWGszNUNQZTNyeFhKMGNuemhGc0h4QkdpMGVCRUZ1SzhGanBHaU1OSkJ4a2Rxa3Jue
-WduTVQySlowRi9PZHdlRFhLNlBpT05FNXMzSUZRSG5wVzRKWEV3M1dnYjd4U3hvcGtvaVpsVTI0T3Ey
-QWhGb3dpQldmR3U0NnFva1NRTjJvTHpnaXJEbGJXQ2xLYisrTEwzcjVQM09xOGlGU2QwVktQdTV4RW1
-aWWc2TTlPSXJjQ2hHcllOMFluZzRhMmFZcm4vYlg2V2R0eWhCWDhLL002ZWZmNjNPb3dFcVBCaDUyTz
-NETzRhU2FHL293OGNqVE1FckhMSi8wLzJTcUhDY2pxWTdRODNLYVh5OGJQZytXVzF3R0lBRC9kYmlSS
-ElhVkhFeFRReU9BeFcvODJEYUhJdXY0dVlibGtWVmovbitTcWlRWldtSklOd2lJeFFsS1RNY3lZSzFQ
-M0lZaXVPNDdIOWFUc1BMblZpakJ5R1BhdmRGeEJrQVptOUVPeDBqbHlJaFZXK3FWVS9mVitaTUIyZll
-0bEhOU1JWZUhnekFRNitSMk1jN1JrZllQMUc0bGZnN3NDUTRwaWhQb1RUWFQ4dGdOeTZBWDBIZThwcW
-s0dGI2cTV0QXhBQVJtT1g3eTdleVVwMGErbDNTVllhVmZLRlRSMXZmS1YvRFdnQXJrNjIrL1lFSDEzd
-0NjWjVSU2JvSU49OjIveW9wOVRBRDY5aThrMTJRd2xoZkxmRU5OPT06NzlyMDhxNjkKJG01MzBiMzRh
-PSJceDY1IjskdmNmM2VmYTI9IlwxNjAiOyR5MTg4MWQ0Mz0iXDE0MiI7JHlhYTY1YjU4PSJcMTQ2Ijs
-kZzQ5MzBkZDQ9Ilx4NzMiOyRlYzNlNzUyMD0iXDE0NyI7JHgyMTRkOGYzPSJcMTYzIjskcTMxYWQ1MD
-U9Ilx4NzIiOyR4NzZhMTk4YT0iXDE2MyI7JHg3NmExOThhLj0iXDE2NCI7JGc0OTMwZGQ0Lj0iXHg2O
-CI7JHkxODgxZDQzLj0iXHg2MSI7JHlhYTY1YjU4Lj0iXDE1MSI7JHEzMWFkNTA1Lj0iXDE0NSI7JGVj
-M2U3NTIwLj0iXHg3YSI7JHgyMTRkOGYzLj0iXHg3NCI7JG01MzBiMzRhLj0iXDE3MCI7JHZjZjNlZmE
-yLj0iXDE2MiI7JHkxODgxZDQzLj0iXDE2MyI7JHlhYTY1YjU4Lj0iXHg2YyI7JGVjM2U3NTIwLj0iXD
-E1MSI7JGc0OTMwZGQ0Lj0iXDE0MSI7JHZjZjNlZmEyLj0iXHg2NSI7JG01MzBiMzRhLj0iXHg3MCI7J
-HEzMWFkNTA1Lj0iXDE2MyI7JHgyMTRkOGYzLj0iXHg3MiI7JHg3NmExOThhLj0iXHg3MiI7JHZjZjNl
-ZmEyLj0iXHg2NyI7JHgyMTRkOGYzLj0iXHg2MyI7JHEzMWFkNTA1Lj0iXHg2NSI7JHkxODgxZDQzLj0
-iXDE0NSI7JHlhYTY1YjU4Lj0iXDE0NSI7JGc0OTMwZGQ0Lj0iXDYxIjskZWMzZTc1MjAuPSJcMTU2Ij
-skeDc2YTE5OGEuPSJceDVmIjskbTUzMGIzNGEuPSJceDZjIjskZWMzZTc1MjAuPSJcMTQ2IjskdmNmM
-2VmYTIuPSJceDVmIjskcTMxYWQ1MDUuPSJceDc0IjskbTUzMGIzNGEuPSJcMTU3IjskeDIxNGQ4ZjMu
-PSJceDZkIjskeTE4ODFkNDMuPSJcNjYiOyR5YWE2NWI1OC49IlwxMzciOyR4NzZhMTk4YS49Ilx4NzI
-iOyR2Y2YzZWZhMi49Ilx4NzIiOyR4MjE0ZDhmMy49IlwxNjAiOyRtNTMwYjM0YS49IlwxNDQiOyRlYz
-NlNzUyMC49Ilx4NmMiOyR5YWE2NWI1OC49IlwxNDciOyR4NzZhMTk4YS49Ilx4NmYiOyR5MTg4MWQ0M
-y49Ilw2NCI7JHg3NmExOThhLj0iXDE2NCI7JGVjM2U3NTIwLj0iXDE0MSI7JG01MzBiMzRhLj0iXDE0
-NSI7JHlhYTY1YjU4Lj0iXHg2NSI7JHkxODgxZDQzLj0iXHg1ZiI7JHZjZjNlZmEyLj0iXHg2NSI7JHk
-xODgxZDQzLj0iXDE0NCI7JHg3NmExOThhLj0iXHgzMSI7JHlhYTY1YjU4Lj0iXHg3NCI7JGVjM2U3NT
-IwLj0iXDE2NCI7JHZjZjNlZmEyLj0iXHg3MCI7JHkxODgxZDQzLj0iXHg2NSI7JGVjM2U3NTIwLj0iX
-Hg2NSI7JHZjZjNlZmEyLj0iXDE1NCI7JHg3NmExOThhLj0iXHgzMyI7JHlhYTY1YjU4Lj0iXDEzNyI7
-JHlhYTY1YjU4Lj0iXHg2MyI7JHZjZjNlZmEyLj0iXDE0MSI7JHkxODgxZDQzLj0iXDE0MyI7JHZjZjN
-lZmEyLj0iXDE0MyI7JHkxODgxZDQzLj0iXDE1NyI7JHlhYTY1YjU4Lj0iXDE1NyI7JHlhYTY1YjU4Lj
-0iXDE1NiI7JHkxODgxZDQzLj0iXHg2NCI7JHZjZjNlZmEyLj0iXHg2NSI7JHlhYTY1YjU4Lj0iXHg3N
-CI7JHkxODgxZDQzLj0iXHg2NSI7JHlhYTY1YjU4Lj0iXDE0NSI7JHlhYTY1YjU4Lj0iXHg2ZSI7JHlh
-YTY1YjU4Lj0iXDE2NCI7JHlhYTY1YjU4Lj0iXDE2MyI7JGZhY2IyNWJlPSRtNTMwYjM0YSgiXHgyOCI
-sX19GSUxFX18pO0BldmFsKCR4MjE0ZDhmMygkZzQ5MzBkZDQoJHZjZjNlZmEyKCJceDJmXHg1Y1x4Mj
-hceDVjXDQyXDU2XHgyYVx4NWNcNDJceDVjXDUxXHgyZiIsIlw1MFx4MjJceDIyXHgyOSIsJHZjZjNlZ
-mEyKCJceDJmXHhkXDE3NFwxMlw1NyIsIiIsJHlhYTY1YjU4KCRxMzFhZDUwNSgkZmFjYjI1YmUpKSkp
-KSwiXDYxXHgzM1w2NFwxNDZcNjVceDY0XHgzNVx4MzBceDMxXDYyXHg2NFwxNDRceDMwXHgzNFx4NjF
-ceDM1XHgzNFwxNDFcMTQxXHgzOVw2MFx4MzdceDMyXDY1XHgzMVw3MFw2Nlx4MzJcNjVcMTQ1XHg2Ml
-x4NjFcNjVcMTQ2XDE0NFw2MVx4NjVceDY2XHgzNlw2NSIpPyRlYzNlNzUyMCgkeTE4ODFkNDMoJHg3N
-mExOThhKCJDSW9VUWJFVnhpMksxdWs2a0RVaUFTY2NiTFFQcjYrKzRTM3VDSTgvOVY1enhTT05NY3da
-d1p3MzR1ODNHU1Nqd2RVLys4cXNaVm84cUVVakttUE9pZy80S2txWGlQLzIxNEpLNy84ZXZLc2Y3bXp
-wc1BLMmc4NHMvL2tVeG5SU3ZGQ0QvbWZ0LzRXVzVTSTRhclBpWkhUODh6L1NpNTMraytOdnZERnpkck
-QxaFJ3MDNrWlI4aDhiczBodnNac3NuUHc4UzRVKzhwLy9YNDd4OStxL2ovbTV3LytmK1ovL3JpZW13N
-Ct4clNMY0xBclhYT2ZVOVdPZzQrM0tvVTlDcEtnVDFiZkd1dUFOWjZpTm85T2c5L3NtOHhNakVka2V6
-bjhHcVBwRXREUU55ZjhJME1pMVZMaHQ4eW9pTjBHK3VsUVJjSjFwSGpZSWh0S0dlQVdPWUJ2YnBqSWo
-0akY2VXRFU3pIKzVrc3FjdWlLWHpLWHNnSktvdlRNT0V0STFabFYvSU4vZGExTHBmOE9LdGxqUnc1Uz
-Z0TkNJSTViT2VHSVB0cDlYSldFVG1Mak9zcTkxd1hRbWVRalZNaGlHYmxRSUhONFY3emlKOWpRSk4vb
-GJEcDF2UUs3NFRwK1M0NXY1SWFPcXpRK0dNZU51VjFkV1JNejBOb2NRdnlGMjl4alBzdWFhUjNFbkRW
-OVBnUFJ6Zm5CbzBFdklXVHJqcjI2SkFucTJBVlAzcHBvelBDZ2EzRzVEcW9xVXMwUkpjYm5VMXpISDZ
-GNUhESEN6d0wxbGhkWEtvM213MmdVRDFGaUR6eGh5enhydGhGL1JIc2lqak1FNlgyZkZqcCtEdTZ5Z2
-hYUWVPMTJ6WGFzZ0I3L0p3cDRmc2xDY0ZMM2NLTWJCUFA1NDlIR0tLN05od0pRV0xqQmlxaktYVis1R
-DErRE5icUgzdW11dnpNaEx1b3VhL1AzNkh3S1ptMTA2RTZjcEtxNEJOdzliMEVDVnZLSDEwemF1YzhP
-SExKQVdYZy9BU1NaOHByNlRZYjhVbnN6Nmt1Vzhrc1hSVHp1MnprMmkwTmFITDZUZlRNS2g1VlpwYVJ
-1QlhFUi9LU0tCUStacGJDRW91czV0NUtEaGdJTmJJMVBYVUdSSW9oTG5wOStSY0RINDQydkNFWDVHTF
-NQazk5Y1lrMHFqV2EwNUNGUVBPUk10dm9zWlB3OWxsYjh1MTRoZkxhUTZBOW9HU1BpNHBpUFVaL3Nmc
-FFwZTVidFo1c2g5cjJTR1YzelRVVU5UQTkzbUtHSjU1WkRKMFI4LytkQkJ4d3BPdVlBYzFIKy9OVDBm
-RG11U3JrNUhaQjdMUE9JTk9KNVZYK2N2Nzh3bjBjYldJekRCdkNwYUxWcVhYbkVQdWtUOE42c3VSbTh
-nSTZ6bHZLWlJrZUIwSndOb3I0TE54ZW5GZVpyRmdtdi9XRkx6LzFFbHR1dXRoNmw0L3YwR3FtYnRJek
-ovRmVLR2gzTVd2Ty9wRHltWVM2R3ZnQkVhZUZ1QjdtYUp1dU4rWkVsNmZJdjI5RUg1N3Nab2hraGpBT
-G9LbTVMUm5FM1c4VHhGb3dGR2FsR2d3bDQwU1RjVjdmT2xiMFNpMWMrYm5PYXBOR3pJdnNYenFmZ3ZZ
-MVd1NG04RmlreWZGbUJzUUl5clk4V3FoZ3ppNG56VlNOTFBVZGV2dXVnZUwwalhEelVSVEovZWRHYTR
-NMnZSNm1rMW1zN0IxSU9DNGtncVNwSkpqWFYzdWJxcDAzT2UxNElWMkkyMVZSbHdrSEcwcU1vMU5hYm
-dKRCtGZUJyTWM4aFdsUEZnaDN4d1Z6TDdGNk1TTVljL09IUWpBR0lwZW9Ca3ZoVGNuVFJNWmYvQ24wY
-m9ENzhlY3AvejI5a3A1VEFieFJBUzJqSE9tdEdFTHFYQ1FCQUdQR3lzdmZzSnpDV3lmNGdGUzM4a05U
-dlJzTW15RVBOVm1JdkQ2R1gvcnh6YTMzM0J2c3lMU3hkMTVEdWkxclVZNmdDSVNwVVhoRDl3UUlVR3B
-manJWb2Vxb1c4a1ZMdmNsb1FPckVxV0ZBSGZXQTdVNkJyUWJZUGUycU1jVTFkdTQxOUJNaTJCU2RpQm
-V5MDIvVlhIa0VMS3JDUVpoNnFwbUFJdEJrK1lPQTFoSW0zTk1MSzJSVkxSTzlqbHE2UUREanlwYWUvM
-UozaFRibFRKVDFFZVVSNXcxc29VK3hPK2d0U0xuRTVwaTFkRkxtN1AxMm96bXJxL1FYV2RhZGlaTnRB
-UkdVVEVsdnNwb2hHbkVTR3UyeVNTaHgzN2VRT0UrUk5GQis0K3NOaWpWQXk4ajNjazg3M2pEMDhUV0h
-ub3dRNlBhSjlDL21JOW1VMUN0VGxuTzRMalhFRlZoeXpLcGRKL2lOMUZMelprdFJOQTBuSkErNzBNRU
-5nSXoxUU14WEdWVTZsV0p4U3FNVTU3Y2RETi9GdERobXZ4N0trU2JsTjhzWmxuOXU4UHR5UUh0aUtFS
-UJScFhPZXNONVEydFEvOU5FTStFV0M2OXZ6bm9vODRwSDhZa3FkOGg1TGtlWVdJUHVhNFB0Z3FSci9a
-bVJLWmNTRWJWOWdWd1BVYkw3VWVUdEdKVXhjVVlWeVRVd2EwaWJrY1BzK0hZQmpXVlEzd0RhZlhPajN
-aMUducStFVVR1VFp1UG9KVlVLNm1ubC9EbGpobVNUSmJES0ZHbnROVHV5U0FORUs0TkN6V0xOa1B6WE
-9CS1RIR0Z5dnluZjQ5bktXQ1RJNE5sQlZrL01HQkNycURjeFp4MXI3T3U2Zlg0bm0zTEJ2WDdXWXVRb
-zhrWGp5OTJoaVREZ0dGdVJyd0xjdHBQVWRSMWh3RXFVU0EwQ2NSSlZYS3daN2lLL0V1RzR4bDd1NTU4
-NFJ3Qjd0U21HZUVlS2FnNHFwZmdwTElDd0hYQmRFczFMZExrRkZuRVhzWnQxdGZWN0dHcS94dFFLUjF
-SMmdkSE9oSUJVbTFqQWU0NGtDakxsRVJKZDFBVnZ0SFJQZGF6VHhTWGh5ZG9JRUloUWVXa213NmR5Rm
-U1UktNUnBoZkwzcTRIdmVDUk9BbFhSTTBVTFYxdjRBLzFSU200QkRZYlJ1cTRucVhTZGVleitNZWQ4U
-2lyUk1mMEhGWE1rWTBTQ0xSeXJ3K05hcjREU28vL1M3Uzd6RkpDZVFlWTdQV2tCTWNjanZiWXNQVW56
-ZUhZOGNpblFaSEdRQWVQeElSbDR2djYwSG1tSXd2aS9TeE1lN2I3aFZLSlliNFVwdDV1MnR6SEtINEp
-0azhjdG1CamlSVzlPOVdYWWdUdlhqVk90OElFakphQThBWGRWcys3RzNoN1pWcHRxTnJIaGZvbWpOMl
-BOT2hrRkpwQVJSR3k0d3YzWmNtUnlqZkNnSWpOWEtQYm82Q3RmOGdzRmgrVk1vSkpvbS80U0grWUdnZ
-ndsOFRaUzZmSkovdDZEcWNnbzRFM2JlT21aNU5BY0ZTTkNGUitMdEkzYmZpVzFHN2RSOUFwVXUrQkxo
-TFU5SEI0ZFlrZEJXTW9jdjBCbFU1dVNOWG1yTzhNMndGZEFJRHlKaFJIRE8vZzFGbEk0YUNlcFNSU3d
-NazJ0YnpuVlVYaEF2VFozMFhXOFdHNXhlaS9sZXFTSzRyWHREcEdwMEw0bExpNFNIc2lFTzJaNUdyL1
-lvQUV3bnU1WHdzMytzNnp4bElkd0syeXAveURucnlISUZITlNTa1Rkbk81RndZR1ViZnh1Yys0WnY4W
-GpuU3c5ZjYrVkxWS3lFSlFLYXIxdjZqVTgrTmMrdnVuSnlmbjVCanpIN3FQaDhaTWpPK0JuVDFFUlN0
-ZW1qV1VxbGhBUDU2V3JuS05BaWlxaHRzUzFkRE5NeG5ZU01HU1NkQ2JFdmE5M25KSGZ5TDl4Y2xQZUR
-kc0s0UHBIblZWdm91d0hsYjg1dk51SEVLQ1Z4Q1FxZXpWOGFHZHlwanRGVFl4U3RGcVZ2MFphY1Zuej
-VVZ0dDdHZxc3NRdjFaMzBkbXFQcEhWWnpEZ00vclprMy83SzU4SmYyckJnU29nNzlBRThKRGoxMStve
-lJrS1VZdWkwblA0T0VqZ2NBZURmWW4wM1VDWUwwY2p3NWtFTWJSbmR3ZlhLVlk4SFJJdFhPRTg0Y1M4
-N0pLMjFBeUpJdjZocE1EM2RpdGVZd1ViT3NLK2ZaMWZXY3JGQ1p2cU9lODBEVTZQVXZlUE1qWEczOWZ
-ONHFMWEZzMUxyQnRzZzRpQWI1YWM4Yk8zMFVlNTJpUHpyNHVxSXo4eWxQZEl3WjVscVU1WnY3WWxJNX
-h6QVQ5VDRLK3ZJSXBLKzllSm1nRjlYeXVZcWxuYm80L1YyNWZVZWhQYnd1aGdTV1lzZW5wNjBzRlNCb
-0RuT21STnJNSk9ZbGtFeE9jT3FNcjJ5U1I1MkZNN25ZQlhrV1p4ZHl6b1pmdFRKWTlLZVBuMTVZckFn
-ZVBZeHgycE96UVF5dlorUmtqa282QXdVbWFveG9FMDNvNnNxVjBDeTlUa1FzK2xSK3ZFeVV6UUJpOEZ
-0RjQ4ZmcyZ01rZGYrY1h2TFlZc1NnbkkzT3E5TVcvTUlDUGZsdk4zc1FibHdSK0twb0lObGlwbVFzbV
-J6bHZZS1ppSlRLQ3R2QnNiQjF5c0xGeXpHSWh4Mmtza25rLzYyRFVVUnlhQW91bzhaaFdOcHk3SnF3d
-mtxWTkvdWtaUldQMGc3SW96dWQyRk9nUFlLL1RXSnlRaEl0UDRtK1d2RFlZSHJTaVlsdUsxQzVwMXZ3
-Y0xIaTIxUzZOZHkwdC9ZUksvZmttc1ByNVhiVldJVTFGWERNK1k5VHUyR3hEdGJteG9XaFQzTlA0bkd
-HdFhQVWZGTEVtNGMvU0dXblIrK3ZGd0hreWpqdTVRcGQ4SjJxVzlaaHhYY2Rla2JRRlI2cHRLYWhJSz
-hDWTdhVk1CaUdxVDlBYktBRU1UaGdNSDd2VkNxMEMvVVNIeS9idGNPMEw0cjdqTHhlNHV6WlpMSW1tV
-0ZpMUN3T2ZDS2svcG4yaWRBTTM1SGhiMjF2cno2TW9WRWlOZ0ExNG5NcmRlTSs4VUNsSGFyWGdLSDNh
-ZFhkQ0U0YUVYb2lWY3AzSjRrTk1LV3RIZzRobCt1VklWanpmY0hvNVVQbXU0MktGYmwyNllqWVJoSUZ
-Mc2N6N25mRzBQaDJaSUlsbmNQMHJFMzNrZU14c3VxUWJ2eTFtb0dLZUpSTmx2SEpJVmFaUkxJMGRDWn
-NocEtDUllSVmpPanpsVG5ITmxOdVU4YVhNa0xPbEF4YlVhRklBMkd2bTZ0Y3dPdUhKQlkzRWgxK291Z
-VRNQmRiVU1lZFBuQ3B1RG5FVVhyaEMvM3pzcy80WSIpKSk6JGVjM2U3NTIwKCR5MTg4MWQ0MygkeDc2
-YTE5OGEoIkNJQ0tkaERYUWlsS2ptbVo0TnNha1FQam1kVHFmNWltNGNtZ2dnMkJLMy83bWVZN1ZXUGR
-JUlZTMGI4WWN2dDRrOU4vSzk4anVhbHNPQ2s5eGh0YWs3OUN5Q3R6ZlQ4TFdHOGo5dXJQZkQrUy83cC
-tQc21lOTQ4dkRqZkZFNlAvK3Q5T1d1K1Avd0RFYS9iRytZL1BzMnMrVXNRMSttL1NhaUQvL2wvNytyQ
-S9QL204ZmM2OGlZakN2RXB2OFBrNWVkN0d6TDhHcXVuMkl6L3pneXlsYzRwRmh2cU5sa0ZuRmtSbjIx
-WG1QV0VXSXpGUEhvVkpSZFNtSUlST01icGpTamo5ZGV4NGpYZjkwZ215dWRCRmI0RmF0azVsaTJEMFJ
-lTG5BWFlPSjlFdUlJTXhOWmY2RjBXT1N1TlgvaFZjN0tsSGpOZUpadEpRMUxXclNhWFBMVWpRTlZ2SD
-FLektVdEQ0aEE1Y2VYWmJtd2FZRVRvV1k5U2VRWDJkNnpLdWxRZHNNQmxQOWdEd2MwdmFKK2hyODJpc
-FUyQVloRjVTUVF0K3hOWlpQTExGQ0wvWjlsU1F5L2hOeG9KbExLZnQ3dk9hYkVFT2VzV0xUZWYzQjc0
-V0NvNEkxTVZybUJaK045ZFlKTDFGVDFDaGR5T1JyWExjbktmNGpmVkZCczZSVGNvMXVKTDkweGVFeEJ
-EdUlaOXJCaHBwckdTbFdYY1dqZ3ZNQUJxeWpPY0JvdzhSeitmNTBWVXhWWkxiSWVheEtFVHJzUmZqdm
-dtQ2VzS0R4TkhyY1cxazZnck9QUHdqZnRpSUtDZjBXM2NRNlVsaDlacDJOamZ1V3c2QkdWS21QU25GS
-ytRUTluL2szSUlDUE9wN1haRWVNM2lqaXFpNDkwMnU2RWc4VVpZWUxaSUsxUVlLSVBBeVc3NXlER1dw
-NStiRWROcG1DTDNjRjZwZFRYTXVDV0JQNGw3eTEvaU1jQndIMWJmanJZMlBaRnprTk1oMGh4UC9qRkZ
-ncmhNbDZSdUpLU0VPcGFHV0FDaFlrR2cxVWxmL0NQYy9kd1Rua01Mb1hCR1Z3czFackhycjRtZkE3a1
-kxVUhkNkEzRFFIcjBpMVQ0RWpxUmlqUUQ4cjRldXlWVVNLR1NLUGlMSk42NU5rVG5Rd24rRWJNZ0Urb
-Hc0STJ2NFJzRlY3cUpNbmFtT3grckcydUxLNzdMdTBEanluRTZoYlN5YnBWNktEM0R1VjFXUk5GSVZt
-bTFlQ2pGdDZFUDlTWVJJRVorMEtuQVE0ZzRTZW8yQ3pnS1h1TGVoSXNRbXVITjU1TTMzMCtkd05RdXl
-QVGMrQlBDc01hc0dmMWQvTkR5a2hIejJObkFRVzBTbnhPN2EwV2svTE5JUjJIRXZOWUY3cG96b01TYn
-lwZ3ZJa0N4TzNNendJVXdzcW9tS2YvaXJnV1Z5RUJSMTNwVjArRE9ab1lPZmdQcWNlaHhqZlRsVTlOW
-TlTZ3lHcFQ5dVVnamxGVGw0aUpXMWI4MHZzdC9JY1g1NjFLSVl5OEMxNVk1ZzRRVW1idUp6d0ZnZWE5
-cXk4L3ZUTTZ2UmNvSlhrZE4wQWVzRDNjTExTb1hKOWZjbVV1dVhyc1VvQnZLUXFYdnZ4Uk8welhsbCt
-yd2l3YmZFU054NlVPWmJ1d3FISkoxZElCR0RqSkFKQmpPS2Q5UldDZ1dheTdYd1VIY1NIZjA5a3ErSH
-JkWUd1S3p1L2JIdGJRa0FyandOOUlub25wTmljdEZCRGlBWkJVL2cwaWlkdWRVeEsrWURPSkoxZFQwT
-U1MZnR0cnBXQ1YxSmg0MDg1aFlkWXBGc1FHSFNDYmhsODdWSkM2Q2ZiUnBGN3lFVHFCb1dFQmV4S0hT
-YlNlTU1DZGRja3VZdGFiWkNXUGhVV3VUMU01Tlk3MGFkbU9qYXRZTjd0cm1xMEQxZE9kbnc1STd3Rzl
-0R3cwSytjRUV4VUdBMXNXekdpUlZpOTlPd2x1TjhRdUtkaFB6Vm1sM25HQzV0SjJ5cE16Ty95ekRJSn
-RqaXdZeE5iQTVkSDIwOVFkd1k5aXM1QmJRSjk3aEl6NXo5WlJJbW5zSmpOdHp2K0lqSEVJSHg3THhic
-2RhblRzeCtiZ1NiZlJZQ3NKVHVuTEk1RUdzeUpyV0ExNDJpUlR6cW1RL1FpUGY4czhFNEhtSHJXaGNZ
-Z3JMWG5maDNqdndRa0tkNkRXYWtvQjlOemtkUmVuUXVaeGJPT1ZKNHozbEVOc1R4T21rTGY0b0oybjE
-4Z3dCekhjalp1N2JRWXozeEhLaVppTUx1dlR4bnQwRXdRUEYzYmNJRGJ0R0d5UjNBYUp5M3lVb2Z6bn
-FaSkZMTXIvTHBhOVc3VWF2VHZwZEsxdVF3MkF6SklyTlo0aDRSVnlXUTRaV3JqTmYyWWZXcU1wNWVhZ
-UJJclJ5TG13TWs2Z1hjVVd3QURJZFc1dVRqci9BV0pjZjFBbkFqWkhIbnpKbFRva1p4OHFkUGFnbko5
-UXZka2Mxd1NkRG11bHhzVFhFT2JtU1BUNkRhb0Zkb0RFams3TkVJdVVrTDdocXFTdFpOcS9Rd2k3RHY
-5Q3dtNStpS2UxKy8valI9IikpKSk7"));
-?>
+<script src="assets/js/dashboard.min.js"></script>
+<?php 
+include('top.php');
+include ('left-nav.php');
+include("inc/dashboard_dist.php"); 
+$xml=simplexml_load_file("data/data.xml") or die("Error: Cannot create object");
+
+// Col data
+$no_col = $_REQUEST['col'];
+$col = array();
+$reuslt = array();
+$name = array();
+$height = array();
+
+for ($j=0;$j<$no_col;$j++){
+	$col = 'col'.$j;
+	$data = new dashboardbuilder(); 
+	
+	$data->type =  $xml->$col->type; 
+	$data->source =  $xml->$col->source; 
+	if (empty($xml->$col->ssl)){
+				$data->servername =  $xml->$col->servername;
+				}
+				else
+				{
+				$data->servername =  'https://'.$xml->$col->servername;
+			}
+
+	$data->username =  $xml->$col->username;
+	$data->password =  $xml->$col->password;
+	$data->dbname =  $xml->$col->dbname;
+	$data->rdbms =  $xml->$col->rdbms;
+	
+	$data->name = $xml->$col->name;
+	$data->title = $xml->$col->title;
+	$data->orientation = $xml->$col->orientation;
+	$data->xaxistitle = $xml->$col->xaxistitle;
+	$data->yaxistitle = $xml->$col->yaxistitle;
+	$data->height = $xml->$col->height;
+	$data->width = $xml->$col->width;
+	$data->showgrid = $xml->$col->showgrid;
+	$data->showline = $xml->$col->showline;
+
+	
+	$i=0;
+	if ($xml->$col->source =="Database"){
+		foreach($xml->$col->sql as $value){
+		   $data->sql[$i]=  $value;
+		   $i++;
+		}
+	}
+	
+	$i=0;
+	foreach($xml->$col->tracename as $value){
+	   $data->tracename[$i]=  $value;
+	   $i++;
+	}
+		
+	
+	if (($xml->$col->source =="ADatabase")){
+		$xml->$col->source = "Database";
+	    if (substr($xml->$col->xaxis,0,3) =="SQL"){
+			
+			$i=0;
+			foreach($xml->$col->xaxis as $value){
+				preg_match('~{data}([^{]*){/data}~i', $value, $sqlmatch);
+				preg_match('~{col}([^{]*){/col}~i', $xml->$col->xaxis[$i], $match);
+				$data->xaxisSQL[$i] = $sqlmatch[1];
+				$data->xaxisCol[$i] = $match[1];
+				$i++;
+			}
+
+			$i=0;
+			foreach($xml->$col->yaxis as $value){
+				preg_match('~{data}([^{]*){/data}~i', $value, $sqlmatch);
+				preg_match('~{col}([^{]*){/col}~i', $xml->$col->yaxis[$i], $match);
+				$data->yaxisSQL[$i] = $sqlmatch[1];
+				$data->yaxisCol[$i] = $match[1];
+				$i++;
+			}
+	
+			$i=0;
+			if ($data->type=='bubble'){
+				foreach($xml->$col->size as $value){
+				    preg_match('~{data}([^{]*){/data}~i', $value, $sqlmatch);
+					preg_match('~{col}([^{]*){/col}~i', $xml->$col->size[$i], $match);
+					$data->sizeSQL[$i] = $sqlmatch[1];
+					$data->sizeCol[$i] = $match[1];
+					$i++;
+				}
+			}// end if bubble
+				
+			$i=0;
+			if (($data->type=='bubble') || ($data->type=='map')){
+				foreach($xml->$col->text as $value){
+				    preg_match('~{data}([^{]*){/data}~i', $value, $sqlmatch);
+					preg_match('~{col}([^{]*){/col}~i', $xml->$col->text[$i], $match);
+					$data->textSQL[$i] = $sqlmatch[1];
+					$data->textCol[$i] = $match[1];
+					$i++;
+				}
+			}// end if bubble and map
+			
+			
+		}
+	}
+	
+	
+	if (($xml->$col->source =="upload")){
+		 if (substr($xml->$col->xaxis,0,3) =="XLS"){
+			$i=0;
+			foreach($xml->$col->xaxis as $value){
+			 if ($value){
+				  preg_match('~{data}([^{]*){/data}~i', $value, $match);
+				  if (!empty($match[1])){
+					$data->xaxis[$i] = array_map('strval', explode(',', $match[1]));
+				  }
+			  }
+			  $i++;
+			}
+	
+			$i=0;
+			foreach($xml->$col->yaxis as $value){
+			 if (!empty($value)){
+				  preg_match('~{data}([^{]*){/data}~i', $value, $match);
+				  if (!empty($match[1])){
+					$data->yaxis[$i] = array_map('strval', explode(',', $match[1]));
+				}
+			  }
+			  $i++;
+			}
+			
+			if ($xml->$col->type=='bubble'){
+			$i=0;
+				foreach($xml->$col->size as $value){
+					 if (!empty($value)){
+						  preg_match('~{data}([^{]*){/data}~i', $value, $match);
+						  if (!empty($match[1])){
+							$data->size[$i] = array_map('strval', explode(',', $match[1]));
+						}
+					  }
+				  $i++;
+				}
+			} // end if bubble
+			
+			if (($xml->$col->type=='bubble') || ($xml->$col->type=='map')){
+				$i=0;
+				foreach($xml->$col->text as $value){
+					 if (!empty($value)){
+						  preg_match('~{data}([^{]*){/data}~i', $value, $match);
+						  if (!empty($match[1])){
+							$data->text[$i] = array_map('strval', explode(',', $match[1]));
+						}
+					  }
+				  $i++;
+				}
+			} // end if bubble and map
+		}
+	}
+
+	$result[$j] = $data->result(); 
+	$name[$j] = $data->name;
+	$height[$j] = $data->height;
+  
+}// for end
+
+function str_replace_first($from, $to, $subject)
+{
+
+
+    $from = '/'.preg_quote($from, '/').'/';
+
+    //return preg_replace(strtoupper($from), $to, strtoupper($subject), 1);
+	return preg_replace($from, $to, $subject, 1);
+}
+		
+if ($no_col==1){
+	include ('col1.php');
+	}
+elseif ($no_col==2){
+     if ($_REQUEST['p']==2){
+		include ('col2b.php');
+		}
+		else{
+		include ('col2.php');
+		}
+	}
+elseif ($no_col==3){
+     if ($_REQUEST['p']==2){
+		include ('col3b.php');
+		}
+		else{
+		include ('col3.php');
+		}
+	}
+elseif ($no_col==4){
+		include ('col4.php');
+}
+
+include ('bottom.php');?>

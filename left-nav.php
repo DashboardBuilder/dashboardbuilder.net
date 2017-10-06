@@ -59,8 +59,8 @@ if (!empty($_REQUEST['col'])){
 						<div id="dropdown-v2" class="panel-collapse collapse">
 							<div class="panel-body">
 								<ul class="nav navbar-nav" >
-									<li><a href="new.php"><span class="fa fa-file-o"></span> New</a></li>
-									<li><a data-toggle="modal" data-target="#dashModal" href="open.php"><span class="fa fa-folder-open-o"> Open</a></li>	
+									<li><a href="new.php" data-toggle="modal" data-target="#dashModal"><span class="fa fa-file-o"></span> New</a></li>
+									<li><a data-toggle="modal" data-target="#dashModal" href="open.php"><span class="fa fa-folder-open-o"><span> Open</a></li>	
 									<li><a data-toggle="modal" data-target="#dashModal" href="save.php?<?php echo $param;?>" <?php echo $able;?> ><span class="fa fa-floppy-o"></span> Save</a></li>
 									<li class="active panel panel-default" id="dropdown">
 										<a data-toggle="collapse" href="#dropdown-v3">

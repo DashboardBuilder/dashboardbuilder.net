@@ -27,8 +27,9 @@
 	<form  id="savefil" class="form-horizontal" action="open.php?opentask=open" method="post">
 	<br/>
 	<label class="col-sm-3 control-label">File Name:</label> 
+
 	
-	<div class="col-sm-7">
+	<div class="col-sm-6">
 	<select  name="filename" class="form-control col-sm-offset-2" size="5">
 	   <?php
  		 $search = "store".DIRECTORY_SEPARATOR."*.c?p?";
@@ -44,9 +45,10 @@
 		<br/>
 	</div><br/><br/><br/><br/><br/>
 
+	
 	<div class="modal-footer">
-		<button type="button" class="btn btn-default" data-dismiss="modal" onclick="javascript:window.location.reload()">Cancel</button>
-		<button type="submit" class="btn btn-primary">Open</button>
+		<button type="button" class="btn btn-default" style="float:left;" data-dismiss="modal" onclick="javascript:window.location.reload()">Cancel</button>
+		<button type="submit" class="btn btn-primary"  style="float:right;">Save</button>
 	</div>
 </form>
 </body>

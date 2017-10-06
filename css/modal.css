@@ -1,0 +1,17 @@
+.modal-dialog-full {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.modal-content-full {
+  height: auto;
+  min-height: 90%;
+  border-radius: 0;
+}
+
+.fade2 {
+background: rgba(0, 0, 0, 0.5)!important;
+}
+
