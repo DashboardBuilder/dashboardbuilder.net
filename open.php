@@ -1,3 +1,15 @@
+	<?php
+	if (isset($_GET['opentask'])) {
+		if ($_GET["opentask"]=='open'){
+	    	openfile($_REQUEST['filename']);
+			$p=substr($_REQUEST['filename'], -1);
+			$c=substr($_REQUEST['filename'],-3,1);
+			header('Location: layout.php?col='.$c.'&p='.$p );
+		}
+	}
+	?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,16 +24,7 @@
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="javascript:window.location.reload()">&times;</button>
 		 <h4 class="modal-title">File Open</h4>
 	</div>			<!-- /modal-header -->
-	<?php
-	if (isset($_GET['opentask'])) {
-		if ($_GET["opentask"]=='open'){
-	    	openfile($_REQUEST['filename']);
-			$p=substr($_REQUEST['filename'], -1);
-			$c=substr($_REQUEST['filename'],-3,1);
-			header('Location: layout.php?col='.$c.'&p='.$p );
-		}
-	}
-	?>
+
 	
 	<!-- Tab Panel Ends -->
 	<form  id="savefil" class="form-horizontal" action="open.php?opentask=open" method="post">
@@ -47,8 +50,10 @@
 
 	
 	<div class="modal-footer">
-		<button type="button" class="btn btn-default" style="float:left;" data-dismiss="modal" onclick="javascript:window.location.reload()">Cancel</button>
-		<button type="submit" class="btn btn-primary"  style="float:right;">Save</button>
+	<div class="col-md-12">
+		<button type="button" class="btn btn-default" style="float:right;" data-dismiss="modal" onclick="javascript:window.location.reload()">Cancel</button>  
+		<button type="submit" class="btn btn-primary"  style="float:none;">Open</button>  
+	</div>
 	</div>
 </form>
 </body>

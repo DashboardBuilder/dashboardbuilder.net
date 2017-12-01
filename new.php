@@ -1,3 +1,17 @@
+<?php 
+
+if (isset($_GET['task'])) {
+		if ($_GET["task"]=='open'){
+			$newfile = 'data'.DIRECTORY_SEPARATOR.'data.xml';
+			$file = 'data'.DIRECTORY_SEPARATOR.'empty'.DIRECTORY_SEPARATOR.'data.xml';
+			
+			if (!copy($file, $newfile)) {
+				echo "failed to copy $file...\n";
+			}
+			header('Location: ' . $_SERVER["HTTP_REFERER"] );
+		}
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,17 +42,4 @@
 </form>
 </body>
 </html>
-<?php 
 
-if (isset($_GET['task'])) {
-		if ($_GET["task"]=='open'){
-			$newfile = 'data'.DIRECTORY_SEPARATOR.'data.xml';
-			$file = 'data'.DIRECTORY_SEPARATOR.'empty'.DIRECTORY_SEPARATOR.'data.xml';
-			
-			if (!copy($file, $newfile)) {
-				echo "failed to copy $file...\n";
-			}
-			header('Location: ' . $_SERVER["HTTP_REFERER"] );
-		}
-}
-?>

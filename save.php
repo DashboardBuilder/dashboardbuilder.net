@@ -1,3 +1,11 @@
+	<?php
+	if (isset($_GET['savetask'])) {
+		if ($_GET["savetask"]=='save'){
+	    	savefile($_REQUEST['col'],$_REQUEST['p']);
+			header('Location: ' . $_SERVER["HTTP_REFERER"] );
+		}
+	}
+	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,14 +20,7 @@
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="javascript:window.location.reload()">&times;</button>
 		 <h4 class="modal-title">File Save</h4>
 	</div>			<!-- /modal-header -->
-	<?php
-	if (isset($_GET['savetask'])) {
-		if ($_GET["savetask"]=='save'){
-	    	savefile($_REQUEST['col'],$_REQUEST['p']);
-			header('Location: ' . $_SERVER["HTTP_REFERER"] );
-		}
-	}
-	?>
+
 	
 	<!-- Tab Panel Ends -->
 	<form  id="savefil" class="form-horizontal" action="save.php?savetask=save&col=<?php echo $_GET['col'];?>&p=<?php echo $_GET['p'];?>" method="post">
