@@ -37,3 +37,75 @@ Refer 'Support' on https://www.dashboardbuilder.net/support for queries and supp
 LICENSE
 -------
 Must read and agree LICENSE.txt before use.
+
+Example 1
+<pre>
+&lt;?php
+/**
+ * DashboardBuilder
+ *
+ * @author Diginix Technologies www.diginixtech.com
+ * Support &lt;support@dashboardbuider.net&gt; - https://www.dashboardbuilder.net
+ * @copyright (C) 2017 Dashboardbuilder.net
+ * @version 2.1.0
+ * @license: license.txt
+ */
+
+include(&quot;inc/dashboard_dist.php&quot;);  // copy this file to inc folder 
+
+// for chart #1
+$data = new dashboardbuilder(); 
+$data-&gt;type =  &quot;line&quot;;
+
+$data-&gt;source =  &quot;Database&quot;; 
+$data-&gt;rdbms =  &quot;sqlite&quot;; 
+$data-&gt;servername =  &quot;&quot;;
+$data-&gt;username =  &quot;&quot;;
+$data-&gt;password =  &quot;&quot;;
+$data-&gt;dbname =  &quot;dataNorthwind.db&quot;;
+$data-&gt;xaxisSQL[0]=  &quot;SELECT strftime(^%Y-%m^,o.orderdate) as xaxis, sum(d.quantity) as yaxis from `order details` d, orders o  where o.orderid = d.orderid group by strftime(^%Y-%m^,o.orderdate) limit 50&quot;;
+$data-&gt;xaxisCol[0]=  &quot;xaxis&quot;;
+$data-&gt;yaxisSQL[0]=  &quot;SELECT strftime(^%Y-%m^,o.orderdate) as xaxis, sum(d.quantity) as yaxis from `order details` d, orders o  where o.orderid = d.orderid group by strftime(^%Y-%m^,o.orderdate) limit 50&quot;;
+$data-&gt;yaxisCol[0]=  &quot;yaxis&quot;;
+
+$data-&gt;name = &quot;col1&quot;;
+$data-&gt;title = &quot;my title&quot;;
+$data-&gt;xaxistitle = &quot;x-axis title&quot;;
+$data-&gt;yaxistitle = &quot;y-axis title&quot;;
+
+
+$result[1] = $data-&gt;result();?&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;script src=&quot;assets/js/dashboard.min.js&quot;&gt;&lt;/script&gt; &lt;!-- copy this file to assets/js folder --&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.min.css&quot;&gt; &lt;!-- Bootstrap CSS file, change the path accordingly --&gt;
+	
+&lt;style&gt; 
+&lt;!-- adjust the height width as per your need --&gt;;
+/*
+#col0{
+height:350px;
+}
+#col1{
+height:350px;
+}
+*/
+&lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body&gt; 
+&lt;div class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;col-lg-12&quot;&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+&lt;div class=&quot;panel-heading&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;panel-body&quot;&gt;
+		&lt;?php echo $result[1];?&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+</pre>
