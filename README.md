@@ -38,7 +38,12 @@ LICENSE
 -------
 Must read and agree LICENSE.txt before use.
 
-Example 1
+RESULT
+------
+<img src="line-chart.png"/>
+
+PHP CODE
+-------
 <pre>
 &lt;?php
 /**
