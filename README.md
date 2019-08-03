@@ -1,9 +1,9 @@
 REQUIREMENTS
 -------------------------
     PHP Version 5.6 or later
-    Apache 2 or later
-    Windows 7 or later /Linux 3 or later
-    Firefox 52, Chrome 57, IE 8
+    Apache 2 or later,  Nginx or any other Servcers support PHP
+    Windows 7 or later /Linux 3 or later/Ubuntu or any other platforms support Apache, Nginx etc.
+    Firefox 52, Chrome 57, IE 8, or any other Browsers support SVG
 
 
 INSTALLATION 
