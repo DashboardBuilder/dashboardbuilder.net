@@ -15,12 +15,6 @@ INSTALLER
 1) Extract the product archive in web root. e.g. www.dashboarduilder
 2) Open it in browser to run installer. e.g. http://localhost/ dashboarduilder
 
-DASHBOARDBUILDER UI
--------------------
-<video  style="width:100%;height:100%;" autoplay muted loop>
-  <source src="dashboardbuilder-v30-v2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 INTEGRATION
 -----------
