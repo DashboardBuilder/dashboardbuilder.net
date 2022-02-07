@@ -1,3 +1,10 @@
+DESCRIPTION
+------------
+Dashboard Builder is a PHP liberary based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.
+
+Dashbaord Builder generates PHP and Universal HTML code for your dashboard and integrate it seamlessly into any web application written in PHP or any PHP frameworks like Wordpress, Laravel, CodeIgniter, Joomla and other.
+
+
 REQUIREMENTS
 -------------------------
     PHP Version 7.2 or later
