@@ -1,5 +1,5 @@
 {
-  "name": "DashboardBuilder/dashboardbuilder.net",
+  "name": "dashboardbuilder/dashboardbuilder.net",
   "description": "Dashboard Builder is a PHP liberary based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.",
   "type": "library",
   "require": {
