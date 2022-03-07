@@ -1,6 +1,6 @@
 REQUIREMENTS
 -------------------------
-    PHP Version 5.6 or later
+    PHP Version 7.1 or later
     Apache 2 or later
     Windows 7 or later /Linux 3 or later
     Firefox 52, Chrome 57, IE 8
@@ -27,9 +27,9 @@ INTEGRATION
 2) Update include path where you place “inc/dashboard_dist.php”. (if changed)
 
 	Include(“inc/dashboard_dist.php");
-Refer 'Getting Started' section on http://www.dashboardbuilder.net/documentation for more details.
+Refer 'Getting Started' section on https://www.dashboardbuilder.net/documentation for more details.
 
-Refer 'Support' on http://www.dashboardbuilder.net/support for queries and support.
+Refer 'Support' on https://www.dashboardbuilder.net/support for queries and support.
 
 LICENSE
 -------
