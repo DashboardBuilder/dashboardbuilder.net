@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DashboardBuilder\\TimeSeries\\": "src/"
+            "DashboardBuilder\\dashboardbuilder.net\\": "src/"
         }
     }
 }
