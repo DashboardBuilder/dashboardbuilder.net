@@ -14,7 +14,7 @@
         "source": "http://github.com/DashboardBuilder/dashboardbuilder.net"
     },
     "minimum-stability": "stable",
-    "require": {},
+    "require": {"php": ">=7.2.0"},
     "require-dev": {
         "phpunit/phpunit": "^7.2"
     },
