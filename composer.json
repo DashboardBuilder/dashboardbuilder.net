@@ -38,7 +38,7 @@
   "minimum-stability": "alpha",
   "autoload": {
     "psr-4": {
-      "DashboardBuilder\\dashboardbuilder.net\\": "src/"
+      "DashboardBuilder\\dashboardbuilder.net\\": "DashboardBuilder/dashboardbuilder.net/releases/tag/5.6/"
     }
   }
 }
