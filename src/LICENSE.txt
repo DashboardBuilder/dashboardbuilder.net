@@ -1,0 +1,51 @@
+The terms of use below constitute a legal agreement between you (Herein referred to as "The Software User") and Diginix Technologies (Herein referred to as "The Company"), the legal owner of the domain name and website dashboardbuilder.net (Herein referred to as "The Website"), each referred to herein as a "Party" and collectively as the "Parties".
+Please read the Terms and Conditions of this license agreement before using DashboardBuilder® (Herein referred to as “The Software”), if you do not agree with this Terms and Conditions, do not download or use the Software and delete or destroy all copies of the product in your possession.
+
+1. TERMS OF USE
+
+By downloading and/or using any of the Software(s) designed and/or distributed by the Company, the User agrees to the terms below.
+
+1.1 You need to purchase a license to use the Software for Commercial use, Personal use, Professional use.
+1.2 You are authorized to make modification(s) to the Software to fit your purposes or requests of your client(s). You are permitted to remove any copyright within the index.php file or CSS files, or the XML file if you purchase an Enterprise license.
+1.3 The Software User may not offer any of the Company's Software(s), not for redistribution or resale of any kind without prior written consent by the Company.
+1.4 PSD or any vector files are not provided as part of the Software.
+
+2. LIMITATIONS
+
+2.1 Use or distribute the Software or part of the software as part of a commercially packaged Software product, framework, component, library, or plug-in. Enterprise license is required for such usage.
+2.2 Disassemble, decompile, decode or otherwise reverse translate or engineer, or attempt in any manner to reconstruct or discover any source code or underlying algorithms of Software is prohibited.
+2.3 You may not distribute the source code, or any modification, enhancement, derivative work, and/or extension thereto, in source code form.
+
+3. FREE TRIAL VERSION
+
+3.1 Subject to the terms and conditions of this Agreement, Licensor hereby grants Licensee a worldwide, non-transferable, royalty-free, non-exclusive license to download and install the Software on Licensee’s own premises and permit Licensee’s employees to use the Software, solely for Licensee’s own internal trial of the Software during the specified time period.
+
+3.2 For the purposes of this Agreement, the right to “use” the Software shall include the right to utilize, run, access, store, copy, and display the Software internally in Licensee’s non-production environment. No right or license is granted or agreed to be granted to disassemble, benchmark, or decompile the Software furnished in object and/or encrypted code form, and Licensee agrees not to engage in any such conduct or permit any third party to engage in such conduct. No right or license is granted to distribute, publish, or disclose the Software or to conduct or permit any third party to conduct any benchmarking or other testing under this Agreement. Reverse engineering of the Software provided in object and/or encrypted code form is prohibited. Licensor shall have no obligation to support any such reverse engineering, any product or derivative of such reverse engineering, or any use of the Software with any modified versions of any of their components under this Agreement.
+
+3.3 Use of some open source and third party software applications or components included in or accessed through the Software may be subject to other terms and conditions found in a separate license agreement. The Software is accompanied by additional software components solely to enable the Software to operate as designed. Licensee is not permitted to use such additional software independently of the Software unless Licensee secures a separate license for use from the named vendor. Do not use any third party code unless you agree with the applicable license terms for that code. Your use of any third party software (including open source) will be governed the applicable license agreements, if any, between you and such third parties. The Company shall have no warranty, support, maintenance, or other obligations or liability under this Agreement with respect to such third party software.
+
+3.4 Title to and ownership of the Software shall at all times remain with Licensor. Except for the express licenses granted herein, no rights or licenses shall be deemed granted by implication, estoppel, or otherwise.
+
+4. WARRANTIES
+
+Our products are provided "as is" without warranty of any kind, either expressed or implied. In no event shall our juridical person be liable for any damages including, but not limited to, direct, indirect, special, incidental, or consequential damages or other losses arising out of the use of or inability to use our products .
+
+5. REFUND & EXCHANGE POLICY
+
+If a customer purchases a commercial license to a release version of one of our products, we do not offer a cash refund or an exchange. Unlike physical goods, electronically distributed software and software licenses can be easily duplicated. Accordingly, it is our policy that once you have purchased a release version of our product, the sale is final, and you may not return or exchange the software for a refund, credit or replacement.
+
+6. TERMS OF USE CHANGE
+
+The Company reserves the right to change the above terms of use at any time. Such changes will become effective and binding after their posting on the Company's website. The Template User is responsible to regularly review the Terms of Use and be aware of the changes made. By continuing to use the extensions after any posted revision, the Template User agrees to abide by it.
+
+7. TERMINATION
+
+This LICENSE will automatically terminate if The Software User fails to comply with any of the terms and conditions hereof. In such event, The Software User must destroy all copies of the Software.
+
+
+THIS SOFTWARE IS PROVIDED BY DIGINIX TECHNOLOGIES ”AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DIGINIX TECHNOLOGIES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+LICENSE can change without USER confirmation.
+
+Copyright (c) 2016-2021, DashboardBuilder.net
+All rights reserved.

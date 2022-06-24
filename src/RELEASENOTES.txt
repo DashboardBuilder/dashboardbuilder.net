@@ -1,0 +1,33 @@
+Date: 2022-06-22 #version 5.6/Ability to create Realtime and streaming dashboard from any database,  PHP Generation to Create PHP Code. Optomized database connectivity, improved performance and stability. 
+Date: 2022-05-25 #version 5.5/Updated User Interface, included Arabic language with RTL, Bootstrap 5 integration
+Date: 2022-03-04 #version 5.4/Add legacy mode: fixed Pie chart color issue, solved PHP 8 compatable isue
+Date: 2022-01-27 #version 5.3/New Features added: Forecasting, RTF, Arabic, fixed date sorting issue, solved PHP 8 compatable isue
+Date: 2021-12-20 #version 5.2: Fixed Table issue, fixed multilingual ascent issue,  security enhancement, Dashboard level filter
+Date: 2021-11-11#Version 5.1/Fixed JS errors
+Date: 2021-10-01#Version 5.0/New Features added: Real time dashboard
+Dated: 2021-08-03#Verion 4.9/New Features added: Chart filtering. Fixed Postgres Shchema case senstive issue
+Dated: 2021-07-01#Verion 4.8/New Features added: Prerequisite checks, user-friendly database connection message, custom color for KPI indicators, DIV issue fixed on code generator
+Dated: 2021-05-28#Version 4.7/New Features added: Read JSON
+Dated: 2021-03-24#Version 4.6/Fixed mobile view in code generator. New Feature added: text on graph, customize pie and donut chart color
+Dated: 2021-01-14#Version 4.5/Fixed database port issue, Fixed filename issue when sampledata is loaded, add preview feature, download dashbaord as image, print dashboard , phpinfo();
+Dated: 2020-05-27#Version 4.2/New Feature added: Data Analytics tool, fixed multilangual issue
+Dated: 2020-04-05#Version 4.1/New Feature added: Multilingual
+Dated: 2020-03-05#Version 4.0/Fixed PostgreSQL database server port issue
+Dated: 2020-01-15#version 3.9/New Features added: Ability to connect to Oracle database.
+Dated: 2019-11-25#version 3.8/New Features added: Drop down menu to show a trace at a time.
+Dated: 2019-10-18#Version 3.7New Features added:Take a tour and a New Table as chart added
+Dated:2019-09-15#Version 3.6/Fixed changes database to XSL files issue. Changes KPI to Number. Add new feature: Legends position, Gauge Chart, Add shadow effects Chart generator. Sharing
+Dated:2019-08-22#Version 3.5/New Features added: Ability to select CSV/XLS files from server's folder already uploaded files, fixed XAMPP multi charts warning message. 
+Dated:2019-06-15#Version 3.4/New Features added: Read data from Google Drive 
+Dated:2019-05-14#Version 3.3/New Features added: Sunburst chart
+Dated:2019-01-14#Version 3.2/Fixed XLSX and uploading issue, 3D Line chart added
+Dated:2018-11-11#Version 3.1/New Features added:Ability to add multiple Y-axis to Combination charts
+Dated:2018-09-01#Version 3.0/Added Combination Charts
+Dated:2018-08-26#Version 2.19/Ability to view chart during chart design in chart setting panel. 
+Dated:2018-07-23#Version 2.1.18/D3.js framework updated. Sankey Graph added as new chart type.
+Dated:2018-06-01#Version 2.1.17/New Feature added. Ability to customize color for charts.
+Dated:2018-05-26#Version 2.1.16/Fixed cross OS file handling issue
+Dated:2018-04-14#Version 2.1.15//Released with new functionalities. ability to add multiple panels and drag/drop/resize panel
+Dated:2018-02-14#Version 2.1.13//Fixed data clear function
+Dated:2018-01-30#Version 2.1.12//Load Sample data function added. handled special character from SQL query submission. 
+Dated:2017-11-30#Version 2.1.10 // User Friendly Error message when invalid Query supplied
