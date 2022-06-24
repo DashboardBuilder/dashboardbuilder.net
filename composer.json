@@ -1,44 +1,28 @@
 {
-  "version": "5.6",
-  "name": "dashboardbuilder/dashboardbuilder.net",
-  "description": "Dashboard Builder is a PHP liberary based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.",
-  "keywords": [
-    "Dashboard Builder",
-    "admin Dashboard",
-    "graph",
-    "dashboard",
-    "Data Visualization",
-    "KPI Dashboard",
-    "no code",
-    "no programming",
-    "Business Dashboard",
-    "chart builder",
-	"dashboard creator",
-    "dashboard generator"
-  ],
-  "license": "proprietary",
-  "homepage": "https://dashboardbuilder.net/",
-    "support": {
-        "email": "support@dashboardbuilder.net",
-        "issues": "https://github.com/DashboardBuilder/dashboardbuilder.net/issues",
-        "source": "http://github.com/DashboardBuilder/dashboardbuilder.net"
-    },
-  "type": "package",
-  "require": {
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.5"
-  },
-  "authors": [
+    "name": "dashboardbuilder/dashboardbuilder.net",
+    "description": "Dashboard Builder is a PHP based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.",
+    "license": "MIT",
+    "authors": [
         {
             "name": "Dashboard Builder",
             "email": "support@dashboardbuilder.net"
         }
     ],
-  "minimum-stability": "alpha",
-  "autoload": {
-    "psr-4": {
-      "DashboardBuilder\\dashboardbuilder.net\\": "DashboardBuilder/dashboardbuilder.net/releases/tag/5.6/"
+    "support": {
+        "email": "support@dashboardbuilder.net",
+        "issues": "https://github.com/DashboardBuilder/dashboardbuilder.net/issues",
+        "source": "http://github.com/DashboardBuilder/dashboardbuilder.net"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DashboardBuilder\\dashboardbuilder.net\\": "src/"
+        }
     }
-  }
 }
