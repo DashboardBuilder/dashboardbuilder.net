@@ -1,3 +1,7 @@
+Date: 2022-06-22 #version 5.6/Ability to create Realtime and streaming dashboard from any database,  PHP Generation to Create PHP Code. Optomized database connectivity, improved performance and stability. 
+Date: 2022-05-25 #version 5.5/Updated User Interface, included Arabic language with RTL, Bootstrap 5 integration
+Date: 2022-03-04 #version 5.4/Add legacy mode: fixed Pie chart color issue, solved PHP 8 compatable isue
+Date: 2022-01-27 #version 5.3/New Features added: Forecasting, RTF, Arabic, fixed date sorting issue, solved PHP 8 compatable isue
 Date: 2021-12-20 #version 5.2: Fixed Table issue, fixed multilingual ascent issue,  security enhancement, Dashboard level filter
 Date: 2021-11-11#Version 5.1/Fixed JS errors
 Date: 2021-10-01#Version 5.0/New Features added: Real time dashboard
