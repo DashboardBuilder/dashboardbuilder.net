@@ -24,5 +24,16 @@
         "psr-4": {
             "DashboardBuilder\\dashboardbuilder.net\\": "src/"
         }
+    },
+    {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/DashboardBuilder/dashboardbuilder.net"
+        }
+    ],
+    "require": {
+        "DashboardBuilder\\dashboardbuilder.net": "DashboardBuilder-v5.7-FREE"
     }
+}
 }
