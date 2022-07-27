@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DashboardBuilder\\dashboardbuilder.net\\DashboardBuilder-v5.7-FREE\\": "src/"
+            "DashboardBuilder\\dashboardbuilder.net\\": "src/"
         }
     }
 }
