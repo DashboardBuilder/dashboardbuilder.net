@@ -40,7 +40,7 @@ INTEGRATION
 2) Update include path where you place “inc/dashboard_dist.php”. (if changed)
 
 	Include(“inc/dashboard_dist.php");
-Refer 'Getting Started' section on https://www.dashboardbuilder.net/documentation for more details.
+Refer 'Getting Started' section on dashboardbuilder.net/php-dashboard for more details.
 
 Refer 'Support' on https://www.dashboardbuilder.net/support for queries and support.
 
