@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<chartdata>
+<col>
+<source>upload</source>
+<ssl/>
+<servername/>
+<username>administrator</username>
+<password>admin01</password>
+<dbname/>
+<dbconnected>1</dbconnected>
+
+
+
+
+<title>Combination Chart</title><orientation>v</orientation><name>0</name><xaxistitle>Months</xaxistitle><yaxistitle>Profit</yaxistitle><height/><width/><showgrid>true</showgrid><showline>true</showline>
+<rdbms/>
+<file>../data/combination-chart.xlsx</file>
+<xaxis>XLS:{col}Month{/col}{data}Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec{/data}</xaxis><yaxis>XLS:{col}Rainy Day{/col}{data}12000,11000,10000,9000,8000,6000,4000,6000,7000,8000,10000,11000{/data}</yaxis><sql/><size/><maptype/><text/><tracename>Rainy Day</tracename><yntitle/><color>#1A94FF</color><type>bar</type><xaxis>XLS:{col}Month{/col}{data}Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec{/data}</xaxis><type>line</type><yaxis>XLS:{col}Profit{/col}{data}3574,4708,5332,6693,8843,12347,15180,11198,9789,9846,6620,5085{/data}</yaxis><tracename>Profit</tracename><yntitle>Profit</yntitle><color>#FF711A</color></col>
+</chartdata>
