@@ -1,4 +1,10 @@
-Date: 2022-06-22 #version 5.6/Ability to create Realtime and streaming dashboard from any database,  PHP Generation to Create PHP Code. Optomized database connectivity, improved performance and stability. 
+Date: 2022-09-02: Version 5.8 : Customizable Table font size,  laravel code generator, rassian langauge, fixed table chart where clause, Static Chart, fixed mobile device issue
+Date: 2022-08-16 Version 5.7.3: Fixed map, bubble chart issue, added more theme.
+Date: 2022-08-08 Version 5.7.2 Fixed sorting order issue when no Model is selected.
+Date: 2022-08-04 version 5.7.1/ Fixed forecasting when y-axis is a number, 
+Date: 2022-07-10 version 5.7/ Release adds new dashboard theme features, colour, font-color, and background colour options for charts and dashboards,fixed bubble size issue, and fixed take a tour previous button working.
+fixed forecasting issue when the y-axis is a number, fixed bubble size issue, fixed take a tour's previous button working. 
+Date: 2022-06-22 #version 5.6/Extended Realtime and streaming dashboard from JSON only to any other database,  PHP Generation to Create PHP Code. Optomized database connectivity, improved performance and stability. 
 Date: 2022-05-25 #version 5.5/Updated User Interface, included Arabic language with RTL, Bootstrap 5 integration
 Date: 2022-03-04 #version 5.4/Add legacy mode: fixed Pie chart color issue, solved PHP 8 compatable isue
 Date: 2022-01-27 #version 5.3/New Features added: Forecasting, RTF, Arabic, fixed date sorting issue, solved PHP 8 compatable isue
