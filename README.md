@@ -24,6 +24,9 @@ INSTALLER
 1) Extract the product archive in web root. e.g. www.dashboarduilder
 2) Open it in browser to run installer. e.g. http://localhost/ dashboarduilder
 
+Via Composer
+------------
+composer require dashboardbuilder/dashboardbuilder.net
 
 INTEGRATION
 -----------
