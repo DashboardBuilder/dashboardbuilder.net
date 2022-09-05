@@ -276,7 +276,7 @@ font-size:11px;line-height:11px;
 }
 
 .result {
-min-height:250px; 
+height:250px; 
 }
 
 a.close, button.close {
@@ -446,7 +446,7 @@ margin-bottom:10px;
 .blink-bg{
 		color: #fff !important;
 		margin:3px;
-		padding: 3px;
+
 		display: inline-block;
 		border-radius: 2px;
 		animation: blinkingBackground 1s infinite;
@@ -610,7 +610,7 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 3px;
 margin-left:-5px;
 margin-right:-5px;
 
-  }
+}
   
 
 a.disabled {
