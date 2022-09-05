@@ -18,15 +18,15 @@ REQUIREMENTS
 INSTALLATION 
 ------------
 
-INSTALLER
-.........
-
-1) Extract the product archive in web root. e.g. www.dashboarduilder
-2) Open it in browser to run installer. e.g. http://localhost/ dashboarduilder
-
 Via Composer 
-............
+
 	composer require dashboardbuilder/dashboardbuilder.net
+	
+INSTALLER
+
+1) Download https://github.com/DashboardBuilder/dashboardbuilder.net/releases
+1) Extract the product archive in web root. e.g.your-folder
+2) Open it in browser to run installer. e.g. localhost/dashboarduilder
 
 INTEGRATION
 -----------
