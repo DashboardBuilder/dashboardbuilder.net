@@ -19,7 +19,7 @@ return [
 'OPEN'=>"فتح",
 'SAVE'=>"يحفظ",
 'ADD_PANEL'=>"إضافة لوحة",
-'GENERATE'=>"إنشاء كود PHP",
+'GENERATE'=>"إنشاء كود بي اتش بي",
 'SHARE'=>"شارك",
 'FILE'=>"ملف",
 'PANEL'=>"لوجة",
@@ -194,5 +194,23 @@ return [
 'SKIP'=>'يتخطى',
 'CLICK_CONNECT_BUTTON'=>"انقر فوق زر الاتصال",
 'CLICK_OK_BUTTON'=>'انقر فوق الزر "نعم" للمتابعة',
+'LEFT'=>'اليسار',
+'THEME'=>'سمة',
+'FONT'=>'الخط',
+'BACKGROUND'=>'خلفية',
+'APPLY'=>'يتقدم',
+'PLOT'=>'حبكة',
+'STATIC'=>'ثابتة',
+'DYNAMIC'=>'متحرك',
+'LARAVEL'=>'كود لارافل',
+'DOWNLOAD'=>'تحميل',
+'LARAVELHELP1'=>'<div><span class="badge rounded-pill bg-warning m-2">١</span>',
+'LARAVELHELP2'=>' وانسخه إلى <span class="badge bg-light text-dark ">laravel-site/vendor/</span></div><div><span class="badge rounded-pill bg-warning m-2">٢</span>فك الضغط',
+'LARAVELHELP3'=>'<div><span class="badge rounded-pill bg-warning m-2">٣</span>افتح <span class="badge bg-light text-dark ">resources/views/welcome.blade.php</span> الخاص بك وأضف الكود التالي قبل &lt;body&gt; </div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP4'=>'</span><div><span class="badge rounded-pill bg-warning m-2">٤</span>استخدم الكود التالي ، إذا كنت تريد عرض مخطط (حيث 0 هو رقم المخطط الخاص بك)</div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">٥</span>استخدم الكود التالي ، إذا كنت تريد عرض لوحة المعلومات كاملة </div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
 ];
 ?>

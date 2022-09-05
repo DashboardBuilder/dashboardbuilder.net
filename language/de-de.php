@@ -192,5 +192,24 @@ return [
 'SKIP'=>'Overslaan',
 'CLICK_CONNECT_BUTTON'=>"Klik op de knop Verbinden",
 'CLICK_OK_BUTTON'=>'Klik op de knop OK om door te gaan',
+'LEFT'=>'Links',
+'THEME'=>'Thema',
+'FONT'=>'Lettertype',
+'BACKGROUND'=>'Achtergrond',
+'APPLY'=>'Van toepassing zijn',
+'PLOT'=>'Verhaallijn',
+'STATIC'=>'Statisch',
+'DYNAMIC'=>'Dynamisch',
+'LARAVEL'=>'Laravel-code',
+'DOWNLOAD'=>'Downloaden',
+'LARAVELHELP1'=>'<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'LARAVELHELP2'=>' en kopieer het naar  <span class="badge bg-light text-dark ">laravel-site/vendor/</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Uitpakken',
+'LARAVELHELP3'=>'<div><span class="badge rounded-pill bg-warning m-2">3</span>Open je <span class="badge bg-light text-dark ">resources/views/welcome.blade.php</span> en voeg de volgende code toe vóór de &lt;body&gt; </div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP4'=>'</span><div><span class="badge rounded-pill bg-warning m-2">4</span>Gebruik de volgende code als u een grafiek wilt weergeven (waarbij 0 uw grafieknummer is)</div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Gebruik de volgende code als u het volledige dashboard wilt weergeven:</div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
 ];
+
 ?>

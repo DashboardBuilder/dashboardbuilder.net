@@ -26,7 +26,7 @@ return [
 'SIZE'=>"Taille",
 'POSITION'=>"Position",
 'TAKE_A_TOUR'=>"Faire un tour",
-'SAMPLE_DATA'=>"Exemples de données",
+'SAMPLE_DATA'=>"Exemples",
 'DATA_SOURCE_SETTING'=>"Paramètre de source de données",
 'DATABASE'=>"Base de données",
 'HOST'=>"Hôtesse",
@@ -194,5 +194,22 @@ return [
 'CLICK_CONNECT_BUTTON'=>"Cliquez sur le bouton Connecter",
 'CLICK_OK_BUTTON'=>'Cliquez sur le bouton OK pour continuer',
 'LEFT'=>'Left',
+'THEME'=>'Thème',
+'FONT'=>'Polices',
+'BACKGROUND'=>'Arrière plan',
+'APPLY'=>'Appliquer',
+'PLOT'=>'Terrain',
+'STATIC'=>'Statique',
+'DYNAMIC'=>'Dynamique',
+'LARAVEL'=>'Code Laravel',
+'DOWNLOAD'=>'Télécharger',
+'LARAVELHELP1'=>'<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'LARAVELHELP2'=>'et copiez-le dans <span class="badge bg-light text-dark ">laravel-site/vendor/</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Décompresser',
+'LARAVELHELP3'=>'<div><span class="badge rounded-pill bg-warning m-2">3</span>Ouvrez votre <span class="badge bg-light text-dark ">resources/views/welcome.blade.php</span> et ajoutez le code suivant avant le &lt;body&gt; </div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP4'=>'</span><div><span class="badge rounded-pill bg-warning m-2">4</span>Utilisez le code suivant, si vous souhaitez afficher un graphique (où 0 est votre numéro de graphique)</div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Utilisez le code suivant, si vous souhaitez afficher le tableau de bord complet</div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
 ];
 ?>

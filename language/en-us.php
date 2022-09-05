@@ -192,5 +192,22 @@ return [
 'CLICK_CONNECT_BUTTON'=>"Click the Connect button",
 'CLICK_OK_BUTTON'=>'Click the OK button to continue',
 'LEFT'=>'Left',
+'THEME'=>'Theme',
+'FONT'=>'Font',
+'BACKGROUND'=>'Background',
+'APPLY'=>'Apply',
+'PLOT'=>'Plot',
+'STATIC'=>'Static',
+'DYNAMIC'=>'Dynamic',
+'LARAVEL'=>'Laravel code',
+'DOWNLOAD'=>'Download',
+'LARAVELHELP1'=>'<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'LARAVELHELP2'=>' and copy it to <span class="badge bg-light text-dark ">laravel-site/vendor/</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+'LARAVELHELP3'=>'<div><span class="badge rounded-pill bg-warning m-2">3</span>Open your <span class="badge bg-light text-dark ">resources/views/welcome.blade.php</span> and add the following code before the &lt;body&gt; </div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP4'=>'</span><div><span class="badge rounded-pill bg-warning m-2">4</span>Use the following code, if you want to display a chart (where 0 is your chart number)</div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
+'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Use the following code, if you want to display the complete dashboard </div>
+		<span class="badge bg-light p-1 m-1 ms-5">',
 ];
 ?>
