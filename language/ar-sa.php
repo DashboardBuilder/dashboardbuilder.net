@@ -204,6 +204,8 @@ return [
 'DYNAMIC'=>'متحرك',
 'LARAVEL'=>'كود لارافل',
 'DOWNLOAD'=>'تحميل',
+'LOGIN'=>'تسجيل الدخول',
+'REMEMBER'=>'تذكرنى',
 'LARAVELHELP1'=>'<div><span class="badge rounded-pill bg-warning m-2">١</span>',
 'LARAVELHELP2'=>' وانسخه إلى <span class="badge bg-light text-dark ">laravel-site/vendor/</span></div><div><span class="badge rounded-pill bg-warning m-2">٢</span>فك الضغط',
 'LARAVELHELP3'=>'<div><span class="badge rounded-pill bg-warning m-2">٣</span>افتح <span class="badge bg-light text-dark ">resources/views/welcome.blade.php</span> الخاص بك وأضف الكود التالي قبل &lt;body&gt; </div>
@@ -212,5 +214,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">٥</span>استخدم الكود التالي ، إذا كنت تريد عرض لوحة المعلومات كاملة </div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'تسجيل الدخول',
+'REMEMBER'=>'ابق مسجلا الدخول',
+'INVALIDPASSWORD'=>'معرف المستخدم أو كلمة المرور غير صالحة',
+'CHANGEPASS'=>'غير كلمة السر',
+'LOGOUT'=>'تسجيل خروج',
+'CURRENTPASS'=>'كلمة المرور الحالية',
+'NEWPASS'=>'كلمة السر الجديدة',
+'PASSCHANGED'=>'تم تغيير الرقم السري بنجاح',
+'CONFIRMPASSWORD'=>'تأكيد كلمة المرور',
+'PASSWORDMISMATCH'=>'كلمة المرور غير متطابقة',
 ];
 ?>

@@ -115,7 +115,7 @@ return [
 'CHOOSE_A_FILE'=>"ESCOLHA UM ARQUIVO <br/> JÁ CARREGADO <br/> LISTA",
 'GOOGLE_SHEET'=>"Digite o URL da sua folha do GOOGLE",
 'JSON_URL'=>"Digite o URL da sua folha do JSON",
-'CHART_SETTINGS'=>"CONFIGURAÇÕES DE GRÁFICO",
+'CHART_SETTINGS'=>"Config. do gráfico",
 'CLICK_FOR_CHART_SETTINGS'=>"CLIQUE NESTE ÍCONE PARA CONFIGURAÇÕES DE GRÁFICO",
 'SQL_QUERY'=>"SQL QUERY",
 'ENTER_YOUR_QUERY'=>"Digite sua consulta personalizada",
@@ -201,7 +201,7 @@ return [
 'PLOT'=>'Enredo',
 'STATIC'=>'Estático',
 'DYNAMIC'=>'Dinâmico',
-'LARAVEL'=>'Código laravel',
+'LARAVEL'=>'código laravel',
 'DOWNLOAD'=>'Download',
 'LARAVELHELP1'=>'<div><span class="badge rounded-pill bg-warning m-2">1</span>',
 'LARAVELHELP2'=>' e copie para <span class="badge bg-light text-dark ">laravel-site/vendor/</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Descompactar',
@@ -211,5 +211,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Use o código a seguir, se quiser exibir o painel completo</div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'Conecte-se',
+'REMEMBER'=>'Permanecer conectado',
+'INVALIDPASSWORD'=>'ID de usuário ou senha inválidos',
+'CHANGEPASS'=>'Mudar senha',
+'LOGOUT'=>'Sair',
+'CURRENTPASS'=>'Senha atual',
+'NEWPASS'=>'Nova Senha',
+'PASSCHANGED'=>'Senha alterada com sucesso',
+'CONFIRMPASSWORD'=>'Confirme a Senha',
+'PASSWORDMISMATCH'=>'Senha incompatível',
 ];
 ?>

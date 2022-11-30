@@ -209,5 +209,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Используйте следующий код, если вы хотите отобразить полную панель инструментов </div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'Авторизоваться',
+'REMEMBER'=>'Оставайтесь в системе',
+'INVALIDPASSWORD'=>'Неверный пользователь или пароль',
+'CHANGEPASS'=>'Изменить пароль',
+'LOGOUT'=>'Выйти',
+'CURRENTPASS'=>'текущий пароль',
+'NEWPASS'=>'Новый пароль',
+'PASSCHANGED'=>'Пароль успешно изменен',
+'CONFIRMPASSWORD'=>'Подтвердить Пароль',
+'PASSWORDMISMATCH'=>'Неверный пароль',
 ];
 ?>

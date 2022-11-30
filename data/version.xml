@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <info>
 <type>FREE</type>
-<version>5.8</version>
-<takeatour>false</takeatour>
-<date>20220903</date>
+<version>5.9</version>
+<takeatour>true</takeatour>
+<date></date>
 <language>en-us</language>
 <legacy/>
 </info>

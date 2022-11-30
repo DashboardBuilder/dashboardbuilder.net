@@ -177,7 +177,7 @@ return [
 'USERGUIDE'=>'Gebruikershandleiding',
 'OK'=>'Oké',
 'DASHBOARD'=>'Dashboard',
-'ADDDATA'=>'Gegevens toevoegen',
+'ADDDATA'=>'Gegevens',
 'ADDCHART'=>'Grafiek toevoegen',
 'CHART'=>'Grafiek',
 'CHANGEDATA'=>'Gegevens wijzigen',
@@ -210,6 +210,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Gebruik de volgende code als u het volledige dashboard wilt weergeven:</div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'Klik op de knop OK om door te gaan',
+'REMEMBER'=>'Blijf ingelogd',
+'INVALIDPASSWORD'=>'Ongeldig gebruikers-ID wachtwoord',
+'CHANGEPASS'=>'Verander wachtwoord',
+'LOGOUT'=>'Uitloggen',
+'CURRENTPASS'=>'huidig ​​wachtwoord',
+'NEWPASS'=>'nieuw paswoord',
+'PASSCHANGED'=>'wachtwoord succesvol veranderd',
+'CONFIRMPASSWORD'=>'bevestig wachtwoord',
+'PASSWORDMISMATCH'=>'Wachtwoord komt niet overeen',
 ];
-
 ?>

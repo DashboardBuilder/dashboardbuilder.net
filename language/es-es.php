@@ -115,7 +115,7 @@ return [
 'CHOOSE_A_FILE'=>"ELIJA UN ARCHIVO <br/> YA CARGADO <br/> LISTA",
 'GOOGLE_SHEET'=>"Ingrese la URL de su hoja de GOOGLE",
 'JSON_URL'=>"Ingrese la URL de su hoja de JSON",
-'CHART_SETTINGS'=>"AJUSTES DE TABLA",
+'CHART_SETTINGS'=>"Config. de gráfico",
 'CLICK_FOR_CHART_SETTINGS'=>"HAGA CLIC EN ESTE ICONO PARA CONFIGURAR LA TABLA",
 'SQL_QUERY'=>"Consulta SQL",
 'ENTER_YOUR_QUERY'=>"Ingrese su consulta personalizada",
@@ -211,5 +211,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Use el siguiente código, si desea mostrar el tablero completo</div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'Acceso',
+'REMEMBER'=>'permanecer conectado',
+'INVALIDPASSWORD'=>'ID de usuario o contraseña no válidos',
+'CHANGEPASS'=>'Cambia la contraseña',
+'LOGOUT'=>'Cerrar sesión',
+'CURRENTPASS'=>'contraseña actual',
+'NEWPASS'=>'Nueva contraseña',
+'PASSCHANGED'=>'Contraseña cambiada con éxito',
+'CONFIRMPASSWORD'=>'Confirmar contraseña',
+'PASSWORDMISMATCH'=>'Contraseña no coincidente',
 ];
 ?>

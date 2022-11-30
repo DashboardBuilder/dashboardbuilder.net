@@ -209,5 +209,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Use the following code, if you want to display the complete dashboard </div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'Login',
+'REMEMBER'=>'Stay signed in',
+'INVALIDPASSWORD'=>'Invalid user Id or passord',
+'CHANGEPASS'=>'Change Password',
+'LOGOUT'=>'Logout',
+'CURRENTPASS'=>'Current Pasword',
+'NEWPASS'=>'New Pasword',
+'PASSCHANGED'=>'Password changed successfully',
+'CONFIRMPASSWORD'=>'Confirm Password',
+'PASSWORDMISMATCH'=>'Password Mismatched',
 ];
 ?>

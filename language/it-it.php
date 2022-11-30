@@ -115,7 +115,7 @@ return [
 'CHOOSE_A_FILE'=>"SCEGLI UN FILE <br/> GIA 'CARICATO <br/> ELENCO",
 'GOOGLE_SHEET'=>"Inserisci l'URL del tuo foglio GOOGLE",
 'JSON_URL'=>"Inserisci l'URL del tuo foglio JSON",
-'CHART_SETTINGS'=>"IMPOSTAZIONI DEL DIAGRAMMA",
+'CHART_SETTINGS'=>"Grafico",
 'CLICK_FOR_CHART_SETTINGS'=>"FARE CLIC SU QUESTA ICONA PER LE IMPOSTAZIONI DEL DIAGRAMMA",
 'SQL_QUERY'=>"QUERY SQL",
 'ENTER_YOUR_QUERY'=>"Inserisci la tua calma personalizzata",
@@ -211,5 +211,15 @@ return [
 		<span class="badge bg-light p-1 m-1 ms-5">',
 'LARAVELHELP5'=>'</span><div><span class="badge rounded-pill bg-warning m-2">5</span>Utilizzare il codice seguente se si desidera visualizzare il dashboard completo</div>
 		<span class="badge bg-light p-1 m-1 ms-5">',
+'LOGIN'=>'Login',
+'REMEMBER'=>'Resta connesso',
+'INVALIDPASSWORD'=>'ID utente o password non validi',
+'CHANGEPASS'=>'Cambia la password',
+'LOGOUT'=>'Disconnettersi',
+'CURRENTPASS'=>'Password attuale',
+'NEWPASS'=>'nuova password',
+'PASSCHANGED'=>'password cambiata con successo',
+'CONFIRMPASSWORD'=>'Conferma password',
+'PASSWORDMISMATCH'=>'Password non corrispondente',
 ];
 ?>
