@@ -221,5 +221,8 @@ return [
 'PASSCHANGED'=>'Contraseña cambiada con éxito',
 'CONFIRMPASSWORD'=>'Confirmar contraseña',
 'PASSWORDMISMATCH'=>'Contraseña no coincidente',
+'TARGET'=>'Objet',
+'ADDUSER'=>'Agregar usuario',
+'USEREXCEED'=>'Límites de usuarios excedidos',
 ];
 ?>

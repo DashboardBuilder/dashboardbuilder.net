@@ -221,5 +221,8 @@ return [
 'PASSCHANGED'=>'Mot de passe changé',
 'CONFIRMPASSWORD'=>'Confirmez le mot de passe',
 'PASSWORDMISMATCH'=>'Mot de passe incompatible',
+'TARGET'=>'Cible',
+'ADDUSER'=>'Ajouter un utilisateur',
+'USEREXCEED'=>"Limites d'utilisateurs dépassées",
 ];
 ?>

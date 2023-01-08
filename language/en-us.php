@@ -219,5 +219,8 @@ return [
 'PASSCHANGED'=>'Password changed successfully',
 'CONFIRMPASSWORD'=>'Confirm Password',
 'PASSWORDMISMATCH'=>'Password Mismatched',
+'TARGET'=>'Par',
+'ADDUSER'=>'Add User',
+'USEREXCEED'=>'User limits exceeded',
 ];
 ?>

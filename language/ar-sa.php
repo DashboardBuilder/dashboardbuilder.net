@@ -224,5 +224,8 @@ return [
 'PASSCHANGED'=>'تم تغيير الرقم السري بنجاح',
 'CONFIRMPASSWORD'=>'تأكيد كلمة المرور',
 'PASSWORDMISMATCH'=>'كلمة المرور غير متطابقة',
+'TARGET'=>'الاسمية',
+'ADDUSER'=>'إضافة مستخدم',
+'USEREXCEED'=>'تم تجاوز حدود المستخدم',
 ];
 ?>

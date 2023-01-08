@@ -220,5 +220,8 @@ return [
 'PASSCHANGED'=>'wachtwoord succesvol veranderd',
 'CONFIRMPASSWORD'=>'bevestig wachtwoord',
 'PASSWORDMISMATCH'=>'Wachtwoord komt niet overeen',
+'TARGET'=>'Doel',
+'ADDUSER'=>'Voeg gebruiker',
+'USEREXCEED'=>'Gebruikerslimiet overschreden',
 ];
 ?>
