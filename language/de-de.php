@@ -223,5 +223,15 @@ return [
 'TARGET'=>'Doel',
 'ADDUSER'=>'Voeg gebruiker',
 'USEREXCEED'=>'Gebruikerslimiet overschreden',
+'TODAY'=>'Vandaag',
+'YESTERDAY'=>'Gisteren',
+'LAST7DAYS'=>'Laatste 7 dagen',
+'THISMONTH'=>'Deze maand',
+'CUSTOMRANGE'=>'Aangepast bereik',
+'MONTHS'=>'januari_februari_maart_april_mei_juni_juli_augustus_september_oktober_november_december',
+'MONTHSSHORT'=>'jan_feb_mar_apr_mei_jun_jul_augu_sep_okt_nov_dec',
+'WEEKDAYS'=>'zondag_maandag_dinsdag_woensdag_donderdag_vrijdag_zaterdag',
+'WEEKDAYSSHORT'=>'zon_man_din_woe_don_vri_zat',
+'WEEKDAYSMIN'=>'zo_ma_di_wo_do_vr_za',
 ];
 ?>

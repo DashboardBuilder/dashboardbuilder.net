@@ -224,5 +224,15 @@ return [
 'TARGET'=>'Objet',
 'ADDUSER'=>'Agregar usuario',
 'USEREXCEED'=>'Límites de usuarios excedidos',
+'TODAY'=>'Hoy',
+'YESTERDAY'=>'Ayer',
+'LAST7DAYS'=>'Los últimos 7 días',
+'THISMONTH'=>'Este mes',
+'CUSTOMRANGE'=>'Rango personalizado',
+'MONTHS'=>'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre',
+'MONTHSSHORT'=>'Ene_Feb_Mar_Abr_May_Jun_Jul_Ago_Sep_Oct_Nov_Dic',
+'WEEKDAYS'=>'Domingo_Lunes_Martes_Miércoles_Jueves_Viernes_Sábado',
+'WEEKDAYSSHORT'=>'Dom_Lun_Mar_Mié_Jue_Vie_Sáb',
+'WEEKDAYSMIN'=>'Do_Lu_Ma_Mi_Ju_Vi_Sá',
 ];
 ?>

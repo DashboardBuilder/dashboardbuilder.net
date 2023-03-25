@@ -224,5 +224,15 @@ return [
 'TARGET'=>'Pari',
 'ADDUSER'=>'Aggiungi utente',
 'USEREXCEED'=>'Limiti utenti superati',
+'TODAY'=>'Oggi',
+'YESTERDAY'=>'Ieri',
+'LAST7DAYS'=>'Ultimi 7 giorni',
+'THISMONTH'=>'Questo mese',
+'CUSTOMRANGE'=>'Gamma personalizzata',
+'MONTHS'=>'Gennaio_Febbraio_Marzo_Aprile_Maggio_Giugno_Luglio_Agosto_Settembre_Ottobre_Novembre_Dicembre',
+'MONTHSSHORT'=>'Gen_Feb_Mar_Apr_Mag_Giu_Lug_Ag_Set_Ott_Nov_Dic',
+'WEEKDAYS'=>'domenica_lunedì_martedì_mercoledì_giovedì_venerdì_sabato',
+'WEEKDAYSSHORT'=>'dom_lun_mar_mer_gio_ven_sab',
+'WEEKDAYSMIN'=>'do_lu_ma_me_gi_ve_sa',
 ];
 ?>

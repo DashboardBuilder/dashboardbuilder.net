@@ -224,5 +224,15 @@ return [
 'TARGET'=>'Alvo',
 'ADDUSER'=>"Adicionar usuário",
 'USEREXCEED'=>"Limites de usuários excedidos",
+'TODAY'=>'HOJE',
+'YESTERDAY'=>'ONTEM',
+'LAST7DAYS'=>'ÚLTIMOS 7 DIAS',
+'THISMONTH'=>'ESTE MÊS',
+'CUSTOMRANGE'=>'GAMA PERSONALIZADA',
+'MONTHS'=>'Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro',
+'MONTHSSHORT'=>'Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro',
+'WEEKDAYS'=>'Domingo_Segunda_Terça_Quarta_Quinta_Sexta_Sábado',
+'WEEKDAYSSHORT'=>'Dom_Seg_Ter_Qua_Qui_Sex_Sáb',
+'WEEKDAYSMIN'=>'Dom_Seg_Ter_Qua_Qui_Sex_Sáb',
 ];
 ?>

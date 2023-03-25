@@ -224,5 +224,15 @@ return [
 'TARGET'=>'Cible',
 'ADDUSER'=>'Ajouter un utilisateur',
 'USEREXCEED'=>"Limites d'utilisateurs dépassées",
+'TODAY'=>"Aujourd`hui",
+'YESTERDAY'=>'Hier',
+'LAST7DAYS'=>'Les 7 derniers jours',
+'THISMONTH'=>'Ce mois-ci',
+'CUSTOMRANGE'=>"Gamme personnalisée",
+'MONTHS'=>'janvier_février_mars_avril_mai_juin_juillet_aout_septembre_octobre_novembre_décembre',
+'MONTHSSHORT'=>'jan_fév_mar_avr_mai_jun_jul_aou_sep_oct_nov_déc',
+'WEEKDAYS'=>'dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi',
+'WEEKDAYSSHORT'=>'dim_lun_mar_mer_jeu_ven_sam',
+'WEEKDAYSMIN'=>'di_lu_ma_me_je_ve_sa',
 ];
 ?>

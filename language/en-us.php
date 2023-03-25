@@ -222,5 +222,15 @@ return [
 'TARGET'=>'Par',
 'ADDUSER'=>'Add User',
 'USEREXCEED'=>'User limits exceeded',
+'TODAY'=>'Today',
+'YESTERDAY'=>'Yesterday',
+'LAST7DAYS'=>'Last 7 Days',
+'THISMONTH'=>'This Month',
+'CUSTOMRANGE'=>'Custom Range',
+'MONTHS'=>'january_february_march_april_may_june_july_august_september_october_november_december',
+'MONTHSSHORT'=>'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec',
+'WEEKDAYS'=>'sunday_monday_tuesday_wednusday_thursday_friday_saturday',
+'WEEKDAYSSHORT'=>'sun_mon_tue_wed_thu_fri_sat',
+'WEEKDAYSMIN'=>'Su_Mo_Tu_We_Th_Fr_Sa',
 ];
 ?>
