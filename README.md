@@ -2,9 +2,9 @@ DESCRIPTION
 ------------
 <img src="https://img.shields.io/github/v/release/DashboardBuilder/dashboardbuilder.net?include_prereleases"/> <img src="https://img.shields.io/packagist/php-v/DashboardBuilder/dashboardbuilder.net"/> <img src="https://img.shields.io/badge/license-file%20LICENSE-green"/>
 
-Dashboard Builder is a PHP liberary based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.
+Dashboard Builder is a PHP library based data driven visualization & business analytic tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.
 
-Dashbaord Builder generates PHP and Universal HTML code for your dashboard and integrate it seamlessly into any web application written in PHP or any PHP frameworks like Wordpress, Laravel, CodeIgniter, Joomla and other.
+Dashboard Builder generates PHP and Universal HTML code for your dashboard and integrate it seamlessly into any web application written in PHP or any PHP frameworks like Wordpress, Laravel, CodeIgniter, Joomla and other.
 
 
 REQUIREMENTS
