@@ -17,10 +17,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.2.0",
-        "DashboardBuilder\\dashboardbuilder.net\\": "^v6.3"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
+        "DashboardBuilder/dashboardbuilder.net": "^v6.3"
     },
     "autoload": {
         "psr-4": {
