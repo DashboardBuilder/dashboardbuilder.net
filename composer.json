@@ -14,7 +14,6 @@
         "issues": "https://github.com/DashboardBuilder/dashboardbuilder.net/issues",
         "source": "http://github.com/DashboardBuilder/dashboardbuilder.net"
     },
-    "minimum-stability": "stable",
     "require": {
         "php": ">=7.2.0"
     },
