@@ -16,8 +16,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.2.0",
-        "DashboardBuilder/dashboardbuilder.net": "^v6.3"
+        "php": ">=7.2.0"
     },
     "autoload": {
         "psr-4": {
