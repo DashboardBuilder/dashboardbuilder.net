@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<chartdata>
+<col>
+<source></source>
+<ssl></ssl>
+<servername></servername>
+<username></username>
+<password/>
+<dbname></dbname>
+<dbconnected></dbconnected>
+<sql></sql><type></type>
+<xaxis></xaxis><yaxis></yaxis>
+<xmodel></xmodel>
+<xsort></xsort>
+<ymodel></ymodel>
+<ysort></ysort>
+<size></size><text></text>
+<maptype></maptype>
+<title></title><orientation></orientation><filter></filter><dropdown></dropdown><legposition></legposition><name></name><xaxistitle></xaxistitle><yaxistitle></yaxistitle><height/><width/><datalabel></datalabel><showgrid></showgrid><showline></showline><tracename></tracename><yntitle></yntitle>
+<rdbms></rdbms>
+<file></file>
+<json></json>
+<refresh></refresh>
+<streaming></streaming>
+</col>
+<showhidefilter></showhidefilter>
+</chartdata>
