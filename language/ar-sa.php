@@ -61,7 +61,7 @@ return [
 'UNTITLE'=>"بدون عنوان",
 'CHART_SETTING'=>"إعدادات الرسم البياني",
 'CHANGE_DATABASE'=>"تغيير قاعدة البيانات",
-'TABLE_FROM'=>"جداول من:",
+'TABLE_FROM'=>"الجداول:",
 'RUN_QUERY'=>"قم بتشغيل الاستعلام",
 'SHOWING_SQL_RESULT'=>"إظهار النتيجة لـ SQL",
 'CLEAR_DATA'=>"امسح البيانات",
@@ -71,7 +71,7 @@ return [
 'LABEL'=>"ملصق",
 'TEXT'=>"نص",
 'VALUE'=>"قيمة",
-'MAX'=>"الأعلى.:",
+'MAX'=>"المرجع..:",
 'LOC'=>"محلي.",
 'MAP'=>"خريطة",
 'PROPERTIES'=>"الخصائص",
@@ -253,5 +253,11 @@ return [
 'DUPLICATEUSER'=>'المستخدم موجود بالفعل',
 "USERADDED"=>'تمت إضافة المستخدم بنجاح',
 'HTML'=>'كود HTML',
+'FIELDS'=>'مجالات',
+'ROW'=>'صفوف',
+'COLUMN'=>'الأعمدة',
+'COMPUTE'=>'العمليات',
+'EMPTYROW'=>'حدد كل الحقول',
+'SELECTFIELD'=>'حدد حقلاً'
 ];
 ?>

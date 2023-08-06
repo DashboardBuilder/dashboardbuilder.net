@@ -59,7 +59,7 @@ return [
 'CLOSE'=>"近い",
 'UNTITLE'=>"無題",
 'CHANGE_DATABASE'=>"データベースの変更",
-'TABLE_FROM'=>"テーブルのソース:",
+'TABLE_FROM'=>"テーブル:",
 'RUN_QUERY'=>"クエリの実行",
 'SHOWING_SQL_RESULT'=>"SQLの結果の表示",
 'CLEAR_DATA'=>"データのクリア",
@@ -69,7 +69,7 @@ return [
 'LABEL'=>"ラベル",
 'TEXT'=>"文章",
 'VALUE'=>"価値",
-'MAX'=>"最大:",
+'MAX'=>"参照。:",
 'LOC'=>"地元",
 'MAP'=>"地図",
 'PROPERTIES'=>"プロパティ",
@@ -248,5 +248,11 @@ return [
 'DUPLICATEUSER'=>'ユーザーはすでに存在します',
 'USERADDED'=>'ユーザーが正常に追加されました',
 'HTML'=>'HTMLコード',
+'FIELDS'=>'田畑',
+'ROW'=>'行',
+'COLUMN'=>'コラム',
+'COMPUTE'=>'計算',
+'EMPTYROW'=>'すべてのフィールドを選択します',
+'SELECTFIELD'=>'フィールドを選択してください'
 ];
 ?>

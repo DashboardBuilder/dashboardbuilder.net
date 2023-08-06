@@ -59,7 +59,7 @@ return [
 'UNTITLE'=>"Senza titolo",
 'CHART_SETTING'=>"Impostazioni grafico",
 'CHANGE_DATABASE'=>"Cambia database",
-'TABLE_FROM'=>"Tabelle da",
+'TABLE_FROM'=>"Tabelle",
 'RUN_QUERY'=>"Esegui query",
 'SHOWING_SQL_RESULT'=>"Mostra risultato per SQL",
 'CLEAR_DATA'=>"Pulito Data",
@@ -69,7 +69,7 @@ return [
 'LABEL'=>"Etichetta",
 'TEXT'=>"Testo",
 'VALUE'=>"Valore",
-'MAX'=>"Mass:",
+'MAX'=>"Ref.:",
 'LOC'=>"Posi.",
 'MAP'=>"Geo",
 'PROPERTIES'=>"Proprietà",
@@ -249,5 +249,11 @@ return [
 'DUPLICATEUSER'=>'Utente già esistente',
 'USERADDED'=>'Utente aggiunto con successo',
 'HTML'=>'Codice HTML',
+'FIELDS'=>'Campi',
+'ROW'=>'Righe',
+'COLUMN'=>'Colonne',
+'COMPUTE'=>'Calcoli',
+'EMPTYROW'=>'Seleziona tutti i campi',
+'SELECTFIELD'=>'Seleziona un campo'
 ];
 ?>

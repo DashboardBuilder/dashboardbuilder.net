@@ -59,7 +59,7 @@ return [
 'CLOSE'=>"Close",
 'UNTITLE'=>"Untitled",
 'CHANGE_DATABASE'=>"Change Database",
-'TABLE_FROM'=>"Tables from:",
+'TABLE_FROM'=>"Tables",
 'RUN_QUERY'=>"Run Query",
 'SHOWING_SQL_RESULT'=>"Showing Result for SQL",
 'CLEAR_DATA'=>"Clear Data",
@@ -69,7 +69,7 @@ return [
 'LABEL'=>"Label",
 'TEXT'=>"Text",
 'VALUE'=>"Value",
-'MAX'=>"Max.:",
+'MAX'=>"Ref.:",
 'LOC'=>"Loc.",
 'MAP'=>"Map",
 'PROPERTIES'=>"Properties",
@@ -248,5 +248,11 @@ return [
 'DUPLICATEUSER'=>'User Already Exist',
 'USERADDED'=>'User successfully added',
 'HTML'=>'HTML Code',
+'FIELDS'=>'Fields',
+'ROW'=>'Rows',
+'COLUMN'=>'Columns',
+'COMPUTE'=>'Calculations',
+'EMPTYROW'=>'Select all fields',
+'SELECTFIELD'=>'Select a field'
 ];
 ?>

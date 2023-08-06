@@ -59,7 +59,7 @@ return [
 'UNTITLE'=>"Ohne Titel",
 'CHART_SETTING'=>"Diagrammeinstellungen",
 'CHANGE_DATABASE'=>"Datenbank ändern",
-'TABLE_FROM'=>"Tables von:",
+'TABLE_FROM'=>"Tables:",
 'RUN_QUERY'=>"Query ausführen",
 'SHOWING_SQL_RESULT'=>"Es werden Ergebnisse gezeigt für SQL",
 'CLEAR_DATA'=>"Daten löschen",
@@ -69,7 +69,7 @@ return [
 'LABEL'=>"Etikette",
 'TEXT'=>"Text",
 'VALUE'=>"Zeitwert",
-'MAX'=>"Max.:",
+'MAX'=>"Ref.:",
 'LOC'=>"Lok.",
 'MAP'=>"Karte",
 'PROPERTIES'=>"Eigenschaften",
@@ -249,5 +249,11 @@ return [
 'DUPLICATEUSER'=>'Gebruiker bestaat al',
 "USERADDED"=>'Gebruiker succesvol toegevoegd',
 'HTML'=>'HTML Code',
+'FIELDS'=>'Velden',
+'ROW'=>'Rijen',
+'COLUMN'=>'Kolommen',
+'COMPUTE'=>'Berekeningen',
+'EMPTYROW'=>'Selecteer alle velden',
+'SELECTFIELD'=>'Selecteer een veld'
 ];
 ?>
