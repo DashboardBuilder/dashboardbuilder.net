@@ -1,3 +1,9 @@
+Date: 2023-08-04: Version 6.4 This release includes new features: Real-time dashboard now supports all major chart types, including line, bar, pie, donut, bubble, kpi chart, and gauge chart. Create a pivot table with a few clicks now. Minor bug fixes and security enhancements.
+Date: 2023-06-30: version 6.3:New features include: user access management, the ability to share dashboards with both the public and other users, introduced config file to simplify dashboard builder configuration, addition of Japanese language and a fix for the duplicate users issue. 
+Date: 2023-05-10: version 6.2: Prevent data from security risks such as sql injection, no default selection when run a query, File Save/Open sorting order, Copy a Chart feature added
+Date: 2023-03-24 version 6.1: Added Rich Filter Controller gadget, fixed Italian language issue
+Date: 2022-12-12: version 6.0: Fixed gauge chart with max value, fixed table default color issue.add KPI chart, font and background color for chart, added user management
+Date: 2022-11-28: version 5.9:New Features added: The interface is now password protected. resolved real-time and streaming dashboard issues.
 Date: 2022-09-02: Version 5.8 : Customizable Table font size,  laravel code generator, rassian langauge, fixed table chart where clause, Static Chart, fixed mobile device issue
 Date: 2022-08-16 Version 5.7.3: Fixed map, bubble chart issue, added more theme.
 Date: 2022-08-08 Version 5.7.2 Fixed sorting order issue when no Model is selected.

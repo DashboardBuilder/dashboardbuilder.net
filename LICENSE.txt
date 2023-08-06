@@ -6,7 +6,7 @@ Please read the Terms and Conditions of this license agreement before using Dash
 By downloading and/or using any of the Software(s) designed and/or distributed by the Company, the User agrees to the terms below.
 
 1.1 You need to purchase a license to use the Software for Commercial use, Personal use, Professional use.
-1.2 You are authorized to make modification(s) to the Software to fit your purposes or requests of your client(s). You are permitted to remove any copyright within the index.php file or CSS files, or the XML file if you purchase an Enterprise license.
+1.2 You are authorized to make modification(s) to the Software to fit your purposes or requests of your client(s). You are permitted to remove any copyright within the index.php file or CSS files, or the XML file if you purchase a PREMIUM license.
 1.3 The Software User may not offer any of the Company's Software(s), not for redistribution or resale of any kind without prior written consent by the Company.
 1.4 PSD or any vector files are not provided as part of the Software.
 
@@ -47,5 +47,5 @@ THIS SOFTWARE IS PROVIDED BY DIGINIX TECHNOLOGIES ”AS IS” AND ANY EXPRESS OR IMP
 
 LICENSE can change without USER confirmation.
 
-Copyright (c) 2016-2021, DashboardBuilder.net
+Copyright (c) 2016-2023, DashboardBuilder.net
 All rights reserved.
