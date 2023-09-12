@@ -255,6 +255,9 @@ return [
 'COLUMN'=>'colunas',
 'COMPUTE'=>'cálculos',
 'EMPTYROW'=>'Selecione todos os campos',
-'SELECTFIELD'=>'Selecione um campo'
+'SELECTFIELD'=>'Selecione um campo',
+'WPPLUGIN'=>'Plug-in WP',
+'WPHELP2'=>' e copie-o para <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+
 ];
 ?>

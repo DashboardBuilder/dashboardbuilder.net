@@ -253,6 +253,9 @@ return [
 'COLUMN'=>'Столбцы',
 'COMPUTE'=>'Расчеты',
 'EMPTYROW'=>'Выбрать все поля',
-'SELECTFIELD'=>'Выберите поле'
+'SELECTFIELD'=>'Выберите поле',
+'WPPLUGIN'=>'плагин WP',
+'WPHELP2'=>' и скопируйте его в <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+
 ];
 ?>

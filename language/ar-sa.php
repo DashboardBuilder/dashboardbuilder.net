@@ -258,6 +258,8 @@ return [
 'COLUMN'=>'الأعمدة',
 'COMPUTE'=>'العمليات',
 'EMPTYROW'=>'حدد كل الحقول',
-'SELECTFIELD'=>'حدد حقلاً'
+'SELECTFIELD'=>'حدد حقلاً',
+'WPPLUGIN'=>'توصيل في ووردبريس',
+'WPHELP2'=>' ونسخه إلى  <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span> </div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 ];
 ?>

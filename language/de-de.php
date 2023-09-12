@@ -254,6 +254,8 @@ return [
 'COLUMN'=>'Kolommen',
 'COMPUTE'=>'Berekeningen',
 'EMPTYROW'=>'Selecteer alle velden',
-'SELECTFIELD'=>'Selecteer een veld'
+'SELECTFIELD'=>'Selecteer een veld',
+'WPPLUGIN'=>'WordPress-plug-in',
+'WPHELP2'=>' en kopieer het naar <span class="badge bg-light text-dark ">uwsite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 ];
 ?>

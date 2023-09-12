@@ -253,6 +253,8 @@ return [
 'COLUMN'=>'コラム',
 'COMPUTE'=>'計算',
 'EMPTYROW'=>'すべてのフィールドを選択します',
-'SELECTFIELD'=>'フィールドを選択してください'
+'SELECTFIELD'=>'フィールドを選択してください',
+'WPPLUGIN'=>'WP プラグイン',
+'WPHELP2'=>' それをコピーします <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 ];
 ?>

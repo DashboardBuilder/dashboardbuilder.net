@@ -253,6 +253,8 @@ return [
 'COLUMN'=>'Columns',
 'COMPUTE'=>'Calculations',
 'EMPTYROW'=>'Select all fields',
-'SELECTFIELD'=>'Select a field'
+'SELECTFIELD'=>'Select a field',
+'WPPLUGIN'=>'WP plugin',
+'WPHELP2'=>' and copy it to <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 ];
 ?>
