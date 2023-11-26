@@ -46,7 +46,7 @@ INTEGRATION
 Refer 'Getting Started' section on https://dashboardbuilder.net/php-dashboard for more details.
 
 Refer 'Support' on https://dashboardbuilder.net/support for queries and support.
-
+Reference  Data Visualization Tool on https://dashboardbuilder.net/data-visualization for exploring definition, examples, procedure, techniques, and elements.
 LICENSE
 -------
 Must read and agree LICENSE.txt before use.
