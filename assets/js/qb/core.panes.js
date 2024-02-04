@@ -201,7 +201,11 @@ qb(function() {
     getFullFieldName: function(Alias) {
       var ret;
       if (Alias == null) Alias = true;
-      ret = "" + this.TableName + ".`" + this.ColumnName + "`";
+	   if (this.ColumnName  == "*" ) {
+		ret = "" + this.TableName + "." + this.ColumnName + "";
+		 } else {	
+		ret = "" + this.TableName + ".`" + this.ColumnName + "`";
+		}
       if (Alias) if (this.Alias !== "") ret += " AS " + this.Alias;
       return ret;
     },
