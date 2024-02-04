@@ -256,5 +256,8 @@ return [
 'SELECTFIELD'=>'フィールドを選択してください',
 'WPPLUGIN'=>'WP プラグイン',
 'WPHELP2'=>' それをコピーします <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+'DBL_CLICK_CHARTSETTINGS'=>'ダブルクリックしてグラフ設定を行う',
+'VIEW_DATA'=>'データの表示',
+'CSV_DOWNLOAD'=>'CSVダウンロード',
 ];
 ?>

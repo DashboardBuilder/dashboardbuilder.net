@@ -261,5 +261,8 @@ return [
 'SELECTFIELD'=>'حدد حقلاً',
 'WPPLUGIN'=>'توصيل في ووردبريس',
 'WPHELP2'=>' ونسخه إلى  <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span> </div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+'DBL_CLICK_CHARTSETTINGS'=>'انقر نقرًا مزدوجًا لإعدادات الرسم البياني',
+'VIEW_DATA'=>'عرض البيانات',
+'CSV_DOWNLOAD'=>'تحميل CSV',
 ];
 ?>

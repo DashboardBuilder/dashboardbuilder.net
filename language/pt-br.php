@@ -258,6 +258,8 @@ return [
 'SELECTFIELD'=>'Selecione um campo',
 'WPPLUGIN'=>'Plug-in WP',
 'WPHELP2'=>' e copie-o para <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
-
+'DBL_CLICK_CHARTSETTINGS'=>'Clique duas vezes para configurações do gráfico',
+'VIEW_DATA'=>'Ver dados',
+'CSV_DOWNLOAD'=>'Baixar CSV',
 ];
 ?>

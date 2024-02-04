@@ -256,5 +256,8 @@ return [
 'SELECTFIELD'=>'Select a field',
 'WPPLUGIN'=>'WP plugin',
 'WPHELP2'=>' and copy it to <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+'DBL_CLICK_CHARTSETTINGS'=>'Double click to chart settings',
+'VIEW_DATA'=>'View Data',
+'CSV_DOWNLOAD'=>'CSV Download',
 ];
 ?>

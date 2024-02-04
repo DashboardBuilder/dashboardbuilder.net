@@ -256,6 +256,8 @@ return [
 'SELECTFIELD'=>'Выберите поле',
 'WPPLUGIN'=>'плагин WP',
 'WPHELP2'=>' и скопируйте его в <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
-
+'DBL_CLICK_CHARTSETTINGS'=>'Дважды щелкните, чтобы перейти к настройкам диаграммы',
+'VIEW_DATA'=>'Просмотр данных',
+'CSV_DOWNLOAD'=>'Скачать CSV',
 ];
 ?>

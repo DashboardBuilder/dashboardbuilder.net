@@ -257,5 +257,8 @@ return [
 'SELECTFIELD'=>'Selecteer een veld',
 'WPPLUGIN'=>'WordPress-plug-in',
 'WPHELP2'=>' en kopieer het naar <span class="badge bg-light text-dark ">uwsite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
+'DBL_CLICK_CHARTSETTINGS'=>'Dubbelklik om de diagraminstellingen te bekijken',
+'VIEW_DATA'=>'Gegevens bekijken',
+'CSV_DOWNLOAD'=>'CSV downloaden',
 ];
 ?>
