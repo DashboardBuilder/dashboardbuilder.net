@@ -1,6 +1,14 @@
 {
     "name": "dashboardbuilder/dashboardbuilder.net",
     "description": "Dashboard Builder is a PHP based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.",
+    "keywords": [
+    "PHP Dashboard",
+    "Dashboard Builder",
+    "Chart Builder",
+    "Dashbord Creator",   
+    "Dashboard Designer"
+    ],
+    "type": "library",
     "license": "MIT",
     "authors": [
         {

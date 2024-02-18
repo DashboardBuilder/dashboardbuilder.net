@@ -2,9 +2,9 @@ DESCRIPTION
 ------------
 <img src="https://img.shields.io/github/v/release/DashboardBuilder/dashboardbuilder.net?include_prereleases"/> <img src="https://img.shields.io/packagist/php-v/DashboardBuilder/dashboardbuilder.net"/> <img src="https://img.shields.io/badge/license-file%20LICENSE-green"/>
 
-Dashboard Builder is a PHP liberary based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.
+Dashboard Builder is a PHP library based data driven visualization & business analytic tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.
 
-Dashbaord Builder generates PHP and Universal HTML code for your dashboard and integrate it seamlessly into any web application written in PHP or any PHP frameworks like Wordpress, Laravel, CodeIgniter, Joomla and other.
+Dashboard Builder generates PHP and Universal HTML code for your dashboard and integrate it seamlessly into any web application written in PHP or any PHP frameworks like Wordpress, Laravel, CodeIgniter, Joomla and other.
 
 
 REQUIREMENTS
@@ -18,12 +18,15 @@ REQUIREMENTS
 INSTALLATION 
 ------------
 
+Via Composer 
+
+	composer require dashboardbuilder/dashboardbuilder.net
+	
 INSTALLER
-.........
 
-1) Extract the product archive in web root. e.g. www.dashboarduilder
-2) Open it in browser to run installer. e.g. http://localhost/ dashboarduilder
-
+1) Download https://github.com/DashboardBuilder/dashboardbuilder.net/releases
+1) Extract the product archive in web root. e.g.your-folder
+2) Open it in browser to run installer. e.g. localhost/dashboarduilder
 
 INTEGRATION
 -----------
@@ -40,9 +43,11 @@ INTEGRATION
 2) Update include path where you place “inc/dashboard_dist.php”. (if changed)
 
 	Include(“inc/dashboard_dist.php");
-Refer 'Getting Started' section on https://www.dashboardbuilder.net/documentation for more details.
+Refer 'Getting Started' section on https://dashboardbuilder.net/php-dashboard for more details.
 
-Refer 'Support' on https://www.dashboardbuilder.net/support for queries and support.
+Refer 'Support' on https://dashboardbuilder.net/support for queries and support.
+
+Reference  Data Visualization Tool on https://dashboardbuilder.net/data-visualization for exploring definition, examples, procedure, techniques, and elements.
 
 LICENSE
 -------
