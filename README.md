@@ -21,6 +21,10 @@ INSTALLATION
 Via Composer 
 
 	composer require dashboardbuilder/dashboardbuilder.net
+
+ Via Git 
+
+ 	git clone  https://github.com/DashboardBuilder/dashboardbuilder.net
 	
 INSTALLER
 
