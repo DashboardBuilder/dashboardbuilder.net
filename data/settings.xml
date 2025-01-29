@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <info>
 <key>ZWRpdGlvbj1GUkVFJmV4cGlyeT0=</key>
-<version>7.2</version>
+<version>7.3</version>
 <takeatour>true</takeatour>
 <language>en-us</language>
 <legacy/>
-<chatgpt><enable>false</enable><key>cm9vdA==</key><cache>true</cache></chatgpt></info>
+<ai><enable>false</enable><options>gemini</options><key></key><cache>false</cache></ai></info>
