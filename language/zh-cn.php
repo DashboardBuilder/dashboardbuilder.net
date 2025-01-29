@@ -264,7 +264,7 @@ return [
 'CHATGPT'=>'聊天GPT',
 'SMTP'=>'邮件传输协议',
 'API_KEY'=>'输入您的秘密 API 密钥',
-'CHATGPT_DESC'=>'设置 OpenAI (ChatGPT) API 设置以通过 OpenAI (ChatGPT) 启用数据分析。 <a href="https://dashboardbuilder.net/chatgpt-dashboard">了解更多</a>',
+'CHATGPT_DESC'=>'设置 API 设置以通过 AI 进行数据分析。 <a href="https://dashboardbuilder.net/chatgpt-dashboard">了解更多</a>',
 'CACHE'=>'缓存',
 'LIMITS'=>'限制',
 'SPARKLINE'=>'迷你图',
@@ -290,5 +290,10 @@ return [
 'GREATERTHANOREQUALTO'=>'大于或等于 (>=) ',
 'LESSTHANOREQUALTO'=>'小于或等于 (<=)',
 'ENABLE'=>'使能够',
+'SAVEAS'=>'另存为',
+'TOTAL'=>'全部的',
+'AIINTEGRATION'=>'人工智能整合',
+'COPILOT'=>'Copilot',
+'GEMINI'=>'Gemini',
 ];
 ?>

@@ -264,7 +264,7 @@ return [
 'CHATGPT'=>'ЧатGPT',
 'SMTP'=>'SMTP',
 'API_KEY'=>'Введите свои секретные ключи API',
-'CHATGPT_DESC'=>'Настройте параметры API OpenAI (ChatGPT), чтобы включить анализ данных через OpenAI (ChatGPT). <a href="https://dashboardbuilder.net/chatgpt-dashboard">Подробнее</a>',
+'CHATGPT_DESC'=>'Настройте параметры API, чтобы включить анализ данных с помощью AI. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Подробнее</a>',
 'CACHE'=>'Кэш',
 'LIMITS'=>'Пределы',
 'SPARKLINE'=>'Спарклайн',
@@ -290,5 +290,10 @@ return [
 'GREATERTHANOREQUALTO'=>'Больше или равно (>=) ',
 'LESSTHANOREQUALTO'=>'Меньше или равно (<=)',
 'ENABLE'=>'Давать возможность',
+'SAVEAS'=>'Сохранить как',
+'TOTAL'=>'Общий',
+'AIINTEGRATION'=>'Интеграция ИИ',
+'COPILOT'=>'Copilot',
+'GEMINI'=>'Gemini',
 ];
 ?>

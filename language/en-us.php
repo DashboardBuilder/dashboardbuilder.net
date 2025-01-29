@@ -264,7 +264,7 @@ return [
 'CHATGPT'=>'ChatGPT',
 'SMTP'=>'SMTP',
 'API_KEY'=>'Enter Your secret API keys',
-'CHATGPT_DESC'=>'Set up the OpenAI (ChatGPT) API settings to enable data analysis via OpenAI (ChatGPT). <a href="https://dashboardbuilder.net/chatgpt-dashboard">Learn more</a>',
+'CHATGPT_DESC'=>'Set up the API settings to enable data analysis via AI. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Learn more</a>',
 'CACHE'=>'Cache',
 'LIMITS'=>'Limits',
 'SPARKLINE'=>'Sparkline',
@@ -290,5 +290,10 @@ return [
 'GREATERTHANOREQUALTO'=>'Greater than or Equal to (>=) ',
 'LESSTHANOREQUALTO'=>'Less than or Equal to (<=)',
 'ENABLE'=>'Enable',
+'SAVEAS'=>'Save As',
+'TOTAL'=>'Total',
+'AIINTEGRATION'=>'AI Integration',
+'COPILOT'=>'Copilot',
+'GEMINI'=>'Gemini',
 ];
 ?>

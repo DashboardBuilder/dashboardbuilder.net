@@ -265,7 +265,7 @@ return [
 'CHATGPT'=>'ChatGPT',
 'SMTP'=>'SMTP',
 'API_KEY'=>'Inserisci le tue chiavi API segrete',
-'CHATGPT_DESC'=>'Configura le impostazioni API OpenAI (ChatGPT) per abilitare l\'analisi dei dati tramite OpenAI (ChatGPT). <a href="https://dashboardbuilder.net/chatgpt-dashboard">Ulteriori informazioni</a>',
+'CHATGPT_DESC'=>'Configura le impostazioni API per abilitare l\'analisi dei dati tramite AI. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Ulteriori informazioni</a>',
 'CACHE'=>'Cache',
 'LIMITS'=>'Limiti',
 'SPARKLINE'=>'Linea scintillante',
@@ -291,5 +291,10 @@ return [
 'GREATERTHANOREQUALTO'=>'Maggiore o uguale a (>=) ',
 'LESSTHANOREQUALTO'=>'Minore o uguale a (<=)',
 'ENABLE'=>'Abilitare',
+'SAVEAS'=>'Salva con nome',
+'TOTAL'=>'Total',
+'AIINTEGRATION'=>'Integrazione dell\'intelligenza artificiale',
+'COPILOT'=>'Copilot',
+'GEMINI'=>'Gemini',
 ];
 ?>

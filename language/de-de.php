@@ -265,7 +265,7 @@ return [
 'CHATGPT'=>'ChatGPT',
 'SMTP'=>'SMTP',
 'API_KEY'=>'Voer uw geheime API-sleutels in',
-'CHATGPT_DESC'=>'Stel de OpenAI (ChatGPT) API-instellingen in om data-analyse via OpenAI (ChatGPT) mogelijk te maken. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Meer informatie</a>',
+'CHATGPT_DESC'=>'Stel de API-instellingen in om data-analyse via AI mogelijk te maken. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Meer informatie</a>',
 'CACHE'=>'Cache',
 'LIMITS'=>'Grenzen',
 'SPARKLINE'=>'Sparkline',
@@ -291,5 +291,10 @@ return [
 'GREATERTHANOREQUALTO'=>'Groot dan of gelijk aan (>=) ',
 'LESSTHANOREQUALTO'=>'Kleiner dan of gelijk aan (<=)',
 'ENABLE'=>'Inschakelen',
+'SAVEAS'=>'Opslaan als',
+'TOTAL'=>'Totaal',
+'AIINTEGRATION'=>'AI-integratie',
+'COPILOT'=>'Copilot',
+'GEMINI'=>'Gemini',
 ];
 ?>

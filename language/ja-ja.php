@@ -264,7 +264,7 @@ return [
 'CHATGPT'=>'ChatGPT',
 'SMTP'=>'SMTP',
 'API_KEY'=>'秘密の API キーを入力してください',
-'CHATGPT_DESC'=>'OpenAI (ChatGPT) API 設定をセットアップして、OpenAI (ChatGPT) によるデータ分析を有効にします。 <a href="https://dashboardbuilder.net/chatgpt-dashboard">詳細 </a>',
+'CHATGPT_DESC'=>'AIによるデータ分析を可能にするためのAPI設定を行います。 <a href="https://dashboardbuilder.net/chatgpt-dashboard">詳細 </a>',
 'CACHE'=>'キャッシュ',
 'LIMITS'=>'限界',
 'SPARKLINE'=>'スパークライン',
@@ -290,5 +290,10 @@ return [
 'GREATERTHANOREQUALTO'=>'以上 (>=) ',
 'LESSTHANOREQUALTO'=>'以下 (<=)',
 'ENABLE'=>'有効にする',
+'SAVEAS'=>'名前を付けて保存',
+'TOTAL'=>'合計',
+'AIINTEGRATION'=>'AI Integration',
+'COPILOT'=>'Copilot',
+'GEMINI'=>'Gemini',
 ];
 ?>
