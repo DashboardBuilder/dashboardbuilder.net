@@ -293,7 +293,9 @@ return [
 'SAVEAS'=>'Save As',
 'TOTAL'=>'Total',
 'AIINTEGRATION'=>'AI Integration',
-'COPILOT'=>'Copilot',
+'DEEPSEEK'=>'DeepSeek',
 'GEMINI'=>'Gemini',
+'SMARTQUERY'=>'Smart Query',
+'INDICATOR'=>'Indicator',
 ];
 ?>

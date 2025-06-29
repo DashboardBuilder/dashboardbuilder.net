@@ -298,7 +298,9 @@ return [
 'SAVEAS'=>'حفظ باسم',
 'TOTAL'=>'المجموع',
 'AIINTEGRATION'=>'تكامل الذكاء الاصطناعي',
-'COPILOT'=>'Copilot',
-'GEMINI'=>'Gemini',
+'DEEPSEEK'=>'ديبسيك',
+'GEMINI'=>'جيميني',
+'SMARTQUERY'=>'سمارت كويري',
+'INDICATOR'=>'انديكاتور',
 ];
 ?>

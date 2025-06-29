@@ -293,7 +293,9 @@ return [
 'SAVEAS'=>'Сохранить как',
 'TOTAL'=>'Общий',
 'AIINTEGRATION'=>'Интеграция ИИ',
-'COPILOT'=>'Copilot',
-'GEMINI'=>'Gemini',
+'DEEPSEEK'=>'Дипсик',
+'GEMINI'=>'Джемини',
+'SMARTQUERY'=>'Смарт Квери',
+'INDICATOR'=>'Индикатор',
 ];
 ?>

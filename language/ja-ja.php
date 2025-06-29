@@ -293,7 +293,9 @@ return [
 'SAVEAS'=>'名前を付けて保存',
 'TOTAL'=>'合計',
 'AIINTEGRATION'=>'AI Integration',
-'COPILOT'=>'Copilot',
-'GEMINI'=>'Gemini',
+'DEEPSEEK'=>'ディープシーク',
+'GEMINI'=>'ジェミナイ',
+'SMARTQUERY'=>'スマートクエリ',
+'INDICATOR'=>'インジケーター',
 ];
 ?>

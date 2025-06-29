@@ -294,7 +294,9 @@ return [
 'SAVEAS'=>'Opslaan als',
 'TOTAL'=>'Totaal',
 'AIINTEGRATION'=>'AI-integratie',
-'COPILOT'=>'Copilot',
+'DEEPSEEK'=>'Diep-Siek',
 'GEMINI'=>'Gemini',
+'SMARTQUERY'=>'Smart Kwairi',
+'INDICATOR'=>'Indikator',
 ];
 ?>

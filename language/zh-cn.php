@@ -293,7 +293,9 @@ return [
 'SAVEAS'=>'另存为',
 'TOTAL'=>'全部的',
 'AIINTEGRATION'=>'人工智能整合',
-'COPILOT'=>'Copilot',
-'GEMINI'=>'Gemini',
+'DEEPSEEK'=>'迪普西克',
+'GEMINI'=>'杰米尼',
+'SMARTQUERY'=>'斯马特·奎瑞',
+'INDICATOR'=>'印迪凯特',
 ];
 ?>

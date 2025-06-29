@@ -295,7 +295,9 @@ return [
 'SAVEAS'=>'Guardar como',
 'TOTAL'=>'Total',
 'AIINTEGRATION'=>'AI Integration',
-'COPILOT'=>'Copilot',
-'GEMINI'=>'Gemini',
+'DEEPSEEK'=>'Dípissíki',
+'GEMINI'=>'Djemini',
+'SMARTQUERY'=>'Smart Quéri',
+'INDICATOR'=>'Indicátor',
 ];
 ?>
