@@ -297,5 +297,28 @@ return [
 'GEMINI'=>'ジェミナイ',
 'SMARTQUERY'=>'スマートクエリ',
 'INDICATOR'=>'インジケーター',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Joomlaモジュール',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => '拡張機能をインストール <span class="badge bg-light text-dark">アップロード</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>インストール後、次に移動してください 
+<span class="badge bg-light text-dark">コンテンツ → サイトモジュール</span> 
+そしてインストールされたモジュールを開きます
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>モジュールを公開し、テンプレートの位置を選択します
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>フロントエンドでモジュールが表示されていることを確認します
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Joomla管理 → システム → インストール → 拡張機能',
+
 ];
 ?>

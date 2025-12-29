@@ -297,5 +297,29 @@ return [
 'GEMINI'=>'Gemini',
 'SMARTQUERY'=>'Smart Query',
 'INDICATOR'=>'Indicator',
+'JOOMLA'=>'Joomla',
+'JOOMLA_MODULE'=>'Joomla Moudle',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Install the extension <span class="badge bg-light text-dark">Upload</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>After installation, go to 
+<span class="badge bg-light text-dark">Content → Site Modules</span> 
+and open the installed module
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>
+Publish the module and select a template position
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>
+Verify the module is visible on the frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Joomla Administrator → System → Install → Extensions',
 ];
 ?>

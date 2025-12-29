@@ -299,5 +299,27 @@ return [
 'GEMINI'=>'Djemini',
 'SMARTQUERY'=>'Smart Quéri',
 'INDICATOR'=>'Indicátor',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Módulo Joomla',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Instale a extensão <span class="badge bg-light text-dark">Enviar</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Após a instalação, vá para 
+<span class="badge bg-light text-dark">Conteúdo → Módulos do Site</span> 
+e abra o módulo instalado
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Publique o módulo e selecione uma posição de template
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Verifique se o módulo está visível no frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Administrador Joomla → Sistema → Instalar → Extensões',
 ];
 ?>

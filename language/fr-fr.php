@@ -299,5 +299,28 @@ return [
 'GEMINI'=>'Jémini',
 'SMARTQUERY'=>'Smarte Kweri',
 'INDICATOR'=>'Andicateur',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Module Joomla',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Installez l\'extension <span class="badge bg-light text-dark">Téléverser</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Après l\'installation, allez dans 
+<span class="badge bg-light text-dark">Contenu → Modules du site</span> 
+et ouvrez le module installé
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Publiez le module et sélectionnez une position de template
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Vérifiez que le module est visible sur le frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Administrateur Joomla → Système → Installer → Extensions',
+
 ];
 ?>

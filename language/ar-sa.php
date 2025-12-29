@@ -302,5 +302,27 @@ return [
 'GEMINI'=>'جيميني',
 'SMARTQUERY'=>'سمارت كويري',
 'INDICATOR'=>'انديكاتور',
+'JOOMLA' => 'جوملا',
+'JOOMLA_MODULE' => 'وحدة جوملا',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">١</span>',
+'JOOMLAHELP2' => 'قم بتثبيت الإضافة <span class="badge bg-light text-dark">رفع</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">٢</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">٣</span>بعد التثبيت، انتقل إلى 
+<span class="badge bg-light text-dark">المحتوى → وحدات الموقع</span> 
+وافتح الوحدة المثبتة
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">٤</span>انشر الوحدة وحدد موقع القالب
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">٥</span>تحقق من ظهور الوحدة في الواجهة الأمامية
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'مسؤول جوملا → النظام → التثبيت → الإضافات',
 ];
 ?>

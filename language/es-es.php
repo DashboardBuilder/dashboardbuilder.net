@@ -299,5 +299,27 @@ return [
 'GEMINI'=>'Jémini',
 'SMARTQUERY'=>'Smar Querí',
 'INDICATOR'=>'Indicátor',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Módulo Joomla',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Instala la extensión <span class="badge bg-light text-dark">Subir</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Después de la instalación, ve a 
+<span class="badge bg-light text-dark">Contenido → Módulos del sitio</span> 
+y abre el módulo instalado
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Publica el módulo y selecciona una posición de plantilla
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Verifica que el módulo sea visible en el frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Administrador de Joomla → Sistema → Instalar → Extensiones',
 ];
 ?>

@@ -297,5 +297,28 @@ return [
 'GEMINI'=>'Джемини',
 'SMARTQUERY'=>'Смарт Квери',
 'INDICATOR'=>'Индикатор',
+'JOOMLA' => 'Джумла',
+'JOOMLA_MODULE' => 'Модуль Джумла',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Установите расширение <span class="badge bg-light text-dark">Загрузить</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>После установки перейдите в 
+<span class="badge bg-light text-dark">Контент → Модули сайта</span> 
+и откройте установленный модуль
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Опубликуйте модуль и выберите позицию шаблона
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Убедитесь, что модуль виден на фронтенде
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Администратор Joomla → Система → Установить → Расширения',
+
 ];
 ?>

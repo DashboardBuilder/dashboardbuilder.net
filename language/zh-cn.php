@@ -297,5 +297,29 @@ return [
 'GEMINI'=>'杰米尼',
 'SMARTQUERY'=>'斯马特·奎瑞',
 'INDICATOR'=>'印迪凯特',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Joomla 模块',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => '安装扩展 <span class="badge bg-light text-dark">上传</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>安装完成后，前往 
+<span class="badge bg-light text-dark">内容 → 站点模块</span> 
+并打开已安装的模块
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>
+发布模块并选择模板位置
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>
+确认模块在前端页面可见
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Joomla 管理后台 → 系统 → 安装 → 扩展',
 ];
 ?>
