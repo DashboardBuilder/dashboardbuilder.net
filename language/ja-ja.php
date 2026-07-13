@@ -319,6 +319,12 @@ return [
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Joomla管理 → システム → インストール → 拡張機能',
-
+'AUTO_VISUALIZE'        => '自動ビジュアル化',
+'IMPORT_DATA'           => 'データをインポートしてダッシュボードを自動生成',
+'SELECT_FILE'           => 'CSV または Excel（.xlsx）ファイルを選択してください:',
+'IMPORT'                => 'インポートして生成',
+'IMPORT_ERROR'          => 'ファイルが空であるか、十分なデータが含まれていません。',
+'UPLOADING'             => 'アップロードして処理中です... しばらくお待ちください。',
+'DASHBOARD_GENERATING'  => 'ダッシュボードが正常に生成されました。再読み込みしています...',
 ];
 ?>

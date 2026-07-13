@@ -320,6 +320,12 @@ e apri il modulo installato
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Amministratore Joomla → Sistema → Installa → Estensioni',
-
+'AUTO_VISUALIZE'        => 'Visualizzazione automatica',
+'IMPORT_DATA'           => 'Importa dati e genera automaticamente la dashboard',
+'SELECT_FILE'           => 'Seleziona un file CSV o Excel (.xlsx):',
+'IMPORT'                => 'Importa e genera',
+'IMPORT_ERROR'          => 'Il file è vuoto o non contiene dati sufficienti.',
+'UPLOADING'             => 'Caricamento ed elaborazione in corso... Attendere.',
+'DASHBOARD_GENERATING'  => 'Dashboard generata con successo! Ricaricamento...',
 ];
 ?>

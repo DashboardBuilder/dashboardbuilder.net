@@ -321,5 +321,12 @@ return [
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Joomla 管理后台 → 系统 → 安装 → 扩展',
+'AUTO_VISUALIZE'        => '自动可视化',
+'IMPORT_DATA'           => '导入数据并自动生成仪表板',
+'SELECT_FILE'           => '选择 CSV 或 Excel（.xlsx）文件：',
+'IMPORT'                => '导入并生成',
+'IMPORT_ERROR'          => '文件为空或不包含足够的数据。',
+'UPLOADING'             => '正在上传并处理，请稍候...',
+'DASHBOARD_GENERATING'  => '仪表板已成功生成！正在重新加载...',
 ];
 ?>

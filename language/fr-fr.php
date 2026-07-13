@@ -321,6 +321,12 @@ et ouvrez le module installé
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Administrateur Joomla → Système → Installer → Extensions',
-
+'AUTO_VISUALIZE'        => 'Visualisation automatique',
+'IMPORT_DATA'           => 'Importer des données et générer automatiquement le tableau de bord',
+'SELECT_FILE'           => 'Sélectionnez un fichier CSV ou Excel (.xlsx) :',
+'IMPORT'                => 'Importer et générer',
+'IMPORT_ERROR'          => 'Le fichier est vide ou ne contient pas suffisamment de données.',
+'UPLOADING'             => 'Téléchargement et traitement en cours... Veuillez patienter.',
+'DASHBOARD_GENERATING'  => 'Tableau de bord généré avec succès ! Rechargement...',
 ];
 ?>

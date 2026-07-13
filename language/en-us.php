@@ -321,5 +321,12 @@ Verify the module is visible on the frontend
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Joomla Administrator → System → Install → Extensions',
+'AUTO_VISUALIZE' => 'Auto Visualize',
+'IMPORT_DATA' => 'Import Data & Auto-Generate Dashboard',
+'SELECT_FILE'=>'Select CSV or Excel (.xlsx) File:',
+'IMPORT'=>'Import & Generate',
+'IMPORT_ERROR'=>'File is empty or does not contain enough data.',
+'UPLOADING'=>'Uploading and processing... Please wait.',
+'DASHBOARD_GENERATING'=>'Dashboard generated successfully! Reloading...',
 ];
 ?>

@@ -321,5 +321,12 @@ y abre el módulo instalado
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Administrador de Joomla → Sistema → Instalar → Extensiones',
+'AUTO_VISUALIZE'        => 'Visualización automática',
+'IMPORT_DATA'           => 'Importar datos y generar el panel automáticamente',
+'SELECT_FILE'           => 'Seleccione un archivo CSV o Excel (.xlsx):',
+'IMPORT'                => 'Importar y generar',
+'IMPORT_ERROR'          => 'El archivo está vacío o no contiene suficientes datos.',
+'UPLOADING'             => 'Cargando y procesando... Por favor, espere.',
+'DASHBOARD_GENERATING'  => '¡Panel generado correctamente! Recargando...',
 ];
 ?>

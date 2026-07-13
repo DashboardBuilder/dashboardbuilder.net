@@ -320,5 +320,12 @@ und öffnen Sie das installierte Modul
 </div>
 <span class="badge bg-light p-1 m-1 ms-5">',
 'JOOMLAHELP6' => 'Joomla-Administrator → System → Installieren → Erweiterungen',
+'AUTO_VISUALIZE'        => 'Automatisch visualisieren',
+'IMPORT_DATA'           => 'Daten importieren & Dashboard automatisch erstellen',
+'SELECT_FILE'           => 'CSV- oder Excel-Datei (.xlsx) auswählen:',
+'IMPORT'                => 'Importieren & Generieren',
+'IMPORT_ERROR'          => 'Die Datei ist leer oder enthält nicht genügend Daten.',
+'UPLOADING'             => 'Datei wird hochgeladen und verarbeitet... Bitte warten.',
+'DASHBOARD_GENERATING'  => 'Dashboard wurde erfolgreich erstellt! Wird neu geladen...',
 ];
 ?>
