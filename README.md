@@ -20,7 +20,7 @@ INSTALLATION
 
 Via Composer 
 
-	composer require dashboardbuilder/dashboardbuilder.net
+	composer create-project dashboardbuilder/dashboardbuilder.net .
 
  Via Git 
 
