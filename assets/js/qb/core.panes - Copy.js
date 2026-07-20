@@ -202,9 +202,9 @@ qb(function() {
       var ret;
       if (Alias == null) Alias = true;
 	   if (this.ColumnName  == "*" ) {
-		ret = "`" + this.TableName + "`." + this.ColumnName + "";
+		ret = "" + this.TableName + "." + this.ColumnName + "";
 		 } else {	
-		ret = "`" + this.TableName + "`.`" + this.ColumnName + "`";
+		ret = "" + this.TableName + ".`" + this.ColumnName + "`";
 		}
       if (Alias) if (this.Alias !== "") ret += " AS " + this.Alias;
       return ret;
@@ -226,8 +226,7 @@ qb(function() {
     getJoinPart: function() {
       var jfm, joinCnt, ret, _i, _len, _ref;
       joinCnt = Joins.length;
-	  var tabname = TableFields.first().get('TableName');
-      if (joinCnt === 0) return "`"+tabname+"`";
+      if (joinCnt === 0) return TableFields.first().get('TableName');
       ret = '';
       ret += Array(joinCnt + 1).join('(');
       ret += this.toJoinString.call(Joins.first().toJSON(), true);
@@ -253,9 +252,9 @@ qb(function() {
             return ' RIGHT OUTER JOIN ';
         }
       };
-      ret = "" + (isFirst ? this.LeftTable : '\r\n\t\t') + " " + (getJoinName(this.Type)) + " `" + this.RightTable + "` ";
+      ret = "" + (isFirst ? this.LeftTable : '\r\n\t\t') + " " + (getJoinName(this.Type)) + " " + this.RightTable + " ";
       if (this.Type !== 'CROSS_JOIN') {
-        ret += " ON " + (" `" + this.LeftTable + "`.`" + this.LeftField + "` = `" + this.RightTable + "`.`" + this.RightField+"`");
+        ret += " ON " + (" " + this.LeftTable + "." + this.LeftField + " = " + this.RightTable + "." + this.RightField);
       }
       return ret + ")";
     },
