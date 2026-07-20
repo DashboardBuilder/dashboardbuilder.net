@@ -151,7 +151,7 @@ return [
 'CHOOSE_FILES'=>'SCEGLI IL FILE',
 'INVALID_FILE'=>'File selezionato non valido',
 'DRAG_DROP'=>'oppure trascina e rilascia il file qui',
-'UPLOAD_CSV'=>"Connetti a file CSV",
+'UPLOAD_CSV'=>"Connetti a file CSV o PDF",
 'UPLOAD_EXCEL'=>"Connetti a file Excel",
 'GOOGLE_SHEET_FILE'=>"Fogli Google",
 'URL_NOTFOUND'=>'URL non trovato',
@@ -221,7 +221,7 @@ return [
 'PASSCHANGED'=>'password cambiata con successo',
 'CONFIRMPASSWORD'=>'Conferma password',
 'PASSWORDMISMATCH'=>'Password non corrispondente',
-'TARGET'=>'Pari',
+'TARGET'=>'Comp.',
 'ADDUSER'=>'Aggiungi utente',
 'USEREXCEED'=>'Limiti utenti superati',
 'TODAY'=>'Oggi',
@@ -249,7 +249,7 @@ return [
 'DUPLICATEUSER'=>'Utente già esistente',
 'USERADDED'=>'Utente aggiunto con successo',
 'HTML'=>'Codice HTML',
-'FIELDS'=>'Campi',
+'FIELDS'=>'Pivot',
 'ROW'=>'Righe',
 'COLUMN'=>'Colonne',
 'COMPUTE'=>'Calcoli',
@@ -258,7 +258,74 @@ return [
 'WPPLUGIN'=>'Plug-in WordPress',
 'WPHELP2'=>' e copiarlo in <span class="badge bg-light text-dark ">il-tuo-sito/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 'DBL_CLICK_CHARTSETTINGS'=>'Fare doppio clic per accedere alle impostazioni del grafico',
-'VIEW_DATA'=>'Visualizza dati',
+'VIEW_DATA'=>'Analizzare i dati',
 'CSV_DOWNLOAD'=>'Scarica CSV',
+'PDF_DOWNLOAD'=>'Scarica PDF',
+'SETTINGS'=>'Impostazioni',
+'CHATGPT'=>'ChatGPT',
+'SMTP'=>'SMTP',
+'API_KEY'=>'Inserisci le tue chiavi API segrete',
+'CHATGPT_DESC'=>'Configura le impostazioni API per abilitare l\'analisi dei dati tramite AI. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Ulteriori informazioni</a>',
+'CACHE'=>'Cache',
+'LIMITS'=>'Limiti',
+'SPARKLINE'=>'Linea scintillante',
+'PREFIX'=>'Prefisso',
+'SUFFIX'=>'Suffisso',
+'BORDERCOLOR'=>'Colore bordo',
+'BORDERWIDTH'=>'Larghezza bordo',
+'ADD_PAGE'=>'Aggiungi drill-through',
+'WINDOW'=>'Finestra',
+'MAIN'=>'Principale',
+'PAGE'=>'Pagina',
+'PAGE_DEL_CONFIRM'=>'Ciò eliminerà l\'intera pagina ',
+'DRILLTHROUGH'=>'Drill-through',
+'DRILLTHROUGH_FROM'=>'Da',
+'DRILLTHROUGH_WHEN'=>'Espressione',
+'DRILLTHROUGH_CLICK'=>'Fare clic per eseguire il drill-through',
+'GREATERTHAN'=>'Ottimo di (>)',
+'LESSTHAN'=>'Meno di (<)',
+'EQUALTO'=>'Uguale a (==)',
+'NOTEQUALTO'=>'Non uguale a(!==)',
+'NOTGREATERTHAN'=>'Non eccezionale (!>)',
+'NOTLESSTHAN'=>'Non meno di (!<)',
+'GREATERTHANOREQUALTO'=>'Maggiore o uguale a (>=) ',
+'LESSTHANOREQUALTO'=>'Minore o uguale a (<=)',
+'ENABLE'=>'Abilitare',
+'SAVEAS'=>'Salva con nome',
+'TOTAL'=>'Total',
+'AIINTEGRATION'=>'Integrazione dell\'intelligenza artificiale',
+'DEEPSEEK'=>'Dìp-sìik',
+'GEMINI'=>'Gèmini',
+'SMARTQUERY'=>'Smarte Kuèri',
+'INDICATOR'=>'Indicàtor',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Modulo Joomla',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Installa l\'estensione <span class="badge bg-light text-dark">Carica</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Dopo l\'installazione, vai a 
+<span class="badge bg-light text-dark">Contenuto → Moduli del sito</span> 
+e apri il modulo installato
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Pubblica il modulo e seleziona una posizione del template
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Verifica che il modulo sia visibile sul frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Amministratore Joomla → Sistema → Installa → Estensioni',
+'AUTO_VISUALIZE'        => 'Visualizzazione',
+'IMPORT_DATA'           => 'Importa dati e genera automaticamente la dashboard',
+'SELECT_FILE'           => 'Seleziona file CSV, Excel (.xlsx) o PDF:',
+'IMPORT'                => 'Importa e genera',
+'IMPORT_ERROR'          => 'Il file è vuoto o non contiene dati sufficienti.',
+'UPLOADING'             => 'Caricamento ed elaborazione in corso... Attendere.',
+'DASHBOARD_GENERATING'  => 'Dashboard generata con successo! Ricaricamento...',
 ];
 ?>

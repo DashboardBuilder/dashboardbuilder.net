@@ -149,7 +149,7 @@ return [
 'CHOOSE_FILES'=>'ВЫБРАТЬ ФАЙЛ',
 'INVALID_FILE'=>'Выбран неверный файл',
 'DRAG_DROP'=>'или перетащите файл сюда',
-'UPLOAD_CSV'=>"Подключиться к файлам CSV",
+'UPLOAD_CSV'=>"Подключиться к файлам CSV или PDF",
 'UPLOAD_EXCEL'=>"Подключиться к файлам Excel",
 'GOOGLE_SHEET_FILE'=>"Google таблицы",
 'URL_NOTFOUND'=>'URL-адрес не найден',
@@ -219,7 +219,7 @@ return [
 'PASSCHANGED'=>'Пароль успешно изменен',
 'CONFIRMPASSWORD'=>'Подтвердить Пароль',
 'PASSWORDMISMATCH'=>'Неверный пароль',
-'TARGET'=>'цель',
+'TARGET'=>'Сравн.',
 'ADDUSER'=>'Добавить пользователя',
 'USEREXCEED'=>"Превышены ограничения пользователей",
 'TODAY'=>'Сегодня',
@@ -248,7 +248,7 @@ return [
 'DUPLICATEUSER'=>'Пользователь уже существует',
 'USERADDED'=>'Пользователь успешно добавлен',
 'HTML'=>'HTML-код',
-'FIELDS'=>'Поля',
+'FIELDS'=>'Вращаться',
 'ROW'=>'Ряды',
 'COLUMN'=>'Столбцы',
 'COMPUTE'=>'Расчеты',
@@ -257,7 +257,74 @@ return [
 'WPPLUGIN'=>'плагин WP',
 'WPHELP2'=>' и скопируйте его в <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 'DBL_CLICK_CHARTSETTINGS'=>'Дважды щелкните, чтобы перейти к настройкам диаграммы',
-'VIEW_DATA'=>'Просмотр данных',
+'VIEW_DATA'=>'Анализ данных',
 'CSV_DOWNLOAD'=>'Скачать CSV',
+'PDF_DOWNLOAD'=>'Скачать PDF',
+'SETTINGS'=>'Настройки',
+'CHATGPT'=>'ЧатGPT',
+'SMTP'=>'SMTP',
+'API_KEY'=>'Введите свои секретные ключи API',
+'CHATGPT_DESC'=>'Настройте параметры API, чтобы включить анализ данных с помощью AI. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Подробнее</a>',
+'CACHE'=>'Кэш',
+'LIMITS'=>'Пределы',
+'SPARKLINE'=>'Спарклайн',
+'PREFIX'=>'Префикс',
+'SUFFIX'=>'Суффикс',
+'BORDERCOLOR'=>'Цвет границы',
+'BORDERWIDTH'=>'Ширина рамки',
+'ADD_PAGE'=>'Добавить детализацию',
+'WINDOW'=>'Окно',
+'MAIN'=>'Основной',
+'PAGE'=>'Страница',
+'PAGE_DEL_CONFIRM'=>'Это удалит всю страницу ',
+'DRILLTHROUGH'=>'Drill-through',
+'DRILLTHROUGH_FROM'=>'От',
+'DRILLTHROUGH_WHEN'=>'Выражение',
+'DRILLTHROUGH_CLICK'=>'Нажмите, чтобы детализировать',
+'GREATERTHAN'=>'Greater than (>)',
+'LESSTHAN'=>'Меньше, чем (<)',
+'EQUALTO'=>'Равно(==)',
+'NOTEQUALTO'=>'Не равно(!==)',
+'NOTGREATERTHAN'=>'Не больше, чем (!>)',
+'NOTLESSTHAN'=>'Не менее чем (!<)',
+'GREATERTHANOREQUALTO'=>'Больше или равно (>=) ',
+'LESSTHANOREQUALTO'=>'Меньше или равно (<=)',
+'ENABLE'=>'Давать возможность',
+'SAVEAS'=>'Сохранить как',
+'TOTAL'=>'Общий',
+'AIINTEGRATION'=>'Интеграция ИИ',
+'DEEPSEEK'=>'Дипсик',
+'GEMINI'=>'Джемини',
+'SMARTQUERY'=>'Смарт Квери',
+'INDICATOR'=>'Индикатор',
+'JOOMLA' => 'Джумла',
+'JOOMLA_MODULE' => 'Модуль Джумла',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Установите расширение <span class="badge bg-light text-dark">Загрузить</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>После установки перейдите в 
+<span class="badge bg-light text-dark">Контент → Модули сайта</span> 
+и откройте установленный модуль
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Опубликуйте модуль и выберите позицию шаблона
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Убедитесь, что модуль виден на фронтенде
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Администратор Joomla → Система → Установить → Расширения',
+'AUTO_VISUALIZE'        => 'Автоматическая',
+'IMPORT_DATA'           => 'Импортировать данные и автоматически создать панель',
+'SELECT_FILE'           => 'Выберите файл CSV, Excel (.xlsx) или PDF:',
+'IMPORT'                => 'Импортировать и создать',
+'IMPORT_ERROR'          => 'Файл пуст или не содержит достаточного количества данных.',
+'UPLOADING'             => 'Загрузка и обработка... Пожалуйста, подождите.',
+'DASHBOARD_GENERATING'  => 'Панель успешно создана! Выполняется перезагрузка...',
 ];
 ?>

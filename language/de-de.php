@@ -150,7 +150,7 @@ return [
 'CHOOSE_FILES'=>'KIES BESTAND',
 'INVALID_FILE'=>'Ongeldig bestand geselecteerd',
 'DRAG_DROP'=>'of sleep het bestand hier',
-'UPLOAD_CSV'=>"Verbinding maken met CSV-bestanden",
+'UPLOAD_CSV'=>"Mit CSV- oder PDF-Dateien verbinden",
 'UPLOAD_EXCEL'=>"Verbinding maken met Excel-bestanden",
 'GOOGLE_SHEET_FILE'=>"Google sheets",
 'URL_NOTFOUND'=>'URL Niet gevonden',
@@ -220,7 +220,7 @@ return [
 'PASSCHANGED'=>'wachtwoord succesvol veranderd',
 'CONFIRMPASSWORD'=>'bevestig wachtwoord',
 'PASSWORDMISMATCH'=>'Wachtwoord komt niet overeen',
-'TARGET'=>'Doel',
+'TARGET'=>'Comp.',
 'ADDUSER'=>'Voeg gebruiker',
 'USEREXCEED'=>'Gebruikerslimiet overschreden',
 'TODAY'=>'Vandaag',
@@ -249,7 +249,7 @@ return [
 'DUPLICATEUSER'=>'Gebruiker bestaat al',
 "USERADDED"=>'Gebruiker succesvol toegevoegd',
 'HTML'=>'HTML Code',
-'FIELDS'=>'Velden',
+'FIELDS'=>'Draaitabel',
 'ROW'=>'Rijen',
 'COLUMN'=>'Kolommen',
 'COMPUTE'=>'Berekeningen',
@@ -258,7 +258,74 @@ return [
 'WPPLUGIN'=>'WordPress-plug-in',
 'WPHELP2'=>' en kopieer het naar <span class="badge bg-light text-dark ">uwsite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 'DBL_CLICK_CHARTSETTINGS'=>'Dubbelklik om de diagraminstellingen te bekijken',
-'VIEW_DATA'=>'Gegevens bekijken',
+'VIEW_DATA'=>'Data analyseren',
 'CSV_DOWNLOAD'=>'CSV downloaden',
+'PDF_DOWNLOAD'=>'PDF downloaden',
+'SETTINGS'=>'Instellingen',
+'CHATGPT'=>'ChatGPT',
+'SMTP'=>'SMTP',
+'API_KEY'=>'Voer uw geheime API-sleutels in',
+'CHATGPT_DESC'=>'Stel de API-instellingen in om data-analyse via AI mogelijk te maken. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Meer informatie</a>',
+'CACHE'=>'Cache',
+'LIMITS'=>'Grenzen',
+'SPARKLINE'=>'Sparkline',
+'PREFIX'=>'Voorv.',
+'SUFFIX'=>'Achter.',
+'BORDERCOLOR'=>'Rand kleur',
+'BORDERWIDTH'=>'Grensbreedte',
+'ADD_PAGE'=>'Drillthrough toevoegen',
+'WINDOW'=>'Raam',
+'MAIN'=>'Voornaamst',
+'PAGE'=>'Pagina',
+'PAGE_DEL_CONFIRM'=>'Hiermee wordt de hele pagina verwijderd ',
+'DRILLTHROUGH'=>'Doorboren',
+'DRILLTHROUGH_FROM'=>'Van',
+'DRILLTHROUGH_WHEN'=>'Uitdrukking',
+'DRILLTHROUGH_CLICK'=>'Klik om door te drillen',
+'GREATERTHAN'=>'Great than (>)',
+'LESSTHAN'=>'Minder dan (<)',
+'EQUALTO'=>'Gelijk aan (==)',
+'NOTEQUALTO'=>'Niet gelijk aan (!==)',
+'NOTGREATERTHAN'=>'Nee Geweldig dan (!>)',
+'NOTLESSTHAN'=>'Niet minder dan (!<)',
+'GREATERTHANOREQUALTO'=>'Groot dan of gelijk aan (>=) ',
+'LESSTHANOREQUALTO'=>'Kleiner dan of gelijk aan (<=)',
+'ENABLE'=>'Inschakelen',
+'SAVEAS'=>'Opslaan als',
+'TOTAL'=>'Totaal',
+'AIINTEGRATION'=>'AI-integratie',
+'DEEPSEEK'=>'Diep-Siek',
+'GEMINI'=>'Gemini',
+'SMARTQUERY'=>'Smart Kwairi',
+'INDICATOR'=>'Indikator',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Joomla-Modul',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Erweitung installieren <span class="badge bg-light text-dark">Hochladen</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Nach der Installation gehen Sie zu 
+<span class="badge bg-light text-dark">Inhalt → Seitenmodule</span> 
+und öffnen Sie das installierte Modul
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Veröffentlichen Sie das Modul und wählen Sie eine Template-Position aus
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Überprüfen Sie, ob das Modul im Frontend sichtbar ist
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Joomla-Administrator → System → Installieren → Erweiterungen',
+'AUTO_VISUALIZE'        => 'Auto visualisieren',
+'IMPORT_DATA'           => 'Daten importieren & Dashboard automatisch erstellen',
+'SELECT_FILE'           => 'CSV-, Excel- (.xlsx) oder PDF-Datei auswählen:',
+'IMPORT'                => 'Importieren & Generieren',
+'IMPORT_ERROR'          => 'Die Datei ist leer oder enthält nicht genügend Daten.',
+'UPLOADING'             => 'Datei wird hochgeladen und verarbeitet... Bitte warten.',
+'DASHBOARD_GENERATING'  => 'Dashboard wurde erfolgreich erstellt! Wird neu geladen...',
 ];
 ?>

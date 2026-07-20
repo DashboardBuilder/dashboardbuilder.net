@@ -149,7 +149,7 @@ return [
 'CHOOSE_FILES'=>'选择文件',
 'INVALID_FILE'=>'选择的文件无效',
 'DRAG_DROP'=>'或将文件拖放到此处',
-'UPLOAD_CSV'=>"连接到 CSV 文件",
+'UPLOAD_CSV'=>"连接到 CSV 或 PDF 文件",
 'UPLOAD_EXCEL'=>"连接到 Excel 文件",
 'GOOGLE_SHEET_FILE'=>"谷歌表格",
 'URL_NOTFOUND'=>'找不到网址',
@@ -219,7 +219,7 @@ return [
 'PASSCHANGED'=>'密码修改成功',
 'CONFIRMPASSWORD'=>'确认密码',
 'PASSWORDMISMATCH'=>'密码不匹配',
-'TARGET'=>'每',
+'TARGET'=>'比较',
 'ADDUSER'=>'添加用户',
 'USEREXCEED'=>'超出用户限制',
 'TODAY'=>'今天',
@@ -248,7 +248,7 @@ return [
 'DUPLICATEUSER'=>'用户已存在',
 'USERADDED'=>'用户添加成功',
 'HTML'=>'HTML 代码',
-'FIELDS'=>'领域',
+'FIELDS'=>'枢',
 'ROW'=>'行数',
 'COLUMN'=>'列',
 'COMPUTE'=>'计算',
@@ -257,7 +257,76 @@ return [
 'WPPLUGIN'=>'WP插件',
 'WPHELP2'=>' 并将其复制到 <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m- 2">2</span>解压缩',
 'DBL_CLICK_CHARTSETTINGS'=>'双击图表设置',
-'VIEW_DATA'=>'查看数据',
+'VIEW_DATA'=>'分析数据',
 'CSV_DOWNLOAD'=>'CSV 文件下载',
+'PDF_DOWNLOAD'=>'PDF下载',
+'SETTINGS'=>'设置',
+'CHATGPT'=>'聊天GPT',
+'SMTP'=>'邮件传输协议',
+'API_KEY'=>'输入您的秘密 API 密钥',
+'CHATGPT_DESC'=>'设置 API 设置以通过 AI 进行数据分析。 <a href="https://dashboardbuilder.net/chatgpt-dashboard">了解更多</a>',
+'CACHE'=>'缓存',
+'LIMITS'=>'限制',
+'SPARKLINE'=>'迷你图',
+'PREFIX'=>'字首',
+'SUFFIX'=>'后缀',
+'BORDERCOLOR'=>'边框颜色',
+'BORDERWIDTH'=>'边框宽度',
+'ADD_PAGE'=>'添加钻取',
+'WINDOW'=>'窗户',
+'MAIN'=>'主要的',
+'PAGE'=>'页',
+'PAGE_DEL_CONFIRM'=>'这将删除整个页面 ',
+'DRILLTHROUGH'=>'钻通',
+'DRILLTHROUGH_FROM'=>'从',
+'DRILLTHROUGH_WHEN'=>'表达',
+'DRILLTHROUGH_CLICK'=>'单击钻取',
+'GREATERTHAN'=>'大于 (>)',
+'LESSTHAN'=>'少于 (<)',
+'EQUALTO'=>'等于 (==)',
+'NOTEQUALTO'=>'不等于 (!==)',
+'NOTGREATERTHAN'=>'不大于 (!>)',
+'NOTLESSTHAN'=>'不少于 (!<)',
+'GREATERTHANOREQUALTO'=>'大于或等于 (>=) ',
+'LESSTHANOREQUALTO'=>'小于或等于 (<=)',
+'ENABLE'=>'使能够',
+'SAVEAS'=>'另存为',
+'TOTAL'=>'全部的',
+'AIINTEGRATION'=>'人工智能整合',
+'DEEPSEEK'=>'迪普西克',
+'GEMINI'=>'杰米尼',
+'SMARTQUERY'=>'斯马特·奎瑞',
+'INDICATOR'=>'印迪凯特',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Joomla 模块',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => '安装扩展 <span class="badge bg-light text-dark">上传</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>安装完成后，前往 
+<span class="badge bg-light text-dark">内容 → 站点模块</span> 
+并打开已安装的模块
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>
+发布模块并选择模板位置
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>
+确认模块在前端页面可见
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Joomla 管理后台 → 系统 → 安装 → 扩展',
+'AUTO_VISUALIZE'        => '自动可视化',
+'IMPORT_DATA'           => '导入数据并自动生成仪表板',
+'SELECT_FILE'           => '选择 CSV、Excel (.xlsx) 或 PDF 文件：',
+'IMPORT'                => '导入并生成',
+'IMPORT_ERROR'          => '文件为空或不包含足够的数据。',
+'UPLOADING'             => '正在上传并处理，请稍候...',
+'DASHBOARD_GENERATING'  => '仪表板已成功生成！正在重新加载...',
 ];
 ?>

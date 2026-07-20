@@ -151,7 +151,7 @@ return [
 'CHOOSE_FILES'=>'ELIJA EL ARCHIVO',
 'INVALID_FILE'=>'Archivo no válido seleccionado',
 'DRAG_DROP'=>'o arrastre y suelte el archivo aquí',
-'UPLOAD_CSV'=>"Conectarse a archivos CSV",
+'UPLOAD_CSV'=>"Conectar a archivos CSV o PDF",
 'UPLOAD_EXCEL'=>"Conectarse a archivos de Excel",
 'GOOGLE_SHEET_FILE'=>"Google sheets",
 'URL_NOTFOUND'=>'URL no encontrada',
@@ -221,7 +221,7 @@ return [
 'PASSCHANGED'=>'Contraseña cambiada con éxito',
 'CONFIRMPASSWORD'=>'Confirmar contraseña',
 'PASSWORDMISMATCH'=>'Contraseña no coincidente',
-'TARGET'=>'Objet',
+'TARGET'=>'Comp.',
 'ADDUSER'=>'Agregar usuario',
 'USEREXCEED'=>'Límites de usuarios excedidos',
 'TODAY'=>'Hoy',
@@ -250,7 +250,7 @@ return [
 'DUPLICATEUSER'=>'El usuario ya existe',
 "USERADDED"=>'Usuario añadido con éxito',
 'HTML'=>'código HTML',
-'FIELDS'=>'Campos',
+'FIELDS'=>'Dinámica',
 'ROW'=>'filas',
 'COLUMN'=>'columnas',
 'COMPUTE'=>'Cálculos',
@@ -259,7 +259,74 @@ return [
 'WPPLUGIN'=>'WordPress enchufar',
 'WPHELP2'=>' y copiarlo a <span class="badge bg-light text-dark ">Tú-sitio/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 'DBL_CLICK_CHARTSETTINGS'=>'Haga doble clic para configurar el gráfico',
-'VIEW_DATA'=>'Ver datos',
+'VIEW_DATA'=>'Analizar datos',
 'CSV_DOWNLOAD'=>'Descargar CSV',
+'PDF_DOWNLOAD'=>'Descargar PDF',
+'SETTINGS'=>'Ajustes',
+'CHATGPT'=>'ChatGPT',
+'SMTP'=>'SMTP',
+'API_KEY'=>'Ingrese sus claves API secretas',
+'CHATGPT_DESC'=>'Configure la configuración de API para permitir el análisis de datos a través de IA. <a href="https://dashboardbuilder.net/chatgpt-dashboard">Más información</a>',
+'CACHE'=>'Cache',
+'LIMITS'=>'Límites',
+'SPARKLINE'=>'minigráfico',
+'PREFIX'=>'Prefijo',
+'SUFFIX'=>'Sufijo',
+'BORDERCOLOR'=>'Color borde',
+'BORDERWIDTH'=>'Ancho borde',
+'ADD_PAGE'=>'Agregar obtención de detalles',
+'WINDOW'=>'Ventana',
+'MAIN'=>'Principal',
+'PAGE'=>'Página',
+'PAGE_DEL_CONFIRM'=>'Esto eliminará toda la página. ',
+'DRILLTHROUGH'=>'Obtención de detalles',
+'DRILLTHROUGH_FROM'=>'De',
+'DRILLTHROUGH_WHEN'=>'Expresión',
+'DRILLTHROUGH_CLICK'=>'Haga clic para obtener detalles',
+'GREATERTHAN'=>'Great than (>)',
+'LESSTHAN'=>'Menos que (<)',
+'EQUALTO'=>'igual a (==)',
+'NOTEQUALTO'=>'No es igual a (!==)',
+'NOTGREATERTHAN'=>'No genial que (!>)',
+'NOTLESSTHAN'=>'Nada menos que(!<)',
+'GREATERTHANOREQUALTO'=>'Mayor que o igual a (>=) ',
+'LESSTHANOREQUALTO'=>'Menor o igual a (<=)',
+'ENABLE'=>'Permitir',
+'SAVEAS'=>'Guardar como',
+'TOTAL'=>'Total',
+'AIINTEGRATION'=>'Integración de IA',
+'DEEPSEEK'=>'Díp-sik',
+'GEMINI'=>'Jémini',
+'SMARTQUERY'=>'Smar Querí',
+'INDICATOR'=>'Indicátor',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Módulo Joomla',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Instala la extensión <span class="badge bg-light text-dark">Subir</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Después de la instalación, ve a 
+<span class="badge bg-light text-dark">Contenido → Módulos del sitio</span> 
+y abre el módulo instalado
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Publica el módulo y selecciona una posición de plantilla
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Verifica que el módulo sea visible en el frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Administrador de Joomla → Sistema → Instalar → Extensiones',
+'AUTO_VISUALIZE'        => 'Visualización auto',
+'IMPORT_DATA'           => 'Importar datos y generar el panel automáticamente',
+'SELECT_FILE'           => 'Seleccionar archivo CSV, Excel (.xlsx) o PDF:',
+'IMPORT'                => 'Importar y generar',
+'IMPORT_ERROR'          => 'El archivo está vacío o no contiene suficientes datos.',
+'UPLOADING'             => 'Cargando y procesando... Por favor, espere.',
+'DASHBOARD_GENERATING'  => '¡Panel generado correctamente! Recargando...',
 ];
 ?>

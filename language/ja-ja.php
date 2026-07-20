@@ -149,7 +149,7 @@ return [
 'CHOOSE_FILES'=>'ファイルを選ぶ',
 'INVALID_FILE'=>'無効なファイルが選択されました',
 'DRAG_DROP'=>'またはここにファイルをドラッグアンドドロップします',
-'UPLOAD_CSV'=>"CSV ファイルに接続する",
+'UPLOAD_CSV'=>"CSVまたはPDFファイルに接続",
 'UPLOAD_EXCEL'=>"Excel ファイルに接続する",
 'GOOGLE_SHEET_FILE'=>"Googleシート",
 'URL_NOTFOUND'=>'URLが見つかりません',
@@ -219,7 +219,7 @@ return [
 'PASSCHANGED'=>'パスワードは正常に変更されました',
 'CONFIRMPASSWORD'=>'パスワードを認証する',
 'PASSWORDMISMATCH'=>'パスワードが一致しません',
-'TARGET'=>'目標',
+'TARGET'=>'比較',
 'ADDUSER'=>'ユーザーを追加する',
 'USEREXCEED'=>'ユーザー制限を超えました',
 'TODAY'=>'今日',
@@ -248,7 +248,7 @@ return [
 'DUPLICATEUSER'=>'ユーザーはすでに存在します',
 'USERADDED'=>'ユーザーが正常に追加されました',
 'HTML'=>'HTMLコード',
-'FIELDS'=>'田畑',
+'FIELDS'=>'ピボット',
 'ROW'=>'行',
 'COLUMN'=>'コラム',
 'COMPUTE'=>'計算',
@@ -257,7 +257,74 @@ return [
 'WPPLUGIN'=>'WP プラグイン',
 'WPHELP2'=>' それをコピーします <span class="badge bg-light text-dark ">yoursite/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 'DBL_CLICK_CHARTSETTINGS'=>'ダブルクリックしてグラフ設定を行う',
-'VIEW_DATA'=>'データの表示',
+'VIEW_DATA'=>'データを分析する',
 'CSV_DOWNLOAD'=>'CSVダウンロード',
+'PDF_DOWNLOAD'=>'PDFダウンロード',
+'SETTINGS'=>'設定',
+'CHATGPT'=>'ChatGPT',
+'SMTP'=>'SMTP',
+'API_KEY'=>'秘密の API キーを入力してください',
+'CHATGPT_DESC'=>'AIによるデータ分析を可能にするためのAPI設定を行います。 <a href="https://dashboardbuilder.net/chatgpt-dashboard">詳細 </a>',
+'CACHE'=>'キャッシュ',
+'LIMITS'=>'限界',
+'SPARKLINE'=>'スパークライン',
+'PREFIX'=>'プレフィックス',
+'SUFFIX'=>'サフィックス',
+'BORDERCOLOR'=>'ボーダの色',
+'BORDERWIDTH'=>'枠線の幅',
+'ADD_PAGE'=>'ドリルスルーの追加',
+'WINDOW'=>'ウィンドウ',
+'MAIN'=>'主要',
+'PAGE'=>'ページ',
+'PAGE_DEL_CONFIRM'=>'ページ全体が削除されます ',
+'DRILLTHROUGH'=>'ドリルスルー',
+'DRILLTHROUGH_FROM'=>'から',
+'DRILLTHROUGH_WHEN'=>'表現',
+'DRILLTHROUGH_CLICK'=>'クリックしてドリルスルーする',
+'GREATERTHAN'=>'より大きい (>)',
+'LESSTHAN'=>'未満 (<)',
+'EQUALTO'=>'に等しい (==)',
+'NOTEQUALTO'=>'等しくない (!==)',
+'NOTGREATERTHAN'=>'以下 (!>)',
+'NOTLESSTHAN'=>'以下ではありません (!<)',
+'GREATERTHANOREQUALTO'=>'以上 (>=) ',
+'LESSTHANOREQUALTO'=>'以下 (<=)',
+'ENABLE'=>'有効にする',
+'SAVEAS'=>'名前を付けて保存',
+'TOTAL'=>'合計',
+'AIINTEGRATION'=>'AI Integration',
+'DEEPSEEK'=>'ディープシーク',
+'GEMINI'=>'ジェミナイ',
+'SMARTQUERY'=>'スマートクエリ',
+'INDICATOR'=>'インジケーター',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Joomlaモジュール',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => '拡張機能をインストール <span class="badge bg-light text-dark">アップロード</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>インストール後、次に移動してください 
+<span class="badge bg-light text-dark">コンテンツ → サイトモジュール</span> 
+そしてインストールされたモジュールを開きます
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>モジュールを公開し、テンプレートの位置を選択します
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>フロントエンドでモジュールが表示されていることを確認します
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Joomla管理 → システム → インストール → 拡張機能',
+'AUTO_VISUALIZE'        => '自動ビジュアル化',
+'IMPORT_DATA'           => 'データをインポートしてダッシュボードを自動生成',
+'SELECT_FILE'           => 'CSV、Excel（.xlsx）、またはPDFファイルを選択:',
+'IMPORT'                => 'インポートして生成',
+'IMPORT_ERROR'          => 'ファイルが空であるか、十分なデータが含まれていません。',
+'UPLOADING'             => 'アップロードして処理中です... しばらくお待ちください。',
+'DASHBOARD_GENERATING'  => 'ダッシュボードが正常に生成されました。再読み込みしています...',
 ];
 ?>

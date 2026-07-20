@@ -151,7 +151,7 @@ return [
 'CHOOSE_FILES'=>'CHOISIR LE FICHIER',
 'INVALID_FILE'=>'Fichier sélectionné non valide',
 'DRAG_DROP'=>'ou faites glisser et déposez le fichier ici',
-'UPLOAD_CSV'=>"Connectez-vous aux fichiers CSV",
+'UPLOAD_CSV'=>"Se connecter à des fichiers CSV ou PDF",
 'UPLOAD_EXCEL'=>"Connectez-vous aux fichiers Excel",
 'GOOGLE_SHEET_FILE'=>"Google sheets",
 'URL_NOTFOUND'=>'URL introuvable',
@@ -221,7 +221,7 @@ return [
 'PASSCHANGED'=>'Mot de passe changé',
 'CONFIRMPASSWORD'=>'Confirmez le mot de passe',
 'PASSWORDMISMATCH'=>'Mot de passe incompatible',
-'TARGET'=>'Cible',
+'TARGET'=>'Comp.',
 'ADDUSER'=>'Ajouter un utilisateur',
 'USEREXCEED'=>"Limites d\'utilisateurs dépassées",
 'TODAY'=>"Aujourd`hui",
@@ -250,7 +250,7 @@ return [
 'DUPLICATEUSER'=>"L\'utilisateur existe déjà",
 'USERADDED'=>'Utilisateur ajouté avec succès',
 'HTML'=>'Code HTML',
-'FIELDS'=>'Des champs',
+'FIELDS'=>'Pivot',
 'ROW'=>'Lignes',
 'COLUMN'=>'Colonnes',
 'COMPUTE'=>'Calculs',
@@ -259,7 +259,74 @@ return [
 'WPPLUGIN'=>'Plugin WordPress',
 'WPHELP2'=>' et copiez-le dans <span class="badge bg-light text-dark ">votre-site/wp-content/plugins</span></div><div><span class="badge rounded-pill bg-warning m-2">2</span>Unzip',
 'DBL_CLICK_CHARTSETTINGS'=>'Double-cliquez pour afficher les paramètres du graphique',
-'VIEW_DATA'=>'Afficher les données',
+'VIEW_DATA'=>'Analyser les données',
 'CSV_DOWNLOAD'=>'Téléchargement CSV',
+'PDF_DOWNLOAD'=>'Téléchargement PDF',
+'SETTINGS'=>'Paramètres',
+'CHATGPT'=>'ChatGPT',
+'SMTP'=>'SMTP',
+'API_KEY'=>'Entrez vos clés API secrètes',
+'CHATGPT_DESC'=>'Configurez les paramètres de l\'API pour activer l\'analyse des données via l\'IA. <a href="https://dashboardbuilder.net/chatgpt-dashboard">En savoir plus</a>',
+'CACHE'=>'Cache',
+'LIMITS'=>'Limites',
+'SPARKLINE'=>'Ligne scintillante',
+'PREFIX'=>'Préfixe',
+'SUFFIX'=>'Suffixe',
+'BORDERCOLOR'=>'Couleur bordure',
+'BORDERWIDTH'=>'Largeur bordure',
+'ADD_PAGE'=>'Ajouter une extraction',
+'WINDOW'=>'Fenêtre',
+'MAIN'=>'Principal',
+'PAGE'=>'Page',
+'PAGE_DEL_CONFIRM'=>'Cela supprimera la page entière ',
+'DRILLTHROUGH'=>'Accès au détail',
+'DRILLTHROUGH_FROM'=>'Depuis',
+'DRILLTHROUGH_WHEN'=>'Expression',
+'DRILLTHROUGH_CLICK'=>'Cliquez pour accéder au détail',
+'GREATERTHAN'=>'Génial que (>)',
+'LESSTHAN'=>'Moins que(<)',
+'EQUALTO'=>'Égal à (==)',
+'NOTEQUALTO'=>'Pas égal à(!==)',
+'NOTGREATERTHAN'=>'Non Génial que (!>)',
+'NOTLESSTHAN'=>'Pas moins de (!<)',
+'GREATERTHANOREQUALTO'=>'Supérieur ou égal à (>=) ',
+'LESSTHANOREQUALTO'=>'Inférieur ou égal à (<=)',
+'ENABLE'=>'Activer',
+'SAVEAS'=>'Enregistrer sous',
+'TOTAL'=>'Total',
+'AIINTEGRATION'=>'Intégration de l\'IA',
+'DEEPSEEK'=>'Dipe-sique',
+'GEMINI'=>'Jémini',
+'SMARTQUERY'=>'Smarte Kweri',
+'INDICATOR'=>'Andicateur',
+'JOOMLA' => 'Joomla',
+'JOOMLA_MODULE' => 'Module Joomla',
+'JOOMLAHELP1' => '<div><span class="badge rounded-pill bg-warning m-2">1</span>',
+'JOOMLAHELP2' => 'Installez l\'extension <span class="badge bg-light text-dark">Téléverser</span>
+</div>
+<span class="badge rounded-pill bg-warning m-2">2</span>',
+'JOOMLAHELP3' => '<div><span class="badge rounded-pill bg-warning m-2">3</span>Après l\'installation, allez dans 
+<span class="badge bg-light text-dark">Contenu → Modules du site</span> 
+et ouvrez le module installé
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP4' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">4</span>Publiez le module et sélectionnez une position de template
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP5' => '</span>
+<div>
+<span class="badge rounded-pill bg-warning m-2">5</span>Vérifiez que le module est visible sur le frontend
+</div>
+<span class="badge bg-light p-1 m-1 ms-5">',
+'JOOMLAHELP6' => 'Administrateur Joomla → Système → Installer → Extensions',
+'AUTO_VISUALIZE'        => 'Visualisation auto',
+'IMPORT_DATA'           => 'Importer des données et générer automatiquement le tableau de bord',
+'SELECT_FILE'           => 'Sélectionner un fichier CSV, Excel (.xlsx) ou PDF :',
+'IMPORT'                => 'Importer et générer',
+'IMPORT_ERROR'          => 'Le fichier est vide ou ne contient pas suffisamment de données.',
+'UPLOADING'             => 'Téléchargement et traitement en cours... Veuillez patienter.',
+'DASHBOARD_GENERATING'  => 'Tableau de bord généré avec succès ! Rechargement...',
 ];
 ?>
