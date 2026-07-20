@@ -22,6 +22,9 @@
 <json></json>
 <refresh></refresh>
 <streaming></streaming>
+<drillthrough></drillthrough>
+<drillthrough_page></drillthrough_page>
+<drillthrough_enable></drillthrough_enable>
 </col>
 <showhidefilter></showhidefilter>
 </chartdata>
