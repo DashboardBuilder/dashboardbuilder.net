@@ -47,5 +47,5 @@ THIS SOFTWARE IS PROVIDED BY DIGINIX TECHNOLOGIES ”AS IS” AND ANY EXPRESS OR IMP
 
 LICENSE can change without USER confirmation.
 
-Copyright (c) 2016-2023, DashboardBuilder.net
+Copyright (c) 2016-2024, DashboardBuilder.net
 All rights reserved.
