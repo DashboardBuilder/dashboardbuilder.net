@@ -1,14 +1,14 @@
 {
     "name": "dashboardbuilder/dashboardbuilder.net",
-    "description": "Dashboard Builder is a PHP based data driven visualization & business analtyc tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.",
+    "description": "Dashboard Builder is a PHP based data driven visualization & business analytics tool, a machine learning delivers insights, written in PHP with an added layer of drag-and-drop flexibility which helps predicting the future with ease and no code required.",
     "keywords": [
-    "PHP Dashboard",
-    "Dashboard Builder",
-    "Chart Builder",
-    "Dashbord Creator",   
-    "Dashboard Designer"
+        "PHP Dashboard",
+        "Dashboard Builder",
+        "Chart Builder",
+        "Dashboard Creator",    
+        "Dashboard Designer"
     ],
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -19,9 +19,10 @@
     "support": {
         "email": "support@dashboardbuilder.net",
         "issues": "https://github.com/DashboardBuilder/dashboardbuilder.net/issues",
-        "source": "http://github.com/DashboardBuilder/dashboardbuilder.net"
+        "source": "https://github.com/DashboardBuilder/dashboardbuilder.net"
     },
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.2.0"
     },
@@ -30,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DashboardBuilder\\dashboardbuilder.net\\": "src/"
+            "DashboardBuilder\\": "src/"
         }
     }
 }
