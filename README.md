@@ -24,7 +24,7 @@ Via Composer
 
  Via Git 
 
- 	git clone  https://github.com/DashboardBuilder/dashboardbuilder.net
+ 	git clone  https://github.com/DashboardBuilder/dashboardbuilder.net .
 	
 INSTALLER
 
