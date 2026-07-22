@@ -5,7 +5,8 @@
         "PHP Dashboard",
         "Dashboard Builder",
         "Chart Builder",
-        "Dashboard Creator",    
+        "Dashboard Creator",  
+        "AI Dashboard Generator",
         "Dashboard Designer"
     ],
     "type": "project",
@@ -23,11 +24,7 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "require": {
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "DashboardBuilder\\": "src/"
