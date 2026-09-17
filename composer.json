@@ -5,7 +5,7 @@
         "PHP Dashboard",
         "Dashboard Builder",
         "Chart Builder",
-        "Dashboard Creator",  
+        "Dashboard Creator",
         "AI Dashboard Generator",
         "Dashboard Designer"
     ],
@@ -24,7 +24,10 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "require": {},
+    "require": {
+        "yooper/php-text-analysis": "^1.9",
+        "smalot/pdfparser": "^2.12"
+    },
     "autoload": {
         "psr-4": {
             "DashboardBuilder\\": "src/"
