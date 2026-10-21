@@ -1,0 +1,289 @@
+/* Dashboard Builder 8.0 - chart filter widgets and the chart "Filter" dialog
+ * (markup comes from the 7.x chart engine, inc/dashboard_dist.php; only the look changes)
+ * Loaded by the builder, the published dashboard and Auto Visualize.
+ */
+:root {
+	--f-primary: var(--primary-2, #4f46e5);
+	--f-primary-d: var(--primary, #3525cd);
+	--f-soft: var(--primary-soft, #eef0ff);
+	--f-surface: var(--surface, #ffffff);
+	--f-low: var(--surface-low, #f3f5fb);
+	--f-border: var(--border, #e2e8f0);
+	--f-text: var(--text, #0b1c30);
+	--f-muted: var(--muted, #5b6476);
+	--f-mono: var(--mono, "JetBrains Mono", ui-monospace, monospace);
+	--f-font: var(--font, Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif);
+}
+
+/* ------------------------------------------------ number range sliders */
+#numberfilteridshow { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 6px 4px; }
+#numberfilteridshow .ui-slider-horizontal,
+.view-filterbar .ui-slider-horizontal,
+.x-filterbar .ui-slider-horizontal {
+	position: relative;
+	display: inline-block;
+	height: 20px !important;
+	min-width: 150px;
+	margin: 4px 22px 16px !important;
+	top: 0 !important;
+	border: 1px solid var(--f-border) !important;
+	border-radius: 999px !important;
+	background: var(--f-low) !important;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0 !important;
+	height: 100% !important;
+	border-radius: 999px !important;
+	background: var(--f-primary) !important;
+	border: 0 !important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: 50% !important;
+	width: 16px !important;
+	height: 16px !important;
+	margin-top: -8px !important;
+	margin-left: -8px !important;
+	border-radius: 50% !important;
+	border: 2px solid var(--f-primary) !important;
+	background: #fff !important;
+	box-shadow: 0 1px 3px rgba(11, 28, 48, .25);
+	cursor: grab;
+	outline: none;
+	z-index: 3 !important;
+}
+.ui-slider-horizontal .ui-slider-handle:focus-visible { box-shadow: 0 0 0 3px rgba(79, 70, 229, .3); }
+/* the column name sits inside the bar: white on the coloured range */
+.number-column-name {
+	position: absolute !important;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2 !important;
+	font: 600 10.5px/1 var(--f-font) !important;
+	letter-spacing: .02em;
+	color: #fff !important;
+	text-shadow: 0 1px 2px rgba(11, 28, 48, .45);
+	white-space: nowrap;
+	overflow: hidden;
+	pointer-events: none;
+}
+/* min / max values under the handles */
+.ui-slider-horizontal .value {
+	top: 19px !important;
+	font: 500 10px/1.2 var(--f-mono) !important;
+	color: var(--f-muted) !important;
+	white-space: nowrap;
+}
+
+/* ------------------------------------------------ date range + dropdown filters */
+#datetimerange-input1 {
+	height: 30px !important;
+	padding: 0 10px !important;
+	border-radius: 8px !important;
+	border: 1px solid var(--f-border) !important;
+	background: var(--f-surface) !important;
+	color: var(--f-text) !important;
+	font: 500 12px var(--f-font) !important;
+	min-width: 190px;
+	cursor: pointer;
+}
+#filteridshow .bootstrap-select > .dropdown-toggle,
+.view-filterbar .bootstrap-select > .dropdown-toggle {
+	height: 30px;
+	border-radius: 8px !important;
+	border: 1px solid var(--f-border) !important;
+	background: var(--f-surface) !important;
+	color: var(--f-text) !important;
+	font: 500 12px var(--f-font);
+	box-shadow: none !important;
+}
+
+/* ------------------------------------------------ chart "Filter" dialog (7.x filtersetting) */
+#inc_modal .inc_modal {
+	position: fixed;
+	inset: 0;
+	z-index: 1080;
+	padding: 7vh 16px 24px;
+	overflow: auto;
+	background: rgba(11, 28, 48, .5);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+}
+#inc_modal .inc_modal-hidden { display: none; }
+#inc_modal .inc_modal-content {
+	width: min(720px, 100%);
+	max-width: none;
+	margin: 0 auto;
+	padding: 0;
+	border: 1px solid var(--f-border);
+	border-radius: 14px;
+	background: var(--f-surface);
+	color: var(--f-text);
+	box-shadow: 0 24px 60px rgba(11, 28, 48, .28);
+	overflow: hidden;
+	font-family: var(--f-font);
+	animation: f-pop .18s ease-out;
+}
+@keyframes f-pop { from { opacity: 0; transform: translateY(-10px) scale(.98); } to { opacity: 1; transform: none; } }
+/* header */
+#inc_modal .inc_modal-content > div:first-child {
+	position: relative;
+	display: flex !important;
+	align-items: center;
+	min-height: 56px;
+	padding: 0 56px 0 20px !important;
+	border: 0 !important;
+	border-bottom: 1px solid var(--f-border) !important;
+	background: var(--f-surface) !important;
+}
+#inc_modal .inc_modal-content > div:first-child h5 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -.01em;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+#inc_modal .inc_modal-content > div:first-child h5::before {
+	content: "\f0b0";
+	font-family: "Font Awesome 6 Free", "FontAwesome";
+	font-weight: 900;
+	font-size: 13px;
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+	display: inline-grid;
+	place-items: center;
+	background: var(--f-soft);
+	color: var(--f-primary-d);
+}
+#inc_modal .fa-window-close {
+	position: absolute !important;
+	top: 12px !important;
+	right: 12px !important;
+	left: auto !important;
+	width: 32px;
+	height: 32px;
+	border-radius: 8px;
+	font-size: 15px !important;
+	color: var(--f-muted) !important;
+	background: transparent !important;
+	cursor: pointer;
+}
+#inc_modal .fa-window-close::before { content: "\f00d"; }
+#inc_modal .fa-window-close:hover { background: var(--f-low) !important; color: var(--f-text) !important; }
+[dir="rtl"] #inc_modal .fa-window-close { right: auto !important; left: 12px !important; }
+/* body: one block per trace */
+#inc_modal .inc_modal-content > .m-4 {
+	margin: 0 !important;
+	padding: 16px 20px 4px;
+	max-height: calc(86vh - 140px);
+	overflow-y: auto;
+}
+#inc_modal h7 {
+	display: inline-flex;
+	align-items: center;
+	height: 22px;
+	padding: 0 10px;
+	margin: 0 0 10px !important;
+	border-radius: 999px;
+	background: var(--f-soft);
+	color: var(--f-primary-d);
+	font: 600 11px/1 var(--f-font);
+	letter-spacing: .04em;
+	text-transform: uppercase;
+}
+#inc_modal .row { position: relative; margin: 0 -8px; }
+#inc_modal .row > .col { padding: 0 8px; }
+#inc_modal h6 {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin: 0 0 6px !important;
+	font: 600 11px/18px var(--f-font);
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	color: var(--f-muted);
+}
+#inc_modal h6 .mx-4 { margin: 0 !important; }
+#inc_modal h6 .position-absolute.start-50 {
+	left: 50% !important;
+	top: 34px;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+#inc_modal h6 i {
+	width: 24px;
+	height: 24px;
+	border-radius: 6px;
+	display: inline-grid;
+	place-items: center;
+	font-size: 11px;
+	color: var(--f-muted);
+	transition: background .15s, color .15s;
+}
+#inc_modal h6 i:hover { background: var(--f-soft); color: var(--f-primary-d); }
+#inc_modal #exchange0, #inc_modal [id^="exchange"] {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: var(--f-surface);
+	border: 1px solid var(--f-border);
+	box-shadow: 0 2px 6px rgba(11, 28, 48, .08);
+	color: var(--f-primary-d);
+}
+#inc_modal select[multiple] {
+	width: 100%;
+	height: 150px;
+	padding: 4px !important;
+	border: 1px solid var(--f-border) !important;
+	border-radius: 10px !important;
+	background: var(--f-low) !important;
+	color: var(--f-text);
+	font: 400 12px/1.4 var(--f-mono) !important;
+	outline: none;
+	box-shadow: none !important;
+}
+#inc_modal select[multiple]:focus { border-color: var(--f-primary) !important; }
+#inc_modal select[multiple] option {
+	padding: 3px 8px;
+	border-radius: 6px;
+	margin-bottom: 1px;
+}
+#inc_modal select[multiple] option:checked {
+	background: var(--f-soft) linear-gradient(0deg, var(--f-soft), var(--f-soft));
+	color: var(--f-primary-d);
+	font-weight: 600;
+}
+#inc_modal hr { margin: 14px 0; border: 0; border-top: 1px solid var(--f-border); opacity: 1; }
+#inc_modal .m-4 > hr:last-child { display: none; }
+/* footer */
+#inc_modal .inc_modal-content > div:last-child {
+	margin: 0 !important;
+	border: 0 !important;
+	border-top: 1px solid var(--f-border) !important;
+	background: var(--f-low) !important;
+}
+#inc_modal .inc_modal-content > div:last-child > div { gap: 8px; padding: 12px 16px !important; }
+#inc_modal #reset, #inc_modal #apply {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	height: 34px;
+	min-width: 40px;
+	padding: 0 14px;
+	border-radius: 8px;
+	font: 600 13px var(--f-font);
+}
+#inc_modal #reset { border: 1px solid var(--f-border); background: var(--f-surface); color: var(--f-text); }
+#inc_modal #reset:hover { background: var(--f-low); }
+#inc_modal #apply { border: 0; background: var(--f-primary); color: #fff; }
+#inc_modal #apply:hover { background: var(--f-primary-d); }
+body.f-lock { overflow: hidden; }
+
+:root[data-theme="dark"] #inc_modal .inc_modal { background: rgba(0, 0, 0, .6); }

@@ -54,7 +54,7 @@ qb(function() {
     if (qb.cookie('schema') === schema) return;
     qb.cookie('schema', schema);
     return qb.ajax({
-      url: "qb_table_list.php",
+      url: "qb-tables",
       data: {
         schema: schema
       },

@@ -308,7 +308,7 @@ qb(function() {
       return 0;
     }
     return qb.ajax({
-      url: 'qb_table_json.php',
+      url: 'qb-table',
       dataType: 'json',
       data: {
         table: tableName
@@ -316,6 +316,7 @@ qb(function() {
     }).done(function(data) {
       var d, _i, _len;
       SQLPaneView.listenEvents = false;
+      var n = Tables.length;
       Tables.create({
         TableName: tableName
       });
@@ -325,6 +326,11 @@ qb(function() {
       }
       SQLPaneView.listenEvents = true;
       TableFields.trigger();
+      /* 8.0: move each new table to its own place (side by side) instead of on top of the others */
+      if (n > 0) {
+        var m = Tables.getModelByTableName(tableName), dx = (n % 4) * 230, dy = Math.floor(n / 4) * 280;
+        if (m) { m.set_dx_dy(dx, dy); m.changeTopLeft(dx, dy); m.triggerChanges(); jsPlumb.repaintEverything(); }
+      }
       return SQLPaneView.render();
     });
   };
