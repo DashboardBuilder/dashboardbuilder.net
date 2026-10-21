@@ -328,5 +328,8 @@ return [
 'IMPORT_ERROR'          => '文件为空或不包含足够的数据。',
 'UPLOADING'             => '正在上传并处理，请稍候...',
 'DASHBOARD_GENERATING'  => '仪表板已成功生成！正在重新加载...',
+'HIDE_PANEL' => '隐藏面板',
+'SHOW_PANEL' => '显示面板',
+'BACK_TO_CPANEL' => '返回控制面板',
 ];
 ?>

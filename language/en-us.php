@@ -328,5 +328,8 @@ Verify the module is visible on the frontend
 'IMPORT_ERROR'=>'File is empty or does not contain enough data.',
 'UPLOADING'=>'Uploading and processing... Please wait.',
 'DASHBOARD_GENERATING'=>'Dashboard generated successfully! Reloading...',
+'HIDE_PANEL'=>'Hide Panel',
+'SHOW_PANEL'=>'Show Panel',
+'BACK_TO_CPANEL'=>'Back to Control Panel',
 ];
 ?>

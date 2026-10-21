@@ -328,5 +328,8 @@ e abra o módulo instalado
 'IMPORT_ERROR'          => 'O arquivo está vazio ou não contém dados suficientes.',
 'UPLOADING'             => 'Enviando e processando... Aguarde.',
 'DASHBOARD_GENERATING'  => 'Dashboard gerado com sucesso! Recarregando...',
+'HIDE_PANEL' => 'Ocultar painel',
+'SHOW_PANEL' => 'Mostrar painel',
+'BACK_TO_CPANEL' => 'Voltar ao painel de controle',
 ];
 ?>

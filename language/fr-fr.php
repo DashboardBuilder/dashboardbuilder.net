@@ -328,5 +328,8 @@ et ouvrez le module installé
 'IMPORT_ERROR'          => 'Le fichier est vide ou ne contient pas suffisamment de données.',
 'UPLOADING'             => 'Téléchargement et traitement en cours... Veuillez patienter.',
 'DASHBOARD_GENERATING'  => 'Tableau de bord généré avec succès ! Rechargement...',
+'HIDE_PANEL' => 'Masquer le panneau',
+'SHOW_PANEL' => 'Afficher le panneau',
+'BACK_TO_CPANEL' => 'Retour au panneau de contrôle',
 ];
 ?>

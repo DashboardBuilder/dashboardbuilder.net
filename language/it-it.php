@@ -327,5 +327,8 @@ e apri il modulo installato
 'IMPORT_ERROR'          => 'Il file è vuoto o non contiene dati sufficienti.',
 'UPLOADING'             => 'Caricamento ed elaborazione in corso... Attendere.',
 'DASHBOARD_GENERATING'  => 'Dashboard generata con successo! Ricaricamento...',
+'HIDE_PANEL' => 'Nascondi pannello',
+'SHOW_PANEL' => 'Mostra pannello',
+'BACK_TO_CPANEL' => 'Torna al pannello di controllo',
 ];
 ?>

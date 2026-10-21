@@ -327,5 +327,8 @@ und öffnen Sie das installierte Modul
 'IMPORT_ERROR'          => 'Die Datei ist leer oder enthält nicht genügend Daten.',
 'UPLOADING'             => 'Datei wird hochgeladen und verarbeitet... Bitte warten.',
 'DASHBOARD_GENERATING'  => 'Dashboard wurde erfolgreich erstellt! Wird neu geladen...',
+'HIDE_PANEL' => 'Bedienfeld ausblenden',
+'SHOW_PANEL' => 'Bedienfeld einblenden',
+'BACK_TO_CPANEL' => 'Zurück zum Kontrollpanel',
 ];
 ?>
