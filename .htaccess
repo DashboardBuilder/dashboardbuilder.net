@@ -1,0 +1,42 @@
+# Dashboard Builder 8.0
+# Works in a sub-folder (e.g. localhost/dashboardbuilder-v80/) and as a site root.
+
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# ---- clean addresses used by the app (no .php in the browser) ----------
+RewriteRule ^api/([A-Za-z0-9_-]+)/?$ lib/api.php?action=$1 [QSA,L]
+RewriteRule ^dashboard/?$ lib/view.php [QSA,L]
+RewriteRule ^app/ai(\.html)?$ lib/ai.php [QSA,L]
+RewriteRule ^app/([a-z-]+_110m\.json)$ assets/maps/$1 [L]
+RewriteRule ^app/qb/?$ lib/qb.php [QSA,L]
+RewriteRule ^app/qb-table/?$ lib/qb_table_json.php [QSA,L]
+RewriteRule ^app/qb-tables/?$ lib/qb_table_list.php [QSA,L]
+
+# ---- 7.x addresses still in bookmarks and generated code ---------------
+# The redirect target is the app's web address taken from the requested address
+# (%1 = e.g. /apps/ or /dashboardbuilder-v80/). A relative target ("./") makes Apache put
+# the folder's disk path into the address on hosts where the folder is not under the
+# document root (cPanel /home2/... symlinks, Alias folders).
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_URI} ^(.*/)lib/?(index\.php)?$ [NC]
+RewriteRule ^lib/?(index\.php)?$ %1 [R=302,L,NC]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_URI} ^(.*/)lib/dashboard\.php$ [NC]
+RewriteRule ^lib/dashboard\.php$ %1dashboard [R=302,QSA,L,NC]
+
+# ---- block direct web access to code, settings and saved data ----------
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(lib|inc|data|store|language)(/|$) - [F,L]
+RewriteRule ^config\.php$ - [F,L,NC]
+RewriteRule (^|/)\.(?!well-known) - [F,L]
+RewriteRule \.(bak|sql|log|ini|lock|xml|data|lay|link|db|sqlite)$ - [F,L,NC]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
