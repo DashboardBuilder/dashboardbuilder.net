@@ -1939,10 +1939,14 @@ input[type="range"].x-range {
 	overflow: hidden;
 }
 
-.x-tour-mock { display: flex; flex-direction: column; gap: 8px; pointer-events: none; }
-.x-tour-mock .m-row { display: flex; gap: 8px; align-items: center; }
-.x-tour-mock .m-box { border-radius: 6px; background: var(--surface); border: 1px solid var(--border); padding: 8px 10px; font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
-.x-tour-mock .m-hl { border-color: var(--primary-2); box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary-2) 25%, transparent); color: var(--primary); font-weight: 600; animation: x-pulse 1.4s ease-in-out infinite; }
+/* 8.2: real screenshots of the app, zoomed on the spot of each step */
+.x-tour-stage-shot { padding: 0; min-height: 0; }
+.x-tour-shot { position: relative; aspect-ratio: 16 / 10; overflow: hidden; direction: ltr; background: #f6f7fb; }
+.x-tour-shot-in { position: absolute; inset: 0; transform-origin: 0 0; transition: transform .6s cubic-bezier(.2, .7, .2, 1); will-change: transform; }
+.x-tour-shot img { display: block; width: 100%; height: 100%; user-select: none; pointer-events: none; }
+.x-tour-spot { position: absolute; left: 0; top: 0; width: 100%; height: 100%; border: 2px solid var(--primary-2); border-radius: 6px; box-shadow: 0 0 0 9999px rgba(15, 23, 42, .32); transition: left .6s cubic-bezier(.2, .7, .2, 1), top .6s cubic-bezier(.2, .7, .2, 1), width .6s cubic-bezier(.2, .7, .2, 1), height .6s cubic-bezier(.2, .7, .2, 1); pointer-events: none; }
+.x-tour-spot::after { content: ""; position: absolute; inset: -2px; border-radius: inherit; animation: x-pulse 1.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .x-tour-shot-in, .x-tour-spot { transition: none; } .x-tour-spot::after { animation: none; } }
 
 @keyframes x-pulse { 50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--primary-2) 12%, transparent); } }
 

@@ -714,7 +714,7 @@
 		area: 'area_chart', bar: 'bar_chart', line: 'show_chart', histogram: 'equalizer', stack: 'stacked_bar_chart',
 		pie: 'pie_chart', donut: 'donut_large', bubble: 'bubble_chart', sunburst: 'data_usage', kpichart: 'trending_up',
 		charttable: 'table_chart', gauge: 'speed', map: 'public', heatmap: 'grid_on', scatter3d: 'view_in_ar', sankey: 'alt_route',
-		number: 'pin', numberchart: 'pin',
+		number: 'pin', numberchart: 'pin', box: 'candlestick_chart',
 	};
 	const typeIcon = (type) => TYPE_ICON[type] || 'insert_chart';
 
@@ -1665,7 +1665,7 @@
 		['DATABASE_SETTINGS', 'ENTER_DBPASSWORD', 'ds', 'password'],
 		['DATABASE_SETTINGS', 'ENTER_DBNAME', 'ds', 'dbname'],
 		['DATABASE_SETTINGS', 'CLICK_CONNECT_BUTTON', 'ds', 'connect'],
-		['DATABASE_SETTINGS', 'CLICK_OK_BUTTON', 'ds', 'ok'],
+		['DATABASE_SETTINGS', 'CLICK_OK_BUTTON', 'ok', 'ok'],
 		['CHART_SETTINGS', 'CLICK_FOR_CHART_SETTINGS', 'canvas', 'chart'],
 		['CHART_SETTINGS', 'CLICK_TABLE', 'studio', 'table'],
 		['CHART_SETTINGS', 'ENTER_YOUR_QUERY', 'studio', 'sql'],
@@ -1675,43 +1675,41 @@
 		['CHART_SETTINGS', 'CLICK_SAVE_CHANGES', 'studio', 'save'],
 	];
 
-	function tourSketch(kind, hl) {
-		const b = (key, html, extra = '') => `<div class="m-box${hl === key ? ' m-hl' : ''}" ${extra}>${html}</div>`;
-		if (kind === 'canvas') {
-			return `<div class="x-tour-mock">
-				<div class="m-row">${b('new', ic('note_add', 'i-sm'))}${b('open', ic('folder_open', 'i-sm'))}${b('save', ic('save', 'i-sm'))}${b('add', ic('add_chart', 'i-sm') + tx('ADD_PANEL'))}${b('chart', ic('insert_chart', 'i-sm') + tx('CHART_SETTINGS'))}</div>
-				<div class="m-row" style="align-items:stretch">
-					<div class="m-box" style="flex:2;flex-direction:column;align-items:stretch;gap:10px;min-height:150px">
-						<div class="m-row" style="justify-content:space-between"><b style="color:var(--text)">${tx('PANEL')} 1</b><div class="m-row">${b('data', ic('database', 'i-sm'))}${ic('more_vert', 'i-sm')}</div></div>
-						<div class="x-empty-art" style="height:80px"><span style="height:45%"></span><span style="height:80%"></span><span style="height:60%"></span><span style="height:95%"></span></div>
-					</div>
-					<div class="m-box" style="flex:1;min-height:150px"></div>
-				</div></div>`;
+	/* 8.2 tour: real screenshots of the app (assets/tour/tour-<screen>.webp, 1440×900).
+	   Spots are [left, top, width, height] in % of the picture, measured on the live app
+	   when the pictures were taken; the view zooms in on the spot of each step. */
+	const TOUR_SPOTS = {
+		canvas: { data: [93.68, 37.39, 2.5, 4], chart: [42.8, 11, 9.59, 4.44] },
+		ds: { rdbms: [1.32, 26.33, 22.22, 13.22], host: [69.86, 29.67, 27.78, 7.33], user: [69.86, 37.44, 27.78, 7.33], password: [69.86, 45.22, 27.78, 7.33], dbname: [69.86, 53, 27.78, 7.33], connect: [90.18, 66, 7.46, 4.67] },
+		ok: { ok: [82.02, 32.66, 3.45, 4.22] },
+		studio: { table: [78.19, 55.22, 20, 4.44], sql: [25.83, 23.78, 51.11, 13.33], run: [26.39, 37, 8.04, 4.22], xy: [1.94, 37.33, 22.5, 8.89], type: [1.94, 30.44, 22.5, 6.89], save: [89.24, 94.78, 9.71, 4.67] }
+	};
+	const tourImg = (kind) => BASE + 'assets/tour/tour-' + kind + '.webp';
+
+	function tourShot(stage, kind, hl, alt) {
+		const r = (TOUR_SPOTS[kind] || {})[hl] || [0, 0, 100, 100];
+		let box = $('.x-tour-shot', stage);
+		if (!box || box.dataset.kind !== kind) {
+			stage.innerHTML = `<div class="x-tour-shot" data-kind="${kind}"><div class="x-tour-shot-in">
+				<img src="${tourImg(kind)}" alt="" draggable="false"><span class="x-tour-spot"></span></div></div>`;
+			box = $('.x-tour-shot', stage);
 		}
-		if (kind === 'ds') {
-			return `<div class="x-tour-mock">
-				<div class="m-row">${b('rdbms', ic('database', 'i-sm') + 'MySQL ▾', 'style="flex:1"')}${b('x', ic('table_view', 'i-sm') + 'Excel / CSV', 'style="flex:1"')}</div>
-				<div class="m-row">${b('host', tx('HOST', 'Host') + ': localhost', 'style="flex:2"')}${b('port', '3306', 'style="flex:1"')}</div>
-				<div class="m-row">${b('user', tx('USER') + ': root', 'style="flex:1"')}${b('password', tx('PASSWORD') + ': ••••••', 'style="flex:1"')}</div>
-				<div class="m-row">${b('dbname', tx('DB_NAME', 'Database') + ': sales', 'style="flex:1"')}</div>
-				<div class="m-row" style="justify-content:flex-end">${b('connect', ic('power', 'i-sm') + tx('CONNECT'))}${b('ok', ic('check', 'i-sm') + tx('OK'))}</div>
-			</div>`;
-		}
-		return `<div class="x-tour-mock">
-			<div class="m-row" style="align-items:stretch">
-				<div class="m-box" style="flex:0 0 120px;flex-direction:column;align-items:stretch;gap:6px">${b('table', ic('table', 'i-xs') + 'orders')}<div class="m-box">${ic('table', 'i-xs')}customers</div></div>
-				<div class="m-box" style="flex:1;flex-direction:column;align-items:stretch;gap:8px">
-					${b('sql', '<span class="x-mono">SELECT month, SUM(total) FROM orders …</span>')}
-					<div class="m-row" style="justify-content:flex-end">${b('run', ic('play_arrow', 'i-sm') + tx('RUN_QUERY', 'Run Query'))}</div>
-					<div class="m-row">${b('xy', 'X ▾ month')}${b('xy', 'Y ▾ total')}${b('type', ic('bar_chart', 'i-sm') + tx('CHART_TYPE', 'Chart type') + ' ▾')}</div>
-				</div>
-			</div>
-			<div class="m-row" style="justify-content:flex-end">${b('cancel', tx('CANCEL'))}${b('save', ic('save', 'i-sm') + tx('SAVE_CHANGES'))}</div>
-		</div>`;
+		$('img', box).alt = alt;
+		const z = Math.max(1, Math.min(1.7, 70 / r[2], 70 / r[3]));          // zoom, the spot always fits
+		const clamp = (v) => Math.min(0, Math.max(100 - 100 * z, v));
+		const tx = clamp(50 - (r[0] + r[2] / 2) * z);
+		const ty = clamp(50 - (r[1] + r[3] / 2) * z);
+		const inner = $('.x-tour-shot-in', box);
+		const spot = $('.x-tour-spot', box);
+		requestAnimationFrame(() => {
+			inner.style.transform = `translate(${tx}%, ${ty}%) scale(${z})`;
+			Object.assign(spot.style, { left: r[0] + '%', top: r[1] + '%', width: r[2] + '%', height: r[3] + '%' });
+		});
 	}
 
 	function showTour(atBoot) {
 		let step = 0;                                 // 0 = language
+		['canvas', 'ds', 'ok', 'studio'].forEach((k) => { const im = new Image(); im.src = tourImg(k); });
 		const lang = (S.boot && S.boot.language) || 'en-us';
 		const finish = async (languagechange, newLang) => {
 			try { await api('tour', { body: { languagechange: languagechange ? 'yes' : 'no', take_tour_language: newLang || '' } }); } catch (e) {}
@@ -1731,10 +1729,17 @@
 				$('select', body).addEventListener('change', (e) => finish(true, e.target.value));
 			} else {
 				const [group, text, kind, hl] = TOUR[step - 1];
-				body.innerHTML = `<div class="x-row x-between"><span class="x-badge brand">${tx('STEP')} ${step} ${tx('OF')} ${TOUR.length}</span><b style="font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)">${tx(group)}</b></div>
-					<div class="x-tour-stage">${tourSketch(kind, hl)}</div>
-					<div class="x-tour-tip">${ic('lightbulb', 'i-sm')} ${esc(strip(t(text)))}</div>
-					<div class="x-steps" aria-hidden="true">${TOUR.map((_, i) => `<i class="${i < step ? 'on' : ''}"></i>`).join('')}</div>`;
+				if (!$('.x-tour-head', body)) {
+					body.innerHTML = `<div class="x-row x-between x-tour-head"><span class="x-badge brand"></span><b style="font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)"></b></div>
+						<div class="x-tour-stage x-tour-stage-shot"></div>
+						<div class="x-tour-tip"></div>
+						<div class="x-steps" aria-hidden="true"></div>`;
+				}
+				$('.x-tour-head .x-badge', body).innerHTML = `${tx('STEP')} ${step} ${tx('OF')} ${TOUR.length}`;
+				$('.x-tour-head b', body).innerHTML = tx(group);
+				tourShot($('.x-tour-stage', body), kind, hl, strip(t(text)));
+				$('.x-tour-tip', body).innerHTML = `${ic('lightbulb', 'i-sm')} ${esc(strip(t(text)))}`;
+				$('.x-steps', body).innerHTML = TOUR.map((_, i) => `<i class="${i < step ? 'on' : ''}"></i>`).join('');
 			}
 			$('[data-prev]', m.el).hidden = step === 0;
 			$('[data-skip]', m.el).hidden = step === 0;
@@ -1825,7 +1830,7 @@
 		['pgsql', 'db', 'POSTGRES', 'logo_postgresql.png', true],
 		['sqlite', 'file', 'SQLITE', 'logo_sqlite.png', false],
 		['upload', 'file', 'UPLOAD_FILE', 'logo_fileupload.png', false, 'UPLOAD_CSV'],
-		['sqlsrv', 'db', 'SQLSERVER', 'logo_sqlserver.png', true],
+		['sqlsrv', 'db', 'SQLSERVER', 'logo_sqlserver.png', false],
 		['oci', 'db', 'ORACLE', 'logo_oracle.png', true, null, 'oci'],
 		['excel', 'file', 'EXCEL', 'logo_excel.png', false, 'UPLOAD_EXCEL'],
 		['google', 'url', 'GOOGLE_SHEET_FILE', 'logo_googlesheets.png', true],
@@ -2068,6 +2073,7 @@
 		['donut', 'donut_large', 'Donut'], ['bubble', 'bubble_chart', 'Bubble'], ['sunburst', 'data_usage', 'Sunburst'],
 		['kpichart', 'trending_up', 'KPI Chart'], ['charttable', 'table_chart', 'Table'], ['gauge', 'speed', 'Gauge'],
 		['map', 'public', 'Map'], ['heatmap', 'grid_on', 'Heatmap'], ['scatter3d', 'view_in_ar', '3D Chart'], ['sankey', 'alt_route', 'Sankey'],
+		['box', 'candlestick_chart', 'Box Plot'],
 	];
 	const FREE_TYPES = ['area', 'bar', 'line'];
 	const TRACE_TYPES = ['area', 'bar', 'line', 'histogram', 'stack'];
@@ -2082,7 +2088,7 @@
 		9940, 9889, 128172, 128246, 127760, 128206, 128712, 128275, 128190, 128193, 128467, 128421, 128188];
 
 	const colOf = (v) => { const m = /\{col\}([^{]*)\{\/col\}/i.exec(String(v || '')); return m ? m[1] : ''; };
-	const typeLabel = (ty) => (CHART_TYPES.find((c) => c[0] === ty) || [ty, '', ty === 'number' || ty === 'numberchart' ? 'Number' : ty])[2];
+	const typeLabel = (ty) => (ty === 'box' ? strip(t('BOX_PLOT', 'Box Plot')) : (CHART_TYPES.find((c) => c[0] === ty) || [ty, '', ty === 'number' || ty === 'numberchart' ? 'Number' : ty])[2]);
 
 	/* 7.x colorshade() */
 	function colorshade(col, amt) {
@@ -2143,6 +2149,8 @@
 				indicator: v.indicator === 'on', percentage: v.percentage === 'on', prefix: v.prefix || '', suffix: v.suffix || '',
 				sumfield: v.sumfield.slice(), tablefield: v.tablefield.slice(),
 				drill_enable: v.drillthrough_enable === 'on' || v.drillthrough_enable === 'filter',
+				heatagg: ['avg', 'count'].includes(v.heatagg) ? v.heatagg : 'sum',
+				boxpoints: ['all', 'none'].includes(v.boxpoints) ? v.boxpoints : 'outliers', boxmean: v.boxmean === 'true' ? 'true' : 'false',
 				drillthrough: v.drillthrough || '', drillthrough_comprision: v.drillthrough_comprision || '==', drillthrough_page: v.drillthrough_page || '1',
 			},
 			dirty: false,
@@ -2319,6 +2327,8 @@
 			if (!first) { showType = false; showYn = false; }
 		}
 		if (t0 === 'scatter3d') { showSize = true; sizeL = 'Z'; if (!first) showType = false; }
+		if (t0 === 'heatmap' && !E.isDb) { textL = strip(t('VALUE', 'Value')); showText = first; showAnalytic = false; }   // heatmap from a file: X across, Y down, Value per square
+		if (t0 === 'box') { xl = 'X'; yl = strip(t('VALUE', 'Value')); showAnalytic = false; if (!first) showType = false; }   // box plot: Y = values, X = categories
 		if (t0 === 'sunburst') { showSize = true; sizeL = strip(t('LABEL')); if (first) { xl = 'Ids'; yl = 'Parent'; } }
 		if (first) {
 			if (t0 === 'numberchart' || t0 === 'number') { xl = 'Num'; showY = false; }
@@ -2334,7 +2344,8 @@
 				<span class="x-modal-icon">${ic(typeIcon(cur === 'numberchart' ? 'number' : cur))}</span><div><div class="x-label">${tx('CHART_TYPE', 'Chart type')}</div><b>${esc(typeLabel(cur))}</b></div>${ic('expand_more', 'x-chev i-sm')}</div>
 				<div class="x-types" hidden>${types.map(([ty, icon, label]) => {
 					const locked = lim && !FREE_TYPES.includes(ty);
-					return `<button type="button" class="x-type${ty === cur ? ' active' : ''}${locked ? ' is-locked' : ''}" data-type="${ty}" title="${esc(label)}${locked ? ' · ' + tx('UPGRADE_LICENSE') : ''}" ${locked ? 'aria-disabled="true"' : ''}>${ic(icon)}<span>${esc(label)}</span></button>`;
+					const lbl = ty === 'box' ? typeLabel(ty) : label;
+					return `<button type="button" class="x-type${ty === cur ? ' active' : ''}${locked ? ' is-locked' : ''}" data-type="${ty}" title="${esc(lbl)}${locked ? ' · ' + tx('UPGRADE_LICENSE') : ''}" ${locked ? 'aria-disabled="true"' : ''}>${ic(icon)}<span>${esc(lbl)}</span></button>`;
 				}).join('')}</div>` : ''}
 			${first && t0 === 'kpichart' ? `<label class="x-row x-between"><span>${tx('SPARKLINE')}</span><span class="x-switch"><input type="checkbox" data-p="sparkline" ${E.p.sparkline ? 'checked' : ''}><span class="x-track"></span></span></label>` : ''}
 			${showX ? field(esc(xl), selectHtml('X', fieldOptions(tr.X), tr.X)) : ''}
@@ -2342,6 +2353,7 @@
 			${first && t0 === 'kpichart' ? kpiHtml() : ''}
 			${showSize ? field(esc(sizeL), selectHtml('size', fieldOptions(tr.size), tr.size)) : ''}
 			${showText ? field(esc(textL), selectHtml('text', fieldOptions(tr.text), tr.text)) : ''}
+			${first && t0 === 'heatmap' && !E.isDb ? field(tx('COMBINE', 'Combine'), `<select class="x-select x-input-sm" data-p="heatagg">${[['sum', tx('SUM', 'Sum')], ['avg', tx('AVERAGE', 'Average')], ['count', tx('COUNT', 'Count')]].map(([v2, l]) => `<option value="${v2}"${E.p.heatagg === v2 ? ' selected' : ''}>${l}</option>`).join('')}</select>`) : ''}
 			${showMap ? field(tx('MAP'), `<select class="x-select x-input-sm" data-f="maptype">${MAPS.map(([v2, l]) => `<option value="${v2}"${tr.maptype === v2 ? ' selected' : ''}>${l}</option>`).join('')}</select>`) : ''}
 			${showLegend ? field(tx('LEGEND'), `<input class="x-input x-input-sm" data-f="tracename" value="${esc(tr.tracename)}">`) : ''}
 			${first && t0 === 'charttable' ? tableFieldsHtml() : ''}
@@ -2387,11 +2399,16 @@
 					<label class="x-row" style="gap:6px;cursor:pointer"><span>%</span><span class="x-switch"><input type="checkbox" data-p="percentage" ${p.percentage ? 'checked' : ''}><span class="x-track"></span></span></label>
 				</div>
 			</div>
-			${field(tx('PREFIX'), `<div style="position:relative"><input class="x-input x-input-sm" data-p="prefix" value="${esc(p.prefix)}" style="padding-inline-end:34px">
-				<button type="button" class="x-btn x-btn-ghost x-btn-xs x-icon-only" data-a="unicode" title="Insert Unicode" style="position:absolute;inset-inline-end:2px;top:50%;transform:translateY(-50%)">&#128512;</button>
-				<div class="x-unicode" hidden>${UNICODE.map((c) => `<button type="button" data-code="${c}">&#${c};</button>`).join('')}</div></div>`)}
-			${field(tx('SUFFIX'), `<input class="x-input x-input-sm" data-p="suffix" value="${esc(p.suffix)}">`)}
+			${field(tx('PREFIX'), unicodeField('prefix', p.prefix))}
+			${field(tx('SUFFIX'), unicodeField('suffix', p.suffix))}
 		</div>`;
+	}
+
+	/* text box with an emoji menu (used for KPI prefix and suffix) */
+	function unicodeField(key, value) {
+		return `<div style="position:relative"><input class="x-input x-input-sm" data-p="${key}" value="${esc(value)}" style="padding-inline-end:34px">
+			<button type="button" class="x-btn x-btn-ghost x-btn-xs x-icon-only" data-a="unicode" title="Insert Unicode" style="position:absolute;inset-inline-end:2px;top:50%;transform:translateY(-50%)">&#128512;</button>
+			<div class="x-unicode" hidden>${UNICODE.map((c) => `<button type="button" data-code="${c}">&#${c};</button>`).join('')}</div></div>`;
 	}
 
 	function bindKpi(el) {
@@ -2404,20 +2421,21 @@
 				updateChartSoon();
 			});
 		});
-		const ub = $('[data-a="unicode"]', el);
-		if (ub) {
-			const menuEl = $('.x-unicode', el);
+		/* prefix and suffix each have their own emoji menu; each one writes into its own input */
+		$$('[data-a="unicode"]', el).forEach((ub) => {
+			const wrap = ub.parentElement;
+			const menuEl = $('.x-unicode', wrap);
+			const inp = $('[data-p]', wrap);
 			ub.addEventListener('click', (e) => { e.stopPropagation(); menuEl.hidden = !menuEl.hidden; });
 			$$('button[data-code]', menuEl).forEach((b) => b.addEventListener('click', () => {
-				const inp = $('[data-p="prefix"]', el);
 				inp.value += '&#' + b.dataset.code + ';';
-				E.p.prefix = inp.value;
+				E.p[inp.dataset.p] = inp.value;
 				menuEl.hidden = true;
 				dirty();
 				updateChart();
 			}));
 			document.addEventListener('mousedown', (e) => { if (!menuEl.hidden && !e.target.closest('.x-unicode') && e.target !== ub) menuEl.hidden = true; });
-		}
+		});
 	}
 
 	function tableFieldsHtml() {
@@ -2597,7 +2615,7 @@
 		}
 		E.traces.forEach((tr) => { tr.open = false; });
 		E.traces.push({
-			type: 'area', X: t0.X, Y: t0.Y, size: t0.size, text: t0.text, maptype: 'world', tracename: '', yntitle: '',
+			type: t0.type === 'box' ? 'box' : 'area', X: t0.X, Y: t0.Y, size: t0.size, text: t0.text, maptype: 'world', tracename: '', yntitle: '',
 			xmodel: '', xsort: '', ymodel: '', ysort: '', forecast: '0', color, open: true, pane: 'data',
 		});
 		dirty(); paintDirty();
@@ -2620,6 +2638,15 @@
 			E.traces[0].color = (type === 'pie' || type === 'donut') ? JSON.stringify(scheme) : scheme[0];
 		}
 		E.traces[c].type = type;
+		if (c === 0 && type === 'heatmap' && !E.isDb && !(E.traces[0].text && isType(colOf(E.traces[0].text)) === 'number')) {
+			const num = E.options.find((o) => isType(colOf(o.value)) === 'number');   // heatmap: the first number column as Value
+			if (num) E.traces[0].text = num.value;
+		}
+		if (c === 0) E.traces.forEach((tr, k) => { if (k > 0 && (type === 'box' || tr.type === 'box')) tr.type = type === 'box' ? 'box' : (TRACE_TYPES.includes(type) ? type : 'area'); });   // a box plot is all boxes
+		if (c === 0 && type !== 'pie' && type !== 'donut') {   // leaving pie/donut: its colour list becomes one colour
+			const c0 = String(E.traces[0].color || '');
+			if (c0.startsWith('[')) { try { E.traces[0].color = JSON.parse(c0)[0] || '#ffffff'; } catch (e) { E.traces[0].color = '#ffffff'; } }
+		}
 		if (c === 0) {
 			if (!E.d.inPage && E.d.hasPages) {
 				const opts = drillFromOptions(type).map((o) => o[0]);
@@ -2706,6 +2733,7 @@
 			${field(tx('GRID'), segHtml('showgrid', showHide, p.showgrid))}
 			${field(tx('BORDER'), segHtml('showline', showHide, p.showline))}
 			${field(tx('LAYOUT'), segHtml('orientation', [['h', tx('HORIZ')], ['v', tx('VERT')]], p.orientation))}
+			${t0 === 'box' ? field(tx('BOX_POINTS', 'Points'), segHtml('boxpoints', [['outliers', tx('OUTLIERS', 'Outliers')], ['all', tx('ALL_POINTS', 'All')], ['none', tx('NO_POINTS', 'None')]], p.boxpoints)) + field(tx('BOX_MEAN', 'Mean'), segHtml('boxmean', showHide, p.boxmean)) : ''}
 			${field(tx('SIDE'), segHtml('side', [['left', tx('LEFT')], ['right', tx('RIGHT')]], p.side))}
 			${field(tx('PLOT'), segHtml('plot', [['dynamic', tx('DYNAMIC')], ['static', tx('STATIC')]], p.plot))}
 			<div class="st-refresh" ${refreshOk ? '' : 'hidden'}>${rangeRow(tx('REFRESH'), 'refresh', 0, 60, 1, p.refresh, ' sec', 'data-pp')}</div>
@@ -2942,6 +2970,7 @@
 			colorvalues: E.traces.map((tr) => colorOut(tr.color)),
 			font_color: p.chart_font_color, bg_color: p.chart_bg_color, border_color: p.border_color, borderwidth: p.borderwidth,
 			orientation: p.orientation, filter: p.filter, csvdata: p.csvdata, dropdown: p.dropdown, side: p.side, plot: p.plot,
+			boxpoints: p.boxpoints, boxmean: p.boxmean, heatagg: p.heatagg,
 			legposition: p.legposition, xaxistitle: p.xaxistitle, yaxistitle: p.yaxistitle,
 			datalabel: p.datalabel === 'true' ? 'true' : 'false', showgrid: p.showgrid === 'true' ? 'true' : 'false', showline: p.showline === 'true' ? 'true' : 'false',
 			tablefontsize: p.tablefontsize, sumfield: p.sumfield, tablefield: p.tablefield,
@@ -3048,7 +3077,7 @@
 			height: p.height, tablefontsize: p.tablefontsize, total_width: p.total_width, total_show: p.total_show,
 			width: p.width, datalabel: p.datalabel, showgrid: p.showgrid, showline: p.showline, orientation: p.orientation,
 			filter: p.filter, smartquery: p.smartquery, dropdown: p.dropdown, side: p.side, plot: p.plot, legposition: p.legposition,
-			refresh: p.refresh, streaming: p.streaming,
+			refresh: p.refresh, streaming: p.streaming, boxpoints: p.boxpoints, boxmean: p.boxmean, heatagg: p.heatagg,
 			xanalytics: {}, yanalytics: {},
 		};
 		E.traces.forEach((tr, i) => {
@@ -3131,11 +3160,12 @@
 		const paper = bg && !isWhite(bg) ? bg : '#ffffff';
 		const body = isWhite(paper) ? paper : colorshade(paper, -10);
 		const head = isWhite(paper) ? colorshade('#ffffff', -10) : colorshade(paper, -12);
-		const num = colors && colors.length && !isWhite(colors[0]) ? colors[0] : paper;
+		/* Number: box has the chart background (same as the other mini charts), text uses the first chart colour */
+		const numText = colors && colors.length && !isWhite(colors[0]) ? colors[0] : (isWhite(font) ? '#000' : font);
 		return `<div class="x-theme-card-head" style="background:${esc(head)};color:${esc(isWhite(font) ? '#0b1c30' : font)}"><span>${esc(name)}${active ? ` <span style="font-weight:400;opacity:.7">(Active)</span>` : ''}</span>
 				<span class="x-theme-swatches">${(colors || []).slice(0, 7).map((c) => `<i style="background:${esc(c)}"></i>`).join('')}</span></div>
 			<div class="x-theme-mini" style="background:${esc(body)}">
-				<div class="x-mini-number" style="background:${esc(num)};color:${esc(isWhite(font) ? '#000' : font)}">Number</div>
+				<div class="x-mini-number" style="background:${esc(paper)};color:${esc(numText)}">Number</div>
 				<div style="background:${esc(paper)}" id="${prefix}-pie"></div>
 				<div style="background:${esc(paper)}" id="${prefix}-area"></div>
 				<div style="background:${esc(paper)}" id="${prefix}-bar"></div>

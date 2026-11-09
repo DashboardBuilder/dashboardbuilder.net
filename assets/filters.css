@@ -23,8 +23,9 @@
 	position: relative;
 	display: inline-block;
 	height: 20px !important;
-	min-width: 150px;
-	margin: 4px 22px 16px !important;
+	min-width: 120px;
+	width: 120px !important;   /* the engine writes width:150px inline */
+	margin: 4px 16px 16px !important;
 	top: 0 !important;
 	border: 1px solid var(--f-border) !important;
 	border-radius: 999px !important;
@@ -81,15 +82,19 @@
 /* ------------------------------------------------ date range + dropdown filters */
 #datetimerange-input1 {
 	height: 30px !important;
-	padding: 0 10px !important;
+	padding: 0 6px !important;
 	border-radius: 8px !important;
 	border: 1px solid var(--f-border) !important;
 	background: var(--f-surface) !important;
 	color: var(--f-text) !important;
 	font: 500 12px var(--f-font) !important;
-	min-width: 190px;
+	min-width: 0;
+	width: 172px !important;
 	cursor: pointer;
 }
+/* dropdowns a little narrower than the engine's 180px */
+#filteridshow .bootstrap-select,
+.view-filterbar .bootstrap-select { width: 150px !important; }
 #filteridshow .bootstrap-select > .dropdown-toggle,
 .view-filterbar .bootstrap-select > .dropdown-toggle {
 	height: 30px;
